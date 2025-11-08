@@ -16,8 +16,8 @@ export default function Main_slider_1() {
   const data = [
     {
       id:1,
-      img:"Shivam_2.jpg",
-      deg:"mentor",
+      img:"shivam.jpg",
+      deg:"",
       name:"Shivam Pundhir",
       alt:""
 
@@ -25,7 +25,7 @@ export default function Main_slider_1() {
     {
       id:2,
       img:"Bharat_2.jpg",
-      deg:"Bharat",
+      deg:"",
       name:"Bharat gautam",
       alt:""
 
@@ -33,83 +33,44 @@ export default function Main_slider_1() {
     {
       id:3,
       img:"Manoj_2.jpg",
-      deg:"student",
+      deg:"",
       name:"Manoj",
       alt:""
 
     },
     {
       id:4,
-      img:"Pic-1.jpg",
-      deg:"mentor",
-      name:"Bharat gautam",
+      img:"Deepak_pathak.jpg",
+      deg:"",
+      name:"Deepak Pathak",
       alt:""
 
     },
     {
       id:5,
-      img:"pic_2.jpg",
-      deg:"mentor",
-      name:"Shivam pundhir",
+      img:"shyam_s_sharma.jpg",
+      deg:"",
+      name:"Shyam Sundar Sharma",
       alt:""
 
     },
     {
       id:6,
-      img:"pic_3.jpg",
-      deg:"mentor",
-      name:"Bharat Gautam",
+      img:"kamal_p.jpg",
+      deg:"",
+      name:"Kamal Prakash",
       alt:""
 
     },
     {
       id:7,
-      img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-      deg:"student",
-      name:"Shivam Pundhir",
+      img:"nutan_rana.jpg",
+      deg:"",
+      name:"Nutan Rana",
       alt:""
 
     },
-    {
-      id:8,
-      img:"https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
-      deg:"student",
-      name:"Bharat gautam",
-      alt:""
-
-    },
-    {
-      id:9,
-      img:"https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      deg:"student",
-      name:"Shivam pundhir",
-      alt:""
-
-    },
-    {
-      id:10,
-      img:"https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80",
-      deg:"mentor",
-      name:"Bharat gautam",
-      alt:""
-
-    },
-    {
-      id:11,
-      img:"https://images.unsplash.com/photo-1501785888041-af3ef285b470?auto=format&fit=crop&w=800&q=80",
-      deg:"mentor",
-      name:"Shivam pundhir",
-      alt:""
-
-    },
-    {
-      id:12,
-      img:"https://images.unsplash.com/photo-1494526585095-c41746248156?auto=format&fit=crop&w=800&q=80",
-      deg:"mentor",
-      name:"Bharat Gautam",
-      alt:""
-
-    },
+    
   ]
 
   return (
@@ -156,14 +117,17 @@ export default function Main_slider_1() {
       >
         {data.map((item, i) => (
           <SwiperSlide key={i}>
+         
             <img
               src={item.img}
               alt={`slide_${i}`}
-              className="rounded-lg mx-auto w-full shadow-lg border border-gray-300  object-cover"
+              className="rounded-lg mx-auto w-full shadow-lg border border-gray-300  object-cover aspect-1/1"
             />
+           
+
             <div className="mt-2 text-white">
             <p className="text-center">{item.name} </p>
-            <p className="text-center">({item.deg})</p>
+            <p className="text-center">{item.deg}</p>
             </div>
 
             
