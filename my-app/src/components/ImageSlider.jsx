@@ -17,7 +17,7 @@ export default function Main_slider_1() {
     {
       id:1,
       img:"Shivam_2.jpg",
-      deg:"student",
+      deg:"mentor",
       name:"Shivam Pundhir",
       alt:""
 
