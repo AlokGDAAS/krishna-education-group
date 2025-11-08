@@ -145,7 +145,7 @@ const Examinations = () => {
         </div>
 
         {/* details */}
-        <div className="w-8/12 mx-auto">
+        <div className="md:w-8/12 mx-auto">
           <div className="flex justify-between items-center">
             <h1 className="text-white font-semibold text-xl"></h1>
             <button

@@ -1,12 +1,13 @@
 import { Route, Router, Routes } from 'react-router-dom'
 import './App.css'
-import Navbar from './assets/components/Navbar'
-import Home from './assets/pages/Home'
-import About from './assets/pages/About'
-import Study_mat from './assets/pages/Study_mat'
-import Up_exams from './assets/pages/Up_exams'
-import How_to_start from './assets/components/How_to_start'
-import Footer from './assets/components/Footer'
+import Navbar from './components/Navbar'
+import How_to_start from './components/How_to_start'
+import Home from './pages/Home'
+import About from './pages/About'
+import Footer from './components/Footer'
+import Up_exams from './pages/Up_exams'
+import Study_mat from './pages/Study_mat'
+
 
 function App() {
  
