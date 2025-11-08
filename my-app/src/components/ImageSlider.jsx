@@ -70,6 +70,30 @@ export default function Main_slider_1() {
       alt:""
 
     },
+    {
+      id:8,
+      img:"Gopal_pathak.jpg",
+      deg:"",
+      name:"Gopal Pathak",
+      alt:""
+
+    },
+    {
+      id:9,
+      img:"rajat_kausik.jpg",
+      deg:"",
+      name:"Rajat Kausik",
+      alt:""
+
+    },
+    {
+      id:10,
+      img:"Alok.jpg",
+      deg:"",
+      name:"Alok Kumar",
+      alt:""
+
+    },
     
   ]
 
@@ -126,8 +150,8 @@ export default function Main_slider_1() {
            
 
             <div className="mt-2 text-white">
-            <p className="text-center">{item.name} </p>
-            <p className="text-center">{item.deg}</p>
+            <p className="text-center text-sm md:text-base">{item.name} </p>
+            <p className="text-center text-sm md:text-base">{item.deg}</p>
             </div>
 
             
