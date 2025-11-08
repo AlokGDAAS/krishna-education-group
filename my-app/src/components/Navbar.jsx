@@ -52,7 +52,7 @@ const Navbar = () => {
 
       {/* Mobile Menu Drawer */}
       {isMenu && (
-        <div className="absolute top-[9vh] right-0 w-2/5 bg-[#17192eff] p-6 flex flex-col gap-5 md:hidden z-40 rounded-lg shadow-lg">
+        <div className="absolute top-[9vh] right-0 w-2/5 bg-[#17192eff] p-6 flex flex-col gap-5 md:hidden z-40 rounded-lg shadow-lg text-sm">
           <Link to="/" onClick={closeMenu} className="cursor-pointer m-link">
             Home
           </Link>
