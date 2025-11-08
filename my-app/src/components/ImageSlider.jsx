@@ -16,7 +16,7 @@ export default function Main_slider_1() {
   const data = [
     {
       id:1,
-      img:".Shivam_2.jpg",
+      img:"Shivam_2.jpg",
       deg:"student",
       name:"Shivam Pundhir",
       alt:""
