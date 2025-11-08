@@ -9,7 +9,7 @@ const Navbar = () => {
           <div>
             <img src="./logo.png"  alt="" className="w-30 bg-white/50 rounded-lg m-2"/>
           </div>
-          <p className="font-bold text-2xl md:text-xl text-white text-center md:text-start">
+          <p className="font-bold text-lg md:text-xl text-white text-center md:text-start">
             Krishna Education Group
           </p>
         </div>
