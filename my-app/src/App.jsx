@@ -7,6 +7,7 @@ import About from './pages/About'
 import Footer from './components/Footer'
 import Up_exams from './pages/Up_exams'
 import Study_mat from './pages/Study_mat'
+import Quiz from './pages/Quiz'
 
 
 function App() {
@@ -22,6 +23,7 @@ function App() {
         <Route path='how-to-start' element={<How_to_start/>}/>
         <Route path='study-mat' element={<Study_mat/>}/>
         <Route path='up-ex' element={<Up_exams/>}/>
+        <Route path='quiz' element={<Quiz/>}/>
        </Routes>
     </div>
     <Footer/>

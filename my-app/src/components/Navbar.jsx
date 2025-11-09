@@ -46,6 +46,9 @@ const Navbar = () => {
             <Link to="up-ex">
               <li>Upcoming-Examination</li>
             </Link>
+            <Link to="quiz">
+              <li>Quiz</li>
+            </Link>
           </ul>
         </div>
       </div>
@@ -76,6 +79,13 @@ const Navbar = () => {
             className="cursor-pointer m-link"
           >
             Upcoming-Examination
+          </Link>
+          <Link
+            to="quiz"
+            onClick={closeMenu}
+            className="cursor-pointer m-link"
+          >
+            Quiz
           </Link>
 
         </div>

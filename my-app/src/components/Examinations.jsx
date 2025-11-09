@@ -5,7 +5,7 @@ const UPPSC = ({ text, lan }) => {
     <div className="text-white">
       <p className="text-center text-4xl font-bold">UPPSC</p>
       <h2 className="text-gray-300 font-semibold text-2xl py-4">
-        Brief History
+        {text.head}
       </h2>
       {text[lan].para_1}
     </div>
@@ -22,6 +22,7 @@ const Examinations = () => {
   };
 
   const pcstext = {
+    head:"Brief History",
     en: {
       para_1: (
         <p className="">
