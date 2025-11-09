@@ -25,7 +25,7 @@ export default function Quiz() {
   }
 
   return (
-    <div className="exam-container">
+    <div className="exam-container md:w-8/12 mx-auto rounded-xl shadow-lg p-8">
 
       {!submitted && submitted !== 0 ? (
         <>
@@ -45,8 +45,7 @@ export default function Quiz() {
                     value={opt}
                     checked={answers[index] === opt}
                     onChange={() => handleSelect(index, opt)}
-                  />
-                  {opt}
+                  /> {" "}{opt}
                 </label>
               ))}
             </div>
