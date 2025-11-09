@@ -94,6 +94,30 @@ export default function Main_slider_1() {
       alt:""
 
     },
+    {
+      id:11,
+      img:"sanjeev.jpg",
+      deg:"",
+      name:"Sanjeev Parihar",
+      alt:""
+
+    },
+    {
+      id:12,
+      img:"govind.jpg",
+      deg:"",
+      name:"Govind Yadav",
+      alt:""
+
+    },
+    {
+      id:13,
+      img:"narendra.jpg",
+      deg:"",
+      name:"Narendra Rajput",
+      alt:""
+
+    },
     
   ]
 
