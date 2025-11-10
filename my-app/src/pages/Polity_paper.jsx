@@ -4,7 +4,7 @@ import { pol_q } from "../components/Questions";
 export default function Polity_paper() {
   const [answers, setAnswers] = useState({});
   const [submitted, setSubmitted] = useState(false);
-  const questions = pol_q.en
+  const questions = pol_q.hi
 
   function handleSelect(qIndex, option) {
     setAnswers(prev => ({
@@ -72,4 +72,3 @@ export default function Polity_paper() {
     </div>
   );
 }
-

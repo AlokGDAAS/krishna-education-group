@@ -46,9 +46,10 @@ const Navbar = () => {
             <Link to="up-ex">
               <li>Upcoming-Examination</li>
             </Link>
-            <Link to="quiz">
-              <li>Quiz</li>
+            <Link to="practice-test">
+              <li>Practice-test</li>
             </Link>
+          
           </ul>
         </div>
       </div>
@@ -81,12 +82,13 @@ const Navbar = () => {
             Upcoming-Examination
           </Link>
           <Link
-            to="quiz"
+            to="practice-test"
             onClick={closeMenu}
             className="cursor-pointer m-link"
           >
-            Quiz
+            Practice-test
           </Link>
+
 
         </div>
       )}

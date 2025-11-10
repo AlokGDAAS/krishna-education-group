@@ -8,6 +8,8 @@ import Footer from './components/Footer'
 import Up_exams from './pages/Up_exams'
 import Study_mat from './pages/Study_mat'
 import Quiz from './pages/Quiz'
+import Polity_paper from './pages/Polity_paper'
+import Practice_test from './components/Practice_test'
 
 
 function App() {
@@ -24,6 +26,8 @@ function App() {
         <Route path='study-mat' element={<Study_mat/>}/>
         <Route path='up-ex' element={<Up_exams/>}/>
         <Route path='quiz' element={<Quiz/>}/>
+        <Route path='pol-quiz' element={<Polity_paper/>}/>
+        <Route path='practice-test' element={<Practice_test/>}/>
        </Routes>
     </div>
     <Footer/>
