@@ -28,12 +28,12 @@ const O_level = () => {
           </p>
         </div>
         <p className="text-center text-4xl font-bold">O Level course</p>
-        <div className="flex gap-2 justify-between pt-4 font-semibold text-gray-200">
+        {/* <div className="flex gap-2 justify-between pt-4 font-semibold text-gray-200">
           <p className="px-4 py-1 rounded-full bg-green-600 cursor-pointer">Brief History</p>
           <p className="px-4 py-1 rounded-full bg-green-600 cursor-pointer">About the Examination</p>
           <p className="px-4 py-1 rounded-full bg-green-600 cursor-pointer">Eligibility Crietaria</p>
           <p className="px-4 py-1 rounded-full bg-green-600 cursor-pointer">Examination syllabus , pattern</p>
-        </div>
+        </div> */}
         <h2 className="text-gray-300 font-semibold text-2xl py-4">
           
         </h2>
