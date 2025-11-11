@@ -1,6 +1,6 @@
 import React from 'react'
 import ImageSlider from './ImageSlider'
-import Examinations from './Examinations'
+import UPPSC from './UPPSC'
 
 const Hero = () => {
   return (
@@ -10,7 +10,7 @@ const Hero = () => {
             <ImageSlider/>
           </div>
 
-            <Examinations/>
+           <UPPSC/>
         </div>
     </div>
   )

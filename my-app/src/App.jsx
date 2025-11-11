@@ -10,6 +10,8 @@ import Study_mat from './pages/Study_mat'
 import Quiz from './pages/Quiz'
 import Polity_paper from './pages/Polity_paper'
 import Practice_test from './components/Practice_test'
+import UPPSC from './components/UPPSC'
+import O_level from './Exams/O_level'
 
 
 function App() {
@@ -28,6 +30,8 @@ function App() {
         <Route path='quiz' element={<Quiz/>}/>
         <Route path='pol-quiz' element={<Polity_paper/>}/>
         <Route path='practice-test' element={<Practice_test/>}/>
+        <Route path='uppsc' element={<UPPSC/>}/>
+        <Route path='o-level' element={<O_level/>}/>        
        </Routes>
     </div>
     <Footer/>
