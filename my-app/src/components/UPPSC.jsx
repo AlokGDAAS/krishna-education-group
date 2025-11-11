@@ -26,11 +26,11 @@ const UPPSC = () => {
           </p>
         </div>
         <p className="text-center text-4xl font-bold">UPPSC</p>
-        <div className="flex gap-2 justify-between pt-4 font-semibold text-gray-200">
+        <div className="flex gap-4 md:gap-2 md:justify-between pt-4 font-semibold text-gray-200 text-sm md:text-base flex-wrap w-11/12 justify-center mx-auto">
           <p className="px-4 py-1 rounded-full bg-green-600 cursor-pointer"><a to="#history-uppsc" >Brief History</a></p>
           <p className="px-4 py-1 rounded-full bg-green-600 cursor-pointer"><a href="#about-uppsc"  >About the Examination</a></p>
           <p className="px-4 py-1 rounded-full bg-green-600 cursor-pointer"><a href="#pcs-exams">PCS EXAMS</a></p>
-          <p className="px-4 py-1 rounded-full bg-green-600 cursor-pointer">Examination syllabus , pattern</p>
+          <p className="px-4 py-1 rounded-full bg-green-600 cursor-pointer">Syllabus , pattern</p>
         </div>
 
 
