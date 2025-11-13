@@ -10,7 +10,7 @@ const Practice_test = () => {
       <h1 className='text-4xl font-bold text-gray-700'>Practice Test</h1>
 
       <div className='mt-4 space-y-3'>
-
+{/* 
         <div 
           className='cursor-pointer bg-green-600 px-4 py-2 rounded text-white md:w-7/48 w-7/12 font-semibold text-center'
           onClick={() => navigate('/pol-quiz')}
@@ -23,7 +23,7 @@ const Practice_test = () => {
           onClick={() => navigate('/quiz')}
         >
           Polity Test (English)
-        </div>
+        </div> */}
 
         {/* <div 
           className='cursor-pointer '
