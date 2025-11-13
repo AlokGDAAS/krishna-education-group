@@ -87,7 +87,7 @@ const UPSC_test_en_2 = () => {
 
           <button
             type="submit"
-            className="bg-gray-400 px-2 py-1 rounded text-white w-2/12 mx-auto block mt-4 mb-2 cursor-pointer"
+            className="bg-gray-400 px-2 py-1 rounded text-white md:w-2/12 w-4/12  mx-auto block mt-4 mb-2 cursor-pointer"
           >
             Submit
           </button>
