@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { UPSC_test_en_3_questions } from "./UPSC_test_en_3_que";
+import { useNavigate } from "react-router-dom";
 
 const UPSC_test_en_3 = () => {
   const [answers, setAnswers] = useState({});
   const [score, setScore] = useState(null);
   const [inputs, setInputs] = useState({});
   const [details , setDetails] = useState(false)
+  const navigate = useNavigate();  
 
   
 
