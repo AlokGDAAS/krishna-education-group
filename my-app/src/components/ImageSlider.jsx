@@ -39,9 +39,9 @@ export default function Main_slider_1() {
 
     {
       id: 4,
-      img: "Deepak_pathak.jpg",
+      img: "narendra.jpg",
       deg: "",
-      name: "Deepak Pathak",
+      name: "Narendra Rajput",
       alt: "",
     },
     {
@@ -102,10 +102,11 @@ export default function Main_slider_1() {
     },
     {
       id: 13,
-      img: "narendra.jpg",
+      img: "Deepak_pathak.jpg",
       deg: "",
-      name: "Narendra Rajput",
-      alt: "",
+      name: "Deepak Pathak",
+      alt: "",      
+
     },
   ];
 
