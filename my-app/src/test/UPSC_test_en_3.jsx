@@ -42,6 +42,7 @@ const UPSC_test_en_3 = () => {
   function handleRetry() {
     setAnswers({});
     setScore(null);
+    navigate('/practice-test')       
   }
 
   return (
