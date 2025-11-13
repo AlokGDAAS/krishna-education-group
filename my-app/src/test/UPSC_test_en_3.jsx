@@ -47,7 +47,7 @@ const UPSC_test_en_3 = () => {
     <div className="min-h-screen  py-6">
       {!details && (<div className="exam-container md:w-8/12 mx-auto bg-white rounded-xl shadow-lg p-8">
         <form
-          className="w-6/12 mx-auto border p-3 rounded"
+          className="md:w-6/12 mx-auto border p-3 rounded"
           onSubmit={handleSubmit_f}
         >
           <div className="">
