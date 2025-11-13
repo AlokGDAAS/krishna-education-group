@@ -1,11 +1,13 @@
 import React, { useState } from "react";
 import { UPSC_test_hi_3_questions } from "./UPSC_test_hi_3_que";
+import { useNavigate } from "react-router-dom";
 
 const UPSC_test_hi_3 = () => {
   const [answers, setAnswers] = useState({});
   const [score, setScore] = useState(null);
   const [inputs, setInputs] = useState({});
   const [details , setDetails] = useState(false)
+  const navigate = useNavigate()
 
   
 
@@ -41,6 +43,7 @@ const UPSC_test_hi_3 = () => {
   function handleRetry() {
     setAnswers({});
     setScore(null);
+    navigate('/practice-test')
   }
 
   return (
@@ -163,7 +166,9 @@ const UPSC_test_hi_3 = () => {
           ) : (
             <div className="text-center">
               <h2 className="text-2xl font-bold mb-4">Test Completed 🎉</h2>
+              <p className="text-lg">{details.firstname} {details.lastname}</p>
               <p className="text-lg">
+
                 Your Score:{" "}
                 <strong className="text-blue-600">
                   {score} / {questions.length}

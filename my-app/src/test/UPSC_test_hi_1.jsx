@@ -41,6 +41,7 @@ const UPSC_test_hi_1 = () => {
   function handleRetry() {
     setAnswers({});
     setScore(null);
+    navigate('/practice-test')    
   }
 
   return (
@@ -163,7 +164,9 @@ const UPSC_test_hi_1 = () => {
           ) : (
             <div className="text-center">
               <h2 className="text-2xl font-bold mb-4">Test Completed 🎉</h2>
+              <p className="text-lg">{details.firstname} {details.lastname}</p>
               <p className="text-lg">
+
                 Your Score:{" "}
                 <strong className="text-blue-600">
                   {score} / {questions.length}

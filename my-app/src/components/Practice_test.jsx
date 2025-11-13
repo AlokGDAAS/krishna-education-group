@@ -12,14 +12,14 @@ const Practice_test = () => {
       <div className='mt-4 space-y-3'>
 
         <div 
-          className='cursor-pointer'
+          className='cursor-pointer bg-green-600 px-4 py-2 rounded text-white w-7/48 font-semibold text-center'
           onClick={() => navigate('/pol-quiz')}
         >
           Polity Test (Hindi)
         </div>
 
         <div 
-          className='cursor-pointer '
+          className='cursor-pointer bg-green-600 px-4 py-2 rounded text-white w-7/48 font-semibold text-center'
           onClick={() => navigate('/quiz')}
         >
           Polity Test (English)
@@ -38,37 +38,37 @@ const Practice_test = () => {
           UPSC (English)
         </div> */}
         <div 
-          className='cursor-pointer '
+          className='cursor-pointer bg-green-600 px-4 py-2 rounded text-white w-7/48 font-semibold text-center'
           onClick={() => navigate('/upsc-en-part-1')}
         >
           UPSC (English Part - 1)
         </div>
         <div 
-          className='cursor-pointer '
+          className='cursor-pointer bg-green-600 px-4 py-2 rounded text-white w-7/48 font-semibold text-center'
           onClick={() => navigate('/upsc-en-part-2')}
         >
           UPSC (English Part - 2)
         </div>
         <div 
-          className='cursor-pointer '
+          className='cursor-pointer bg-green-600 px-4 py-2 rounded text-white w-7/48 font-semibold text-center'
           onClick={() => navigate('/upsc-en-part-3')}
         >
           UPSC (English Part - 3)
         </div>
         <div 
-          className='cursor-pointer '
+          className='cursor-pointer bg-green-600 px-4 py-2 rounded text-white w-7/48 font-semibold text-center'
           onClick={() => navigate('/upsc-hi-part-1')}
         >
           UPSC (Hindi Part - 1)
         </div>
         <div 
-          className='cursor-pointer '
+          className='cursor-pointer bg-green-600 px-4 py-2 rounded text-white w-7/48 font-semibold text-center'
           onClick={() => navigate('/upsc-hi-part-2')}
         >
           UPSC (Hindi Part - 2)
         </div>
         <div 
-          className='cursor-pointer '
+          className='cursor-pointer bg-green-600 px-4 py-2 rounded text-white w-7/48 font-semibold text-center'
           onClick={() => navigate('/upsc-hi-part-3')}
         >
           UPSC (Hindi Part - 3)
