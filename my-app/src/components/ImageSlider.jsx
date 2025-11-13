@@ -39,16 +39,17 @@ export default function Main_slider_1() {
 
     {
       id: 4,
-      img: "narendra.jpg",
+      img: "Bharat_2.jpg",
       deg: "",
-      name: "Narendra Rajput",
+      name: "Bharat gautam",
       alt: "",
     },
     {
       id: 5,
-      img: "shyam_s_sharma.jpg",
+
+      img: "shivam.jpg",
       deg: "",
-      name: "Shyam Sundar Sharma",
+      name: "Shivam Pundhir",
       alt: "",
     },
     {
@@ -60,9 +61,9 @@ export default function Main_slider_1() {
     },
     {
       id: 7,
-      img: "shivam.jpg",
+      img: "shyam_s_sharma.jpg",
       deg: "",
-      name: "Shivam Pundhir",
+      name: "Shyam Sundar Sharma",
       alt: "",
     },
     {
@@ -81,9 +82,9 @@ export default function Main_slider_1() {
     },
     {
       id: 10,
-      img: "Bharat_2.jpg",
+      img: "narendra.jpg",
       deg: "",
-      name: "Bharat gautam",
+      name: "Narendra Rajput",
       alt: "",
     },
     {
@@ -105,8 +106,7 @@ export default function Main_slider_1() {
       img: "Deepak_pathak.jpg",
       deg: "",
       name: "Deepak Pathak",
-      alt: "",      
-
+      alt: "",
     },
   ];
 
