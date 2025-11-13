@@ -30,26 +30,25 @@ export default function Main_slider_1() {
     },
     {
       id: 3,
-
-      img: "Alok.jpg",
+      img: "shivam.jpg",
       deg: "",
-      name: "Alok Kumar",
+      name: "Shivam Pundhir",
       alt: "",
     },
 
     {
       id: 4,
-      img: "Bharat_2.jpg",
+      img: "Alok.jpg",
       deg: "",
-      name: "Bharat gautam",
+      name: "Alok Kumar",
       alt: "",
     },
     {
       id: 5,
 
-      img: "shivam.jpg",
+      img: "Bharat_2.jpg",
       deg: "",
-      name: "Shivam Pundhir",
+      name: "Bharat gautam",
       alt: "",
     },
     {
