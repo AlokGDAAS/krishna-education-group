@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { UPPSC_brief_history } from "./UPPSC_data";
-import All_Examinations from "./All_Examinations";
+import { UPPSC_brief_history } from "../exams-data/UPPSC_data";
+import Hero from "../Hero";
 
 const UPPSC = () => {
   const [lan, setLan] = useState("hi");
@@ -13,7 +13,7 @@ const UPPSC = () => {
 
   return (
     <div>
-      <All_Examinations />
+      <Hero/>
 
       <div className="text-white md:w-8/12 mx-auto py-4">
         <div className="flex justify-between">

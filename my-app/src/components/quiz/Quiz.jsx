@@ -1,15 +1,29 @@
 import React, { useState } from "react";
-import { UPSC_test_en_1_questions } from "./UPSC_test_en_1_que";
-import { useNavigate } from "react-router-dom";
+import { UPSC_test_en_1_questions } from "../quiz-data/quiz_data_1";
+import { UPSC_test_en_2_questions } from "../quiz-data/quiz_data_1";
+import { UPSC_test_en_3_questions } from "../quiz-data/quiz_data_1";
+import { UPSC_test_hi_1_questions } from "../quiz-data/quiz_data_1";
+import { UPSC_test_hi_2_questions } from "../quiz-data/quiz_data_1";
+import { UPSC_test_hi_3_questions } from "../quiz-data/quiz_data_1";
+import { useNavigate, useParams } from "react-router-dom";
 
-const UPSC_test_en_1 = () => {
+const Quiz = () => {
   const [answers, setAnswers] = useState({});
   const [score, setScore] = useState(null);
   const [inputs, setInputs] = useState({});
   const [details , setDetails] = useState(false)
+  const {slug} = useParams()
   const navigate = useNavigate();  
 
-  
+  const questions_data = [
+    {head:"upsc-en-part-1" , d: UPSC_test_en_1_questions},
+    {head:"upsc-en-part-2" , d: UPSC_test_en_2_questions},
+    {head:"upsc-en-part-3" , d: UPSC_test_en_3_questions},
+    {head:"upsc-hi-part-1" , d: UPSC_test_hi_1_questions},
+    {head:"upsc-hi-part-2" , d: UPSC_test_hi_2_questions},
+    {head:"upsc-hi-part-3" , d: UPSC_test_hi_3_questions},
+
+  ]
 
   const handleChange = (e) => {
     const name = e.target.name;
@@ -23,7 +37,9 @@ const UPSC_test_en_1 = () => {
 
   };
 
-  const questions = UPSC_test_en_1_questions;
+const selected = questions_data.find((q)=> q.head === slug);
+const questions = selected ? selected.d : [];
+
 
   function handleSelect(qIndex, option) {
     setAnswers((prev) => ({
@@ -188,5 +204,5 @@ const UPSC_test_en_1 = () => {
   );
 };
 
-export default UPSC_test_en_1;
+export default Quiz;
 

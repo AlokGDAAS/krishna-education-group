@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { o_level_data} from '../Exams/O_level_data'
-import All_Examinations from "../components/All_Examinations";
+import { o_level_data } from "../exams-data/O_level_data";
+import Hero from "../Hero";
+
 
 const O_level = () => {
 
@@ -15,7 +16,7 @@ const O_level = () => {
   return (
     <div>
     <div>
-      <All_Examinations />
+      <Hero/>
 
       <div className="text-white md:w-8/12 mx-auto py-4">
         <div className="flex justify-between">

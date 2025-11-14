@@ -75,7 +75,7 @@ const Navbar = () => {
             Study-Material
           </Link>
           <Link
-            to="up-ex"
+            to="upcoming-exams"
             onClick={closeMenu}
             className="cursor-pointer m-link"
           >
