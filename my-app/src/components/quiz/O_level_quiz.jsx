@@ -1,13 +1,12 @@
 import React, { useState } from "react";
-import { UPSC_test_en_1_questions } from "../quiz-data/quiz_data_1";
-import { UPSC_test_en_2_questions } from "../quiz-data/quiz_data_1";
-import { UPSC_test_en_3_questions } from "../quiz-data/quiz_data_1";
-import { UPSC_test_hi_1_questions } from "../quiz-data/quiz_data_1";
-import { UPSC_test_hi_2_questions } from "../quiz-data/quiz_data_1";
-import { UPSC_test_hi_3_questions } from "../quiz-data/quiz_data_1";
+import { o_level_quiz_en_part_1 } from "../quiz-data/O_level_quiz_data";
+import { o_level_quiz_en_part_2 } from "../quiz-data/O_level_quiz_data";
+import { o_level_quiz_en_part_3 } from "../quiz-data/O_level_quiz_data";
+import { o_level_quiz_en_part_4 } from "../quiz-data/O_level_quiz_data";
+import { o_level_quiz_en_part_5 } from "../quiz-data/O_level_quiz_data";
 import { useNavigate, useParams } from "react-router-dom";
 
-const Quiz = () => {
+const O_level_quiz = () => {
   const [answers, setAnswers] = useState({});
   const [score, setScore] = useState(null);
   const [inputs, setInputs] = useState({});
@@ -15,13 +14,15 @@ const Quiz = () => {
   const {slug} = useParams()
   const navigate = useNavigate();  
 
+
+
   const questions_data = [
-    {head:"upsc-en-part-1" , d: UPSC_test_en_1_questions,heading:"UPSC Practice Test"},
-    {head:"upsc-en-part-2" , d: UPSC_test_en_2_questions,heading:"UPSC Practice Test"},
-    {head:"upsc-en-part-3" , d: UPSC_test_en_3_questions,heading:"UPSC Practice Test"},
-    {head:"upsc-hi-part-1" , d: UPSC_test_hi_1_questions,heading:"UPSC Practice Test"},
-    {head:"upsc-hi-part-2" , d: UPSC_test_hi_2_questions,heading:"UPSC Practice Test"},
-    {head:"upsc-hi-part-3" , d: UPSC_test_hi_3_questions,heading:"UPSC Practice Test"},
+    {head:"o-level-en-part-1" , d: o_level_quiz_en_part_1, heading:"O Level Practice Test"},
+    {head:"o-level-en-part-2" , d: o_level_quiz_en_part_2, heading:"O Level Practice Test"},
+    {head:"o-level-en-part-3" , d: o_level_quiz_en_part_3, heading:"O Level Practice Test"},
+    {head:"o-level-en-part-4" , d: o_level_quiz_en_part_4, heading:"O Level Practice Test"},
+    {head:"o-level-en-part-5" , d: o_level_quiz_en_part_5, heading:"O Level Practice Test"},
+
 
   ]
 
@@ -102,6 +103,17 @@ const questions = selected ? selected.d : [];
               className="border border-gray-300 w-full px-4 py-1 rounded my-2 "
             />
           </div>
+          {/* <div>
+            <label className="block font-bold">Password</label>
+            <input
+              type="password"
+              name="password"
+              value={inputs.password || ""}
+              onChange={handleChange}
+              placeholder="Please enter your password"
+              className="border border-gray-300 w-full px-4 py-1 rounded my-2 "
+            />
+          </div> */}
 
           <button
             type="submit"
@@ -112,7 +124,7 @@ const questions = selected ? selected.d : [];
         </form>
       </div>)}
 
-      {!details.firstname ? (
+      {!details.firstname  ? (
         <div className="exam-container md:w-8/12 mx-auto bg-white rounded-xl shadow-lg p-8">
         <p className="text-center text-gray-600 mt-6">
           Please fill out your name and mobile to start the test.
@@ -204,5 +216,4 @@ const questions = selected ? selected.d : [];
   );
 };
 
-export default Quiz;
-
+export default O_level_quiz;

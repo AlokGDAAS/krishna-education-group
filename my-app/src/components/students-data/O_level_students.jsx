@@ -1,0 +1,20 @@
+export const o_level_students_data = [
+    {
+        id:1,
+        name:"Dolly",
+        mobile:8954545678,
+        password:"dolly-o-level"
+    },
+    {
+        id:2,
+        name:"Arpit",
+        mobile:8869058088,
+        password:"arpit-o-level"
+    },
+    {
+        id:3,
+        name:"Lakshya",
+        mobile:7668006443,
+        password:"lakshya-o-level"
+    },
+]
