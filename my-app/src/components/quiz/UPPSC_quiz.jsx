@@ -239,7 +239,7 @@ const UPPSC_quiz = () => {
                 Submit Test
               </button>
 
-              <div className="mt-4  rounded-lg text-white  " >
+              <div className="mt-4  rounded-lg text-gray-800 font-bold  " >
                Attempted {Object.keys(answers).length || 0}/{questions.length}
               </div>
 
