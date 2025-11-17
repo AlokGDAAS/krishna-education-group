@@ -16,17 +16,22 @@ const Practice_test = () => {
   };
 
   const data = [
-    { id: 1, link: "/practice-test/upsc-en-part-1", name: "UPSC", subname: "English - Part-1" },
-    { id: 2, link: "/practice-test/upsc-en-part-2", name: "UPSC", subname: "English - Part-2" },
-    { id: 3, link: "/practice-test/upsc-en-part-3", name: "UPSC", subname: "English - Part-3" },
-    { id: 4, link: "/practice-test/upsc-hi-part-1", name: "UPSC", subname: "Hindi - Part-1" },
-    { id: 5, link: "/practice-test/upsc-hi-part-2", name: "UPSC", subname: "Hindi - Part-2" },
-    { id: 6, link: "/practice-test/upsc-hi-part-3", name: "UPSC", subname: "Hindi - Part-3" }, 
-    { id: 7, link: "/practice-test-o-level/o-level-en-part-1", name: "O Level", subname: "English Part-1" }, 
-    { id: 7, link: "/practice-test-o-level/o-level-en-part-2", name: "O Level", subname: "English Part-2" }, 
-    { id: 7, link: "/practice-test-o-level/o-level-en-part-3", name: "O Level", subname: "English Part-3" }, 
-    { id: 7, link: "/practice-test-o-level/o-level-en-part-4", name: "O Level", subname: "English Part-4" }, 
-    { id: 7, link: "/practice-test-o-level/o-level-en-part-5", name: "O Level", subname: "English Part-5" }, 
+    // { id: 1, link: "/practice-test/upsc-en-part-1", name: "UPSC", subname: "English - Part-1" },
+    // { id: 2, link: "/practice-test/upsc-en-part-2", name: "UPSC", subname: "English - Part-2" },
+    // { id: 3, link: "/practice-test/upsc-en-part-3", name: "UPSC", subname: "English - Part-3" },
+    // { id: 4, link: "/practice-test/upsc-hi-part-1", name: "UPSC", subname: "Hindi - Part-1" },
+    // { id: 5, link: "/practice-test/upsc-hi-part-2", name: "UPSC", subname: "Hindi - Part-2" },
+    // { id: 6, link: "/practice-test/upsc-hi-part-3", name: "UPSC", subname: "Hindi - Part-3" }, 
+    { id: 8, link: "/practice-test-o-level/o-level-en-part-1", name: "O Level", subname: "English Part-1" }, 
+    { id: 9, link: "/practice-test-o-level/o-level-en-part-2", name: "O Level", subname: "English Part-2" }, 
+    { id: 10, link: "/practice-test-o-level/o-level-en-part-3", name: "O Level", subname: "English Part-3" }, 
+    { id: 11, link: "/practice-test-o-level/o-level-en-part-4", name: "O Level", subname: "English Part-4" }, 
+    { id: 12, link: "/practice-test-o-level/o-level-en-part-5", name: "O Level", subname: "English Part-5" }, 
+    { id: 13, link: "/practice-test-uppsc/uppsc-hi-part-1", name: "UPPSC", subname: "Hindi - Part-1" }, 
+    { id: 14, link: "/practice-test-uppsc/uppsc-hi-part-2", name: "UPPSC", subname: "Hindi - Part-2" }, 
+    { id: 15, link: "/practice-test-uppsc/uppsc-hi-part-3", name: "UPPSC", subname: "Hindi - Part-3" }, 
+    { id: 16, link: "/practice-test-uppsc/uppsc-hi-part-4", name: "UPPSC", subname: "Hindi - Part-4" }, 
+    { id: 17, link: "/practice-test-uppsc/uppsc-hi-part-5", name: "UPPSC", subname: "Hindi - Part-5" }, 
     
 
   ];

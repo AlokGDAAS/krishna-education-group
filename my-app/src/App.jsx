@@ -11,6 +11,7 @@ import O_level from "./components/exams/O_level";
 import Practice_test from "./components/Practice_tests";
 import Quiz from "./components/quiz/Quiz";
 import O_level_quiz from "./components/quiz/O_level_quiz";
+import UPPSC_quiz from "./components/quiz/UPPSC_quiz";
 
 
 function App() {
@@ -28,6 +29,7 @@ function App() {
           <Route path="practice-test" element={<Practice_test />} />
           <Route path="/practice-test/:slug" element={<Quiz/>} />
           <Route path="/practice-test-o-level/:slug" element={<O_level_quiz/>} />
+          <Route path="/practice-test-uppsc/:slug" element={<UPPSC_quiz/>} />
         </Routes>
       </div>
       <Footer />

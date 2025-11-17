@@ -54,6 +54,7 @@ const questions = selected ? selected.d : [];
       if (answers[i] === q.answer) total++;
     });
     setScore(total);
+    console.log(answers)
   }
 
   function handleRetry() {
