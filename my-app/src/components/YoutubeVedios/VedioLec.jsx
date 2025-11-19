@@ -17,7 +17,7 @@ const VedioLec = () => {
         <div>
             {vedios_data.map((item , i)=>(
                 <div key={i}>
-                  <YoutubePlayer src={item.src} title={item.title} heading={item.heading}/>
+                  <YoutubePlayer src={item.src} title={item.title} heading={item.heading} by={item.by}/>
                 </div>
             ))}
         </div>
