@@ -43,7 +43,7 @@ const Navbar = () => {
             <Link to="study-mat">
               <li>Study-Material</li>
             </Link>
-            <Link to="up-ex">
+            <Link to="upcoming-exams">
               <li>Upcoming-Examination</li>
             </Link>
             <Link to="practice-test">

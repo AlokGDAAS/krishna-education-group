@@ -22,7 +22,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />         
-          <Route path="study-material" element={<Study_material />} />
+          <Route path="study-mat" element={<Study_material />} />
           <Route path="upcoming-exams" element={<Upcoming_exams />} />          
           <Route path="uppsc" element={<UPPSC />} />
           <Route path="o-level" element={<O_level />} />
