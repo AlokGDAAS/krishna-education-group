@@ -12,6 +12,7 @@ import Practice_test from "./components/Practice_tests";
 import Quiz from "./components/quiz/Quiz";
 import O_level_quiz from "./components/quiz/O_level_quiz";
 import UPPSC_quiz from "./components/quiz/UPPSC_quiz";
+import VedioLec from "./components/YoutubeVedios/VedioLec";
 
 
 function App() {
@@ -24,6 +25,7 @@ function App() {
           <Route path="about" element={<About />} />         
           <Route path="study-mat" element={<Study_material />} />
           <Route path="upcoming-exams" element={<Upcoming_exams />} />          
+          <Route path="vedio-lec" element={<VedioLec />} />          
           <Route path="uppsc" element={<UPPSC />} />
           <Route path="o-level" element={<O_level />} />
           <Route path="practice-test" element={<Practice_test />} />
