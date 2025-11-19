@@ -8,7 +8,8 @@ const VedioLec = () => {
             id:1,
             src:"https://www.youtube.com/embed/J3BZvLIHm_0",
             title:"YouTube video",
-            heading:"Sagar nital prasaran siddhant"
+            heading:"Sagar nital prasaran siddhant",
+            by:"Nutan singh rana"
         }
     ]
   return (
