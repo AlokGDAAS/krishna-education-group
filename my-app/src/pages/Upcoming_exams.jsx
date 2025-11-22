@@ -63,10 +63,10 @@ const Upcoming_exams = () => {
         <table className="w-11/12 mx-auto text-center border-collapse">
           <thead className="text-sm md:text-lg">
             <tr className="bg-gradient-to-r from-blue-600 to-blue-500 text-white ">
-              <th className="py-3 px-4 border border-blue-400  font-semibold rounded-l-lg">
+              <th className="py-3 px-4    font-semibold rounded-tl-lg">
                 Examination
               </th>
-              <th className="py-3 px-4 border border-blue-400  font-semibold rounded-r-lg">
+              <th className="py-3 px-4   font-semibold rounded-tr-lg">
                 Date
               </th>
             </tr>
