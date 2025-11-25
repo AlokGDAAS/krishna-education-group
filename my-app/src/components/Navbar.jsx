@@ -2,6 +2,7 @@ import React from "react";
 import { Link, NavLink } from "react-router-dom";
 import { LuSquareMenu } from "react-icons/lu";
 import { IoClose } from "react-icons/io5";
+import { RiMenuFill } from "react-icons/ri";
 import { useState } from "react";
 
 const Navbar = () => {
@@ -10,25 +11,33 @@ const Navbar = () => {
   const closeMenu = () => setIsMenu(false);
 
   return (
-    <div className="bg-[var(--primary)]">
-      <div className="md:max-w-[90vw]  md:flex md:justify-between items-center md:mx-auto px-2 md:px-0">
+    <div className="bg-white rounded-lg shadow-lg mb-2 ">
+      <div className="md:max-w-[90vw]  md:flex md:justify-between items-center md:mx-auto px-2 md:px-0 py-2">
         <div className="flex items-center justify-between">
           <div>
             <img
-              src="./logo.png"
+              src="./logo_1.jpg"
               alt=""
-              className="w-20 md:w-30 bg-white/50 rounded-lg m-2"
+              className="w-10 md:w-15 bg-white/50 rounded-full  "
             />
           </div>
-          <p className="font-bold text-lg md:text-xl text-white text-center md:text-start">
+          <div>
+          <p className="font-bold text-lg md:text-xl text-center md:text-start text-slate-600">
             Krishna Education Group
           </p>
+          <p className="text-[10px] sm:text-xs text-slate-600">
+            Empowering Students. Transforming Futures.
+          </p>
+
+
+          </div>
+
           <div className="md:hidden text-3xl text-white pr-4"></div>
           <div
             onClick={() => setIsMenu((prev) => !prev)}
-            className="md:hidden cursor-pointer z-50 text-white"
+            className="md:hidden cursor-pointer z-50 border rounded p-1  text-slate-600"
           >
-            {isMenu ? <IoClose size={30} /> : <LuSquareMenu size={30} />}
+            {isMenu ? <IoClose size={20} /> : <RiMenuFill size={20} />}
           </div>
         </div>
 
@@ -52,14 +61,13 @@ const Navbar = () => {
             <Link to="practice-test">
               <li>Practice-test</li>
             </Link>
-          
           </ul>
         </div>
       </div>
 
       {/* Mobile Menu Drawer */}
       {isMenu && (
-        <div className="absolute top-[9vh] right-0 w-3/5 bg-[#17192eff] p-6 flex flex-col gap-5 md:hidden z-40 rounded-lg shadow-lg text-sm">
+        <div className="absolute top-[9vh] right-0 w-3/5 bg-[#17192eff]/95 p-6 flex flex-col gap-5 md:hidden z-40 rounded-lg shadow-lg text-sm">
           <Link to="/" onClick={closeMenu} className="cursor-pointer m-link">
             Home
           </Link>
@@ -68,7 +76,7 @@ const Navbar = () => {
             onClick={closeMenu}
             className="cursor-pointer m-link"
           >
-           About
+            About
           </Link>
           <Link
             to="study-mat"
@@ -98,8 +106,6 @@ const Navbar = () => {
           >
             Practice-test
           </Link>
-
-
         </div>
       )}
     </div>

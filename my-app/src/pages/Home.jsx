@@ -1,15 +1,15 @@
 import React from 'react'
-import Main_slider_1 from '../components/ImageSlider'
-import Hero from '../components/Hero'
+import Hero_2 from '../components/Hero_2'
+import Courses from '../components/Courses'
+import VisionMission from '../components/VisionMission'
 
 const Home = () => {
   return (
     <div>
-        <Main_slider_1/>
-        <Hero/>
-        <div className='text-center text-white text-lg py-4 font-semibold '>
-            <p>Please Choose an  options given above to know about Exanations Details</p>
-        </div>
+      <Hero_2/>
+      <Courses/>
+      <VisionMission/>
+
     </div>
   )
 }

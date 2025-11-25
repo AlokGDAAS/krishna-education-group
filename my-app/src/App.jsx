@@ -13,13 +13,18 @@ import Quiz from "./components/quiz/Quiz";
 import O_level_quiz from "./components/quiz/O_level_quiz";
 import UPPSC_quiz from "./components/quiz/UPPSC_quiz";
 import VedioLec from "./components/YoutubeVedios/VedioLec";
+import Main_slider_1 from "./components/ImageSlider";
 
 
 function App() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen bg-[var(--secondary)]/50 p-2">
       <Navbar />
-      <div className="md:max-w-[90vw] mx-auto bg-[var(--secondary)] p-2 min-h-screen">
+      <div className="bg-white p-2 rounded-lg shadow-lg">
+          <Main_slider_1/>
+      </div>
+      
+      <div className="md:max-w-[90vw] mx-auto py-2 min-h-screen shadow-lg">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />         

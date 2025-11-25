@@ -62,7 +62,7 @@ export default function Main_slider_1() {
       id: 7,
       img: "shyam_s_sharma.jpg",
       deg: "",
-      name: "Shyam Sundar Sharma",
+      name: "Shyam S. Sharma",
       alt: "",
     },
     {
@@ -102,6 +102,13 @@ export default function Main_slider_1() {
     },
     {
       id: 13,
+      img: "ved.jpg",
+      deg: "",
+      name: "Ved Prakash",
+      alt: "",
+    },
+    {
+      id: 14,
       img: "Deepak_pathak.jpg",
       deg: "",
       name: "Deepak Pathak",
@@ -110,7 +117,7 @@ export default function Main_slider_1() {
   ];
 
   return (
-    <div className="flex flex-col items-center px-2">
+    <div className="flex flex-col items-center">
       <Swiper
         modules={[Navigation, Pagination, Autoplay]}
         spaceBetween={15}
@@ -131,11 +138,11 @@ export default function Main_slider_1() {
         }}
         breakpoints={{
           320: {
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 10,
           },
           640: {
-            slidesPerView: 3,
+            slidesPerView: 4,
             spaceBetween: 15,
           },
           768: {
@@ -161,9 +168,9 @@ export default function Main_slider_1() {
               className="rounded-lg mx-auto w-full shadow-lg border border-gray-300  object-cover aspect-1/1"
             />
 
-            <div className="mt-2 text-white">
-              <p className="text-center text-sm md:text-base">{item.name} </p>
-              <p className="text-center text-sm md:text-base">{item.deg}</p>
+            <div className="mt-2 text-slate-800">
+              <p className="text-center text-xs md:text-base">{item.name} </p>
+              <p className="text-center text-xs md:text-base">{item.deg}</p>
             </div>
           </SwiperSlide>
         ))}
