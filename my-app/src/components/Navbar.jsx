@@ -11,7 +11,7 @@ const Navbar = () => {
   const closeMenu = () => setIsMenu(false);
 
   return (
-    <div className="bg-white rounded-lg shadow-lg mb-2 ">
+    <div className="bg-white rounded-lg shadow-lg mb-2 sticky top-0 z-50">
       <div className="md:max-w-[90vw]  md:flex md:justify-between items-center md:mx-auto px-2 md:px-0 py-2">
         <div className="flex items-center justify-between">
           <div>
