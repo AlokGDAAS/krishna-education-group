@@ -22,10 +22,10 @@ const Navbar = () => {
             />
           </div>
           <div>
-          <p className="font-bold text-lg md:text-xl text-center md:text-start text-slate-600">
+          <p className="font-bold text-lg md:text-xl text-center md:text-start md:ml-8 text-slate-600">
             Krishna Education Group
           </p>
-          <p className="text-[10px] sm:text-xs text-slate-600">
+          <p className="text-[10px] sm:text-xs text-slate-600 md:ml-8">
             Empowering Students. Transforming Futures.
           </p>
 
@@ -42,7 +42,7 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:block">
-          <ul className="flex gap-4 text-white font-semibold ">
+          <ul className="flex gap-4 text-slate-800 font-semibold ">
             <Link to="/">
               <li>Home</li>
             </Link>

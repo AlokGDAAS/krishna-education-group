@@ -146,15 +146,15 @@ export default function Main_slider_1() {
             spaceBetween: 15,
           },
           768: {
-            slidesPerView: 3,
+            slidesPerView: 6,
             spaceBetween: 20,
           },
           1024: {
-            slidesPerView: 3,
+            slidesPerView: 6,
             spaceBetween: 25,
           },
           1280: {
-            slidesPerView: 4,
+            slidesPerView: 8,
             spaceBetween: 30,
           },
         }}

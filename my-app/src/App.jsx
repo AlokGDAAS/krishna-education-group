@@ -24,7 +24,7 @@ function App() {
           <Main_slider_1/>
       </div>
       
-      <div className="md:max-w-[90vw] mx-auto py-2 min-h-screen shadow-lg">
+      <div className=" mx-auto py-2 min-h-screen shadow-lg">
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="about" element={<About />} />         
