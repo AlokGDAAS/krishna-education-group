@@ -21,7 +21,7 @@ const VisionMission = () => {
                 </p>
               </div>
 
-              <div className="mt-5 bg-white shadow-lg p-4">
+              <div className="mt-5 bg-white shadow-lg p-4 rounded">
                 <h4 className="text-xl font-semibold text-green-600">
                   500+ Active Students
                 </h4>
@@ -30,7 +30,7 @@ const VisionMission = () => {
                   testimony to our quality and popularity.
                 </p>
               </div>
-              <div className="mt-5 bg-white shadow-lg p-4">
+              <div className="mt-5 bg-white shadow-lg p-4 rounded">
                 <h4 className="text-xl font-semibold text-green-600">
                   30+ Successful Selections
                 </h4>
