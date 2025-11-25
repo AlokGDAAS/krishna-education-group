@@ -9,7 +9,7 @@ const VisionMission = () => {
         <Container>
           <div>
             <div className="">
-              <div className="mt-5 bg-white shadow-lg p-4">
+              <div className="mt-5 bg-white shadow-lg p-4 rounded">
                 <h3 className="text-2xl font-bold text-slate-700 mb-3">
                   Our Current Journey: A Story of Growth
                 </h3>
@@ -48,7 +48,7 @@ const VisionMission = () => {
       <div className="py-5 bg-slate-50 my-2">
         <Container>
           <div>
-            <div className="my-5 bg-white shadow-lg p-4">
+            <div className="my-5 bg-white shadow-lg p-4 rounded">
               <h3 className="text-2xl font-bold text-slate-700 mb-3">
                 Vision 2027
               </h3>
@@ -79,7 +79,7 @@ const VisionMission = () => {
       <div className="py-10 bg-slate-50 my-2">
         <Container>
           <div>
-            <div className="bg-white shadow-lg p-4">
+            <div className="bg-white shadow-lg p-4 rounded">
               <h3 className="text-2xl font-bold text-slate-700 mb-3">Mission</h3>
               <p className="text-xs sm:text-sm text-slate-800 p-2">
                 Our primary goal is to offer free guidance and support to
@@ -102,7 +102,7 @@ const VisionMission = () => {
       <div className="py-10 bg-slate-50 my-2">
         <Container>
           <div>
-            <div className="bg-white shadow-lg p-4">
+            <div className="bg-white shadow-lg p-4 rounded">
               <h3 className="text-2xl font-bold text-slate-700 mb-3">
                 Our Approach
               </h3>
