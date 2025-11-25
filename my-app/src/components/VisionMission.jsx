@@ -5,7 +5,7 @@ const VisionMission = () => {
   return (
     <div>
       {/* Impact */}
-      <div className="py-5 bg-slate-50 my-2">
+      <div className="py-5 bg-slate-50 my-2 rounded">
         <Container>
           <div>
             <div className="">
@@ -45,7 +45,7 @@ const VisionMission = () => {
         </Container>
       </div>
       {/* Vision 2027 */}
-      <div className="py-5 bg-slate-50 my-2">
+      <div className="py-5 bg-slate-50 my-2  rounded">
         <Container>
           <div>
             <div className="my-5 bg-white shadow-lg p-4 rounded">
@@ -76,7 +76,7 @@ const VisionMission = () => {
       </div>
 
       {/* Mission */}
-      <div className="py-10 bg-slate-50 my-2">
+      <div className="py-10 bg-slate-50 my-2  rounded">
         <Container>
           <div>
             <div className="bg-white shadow-lg p-4 rounded">
@@ -99,7 +99,7 @@ const VisionMission = () => {
       </div>
 
       {/* Our Approach */}
-      <div className="py-10 bg-slate-50 my-2">
+      <div className="py-10 bg-slate-50 my-2  rounded">
         <Container>
           <div>
             <div className="bg-white shadow-lg p-4 rounded">
