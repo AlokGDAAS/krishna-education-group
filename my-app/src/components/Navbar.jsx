@@ -53,7 +53,7 @@ const Navbar = () => {
               <li>Study-Material</li>
             </Link>
             <Link to="vedio-lec">
-              <li>Vedio-Lecture</li>
+              <li>Video-Lecture</li>
             </Link>
             <Link to="upcoming-exams">
               <li>Upcoming-Examination</li>
@@ -90,7 +90,7 @@ const Navbar = () => {
             onClick={closeMenu}
             className="cursor-pointer m-link"
           >
-            Vedio lectures
+            Video lectures
           </Link>
           <Link
             to="upcoming-exams"
