@@ -5,7 +5,7 @@ const Courses = () => {
     const courses = ["PCS", "RO/ARO", "Lower PCS", "Other State PCS", "O Level","All Competitive Examinations"];
   return (
     <div>
-            <section id="courses" className="py-10 bg-slate-50">
+            <section id="courses" className="py-10 bg-slate-50 rounded">
       <Container>
         <h3 className="text-xl sm:text-2xl font-bold" style={{ fontFamily: "Inter, sans-serif" }}>
           Courses & Programs
