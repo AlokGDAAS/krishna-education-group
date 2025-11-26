@@ -7,42 +7,53 @@ const Practice_test = () => {
   const Card = ({ link, name, subname }) => {
     return (
       <div
-        className="cursor-pointer bg-green-600  px-4 py-2 rounded text-white md:w-full md:mx-4 w-7/12 font-semibold text-center"
-        onClick={() => navigate(link)} // ✅ Corrected
+        className="cursor-pointer bg-green-600 px-4 py-2 rounded text-white font-semibold text-center  w-7/12 mx-auto"
+        onClick={() => navigate(link)}
       >
-        {name} {subname && `- ${subname}`}  {/* ✅ Corrected */}
+        {name} {subname && `- ${subname}`}
       </div>
     );
   };
 
-  const data = [
-    // { id: 1, link: "/practice-test/upsc-en-part-1", name: "UPSC", subname: "English - Part-1" },
-    // { id: 2, link: "/practice-test/upsc-en-part-2", name: "UPSC", subname: "English - Part-2" },
-    // { id: 3, link: "/practice-test/upsc-en-part-3", name: "UPSC", subname: "English - Part-3" },
-    // { id: 4, link: "/practice-test/upsc-hi-part-1", name: "UPSC", subname: "Hindi - Part-1" },
-    // { id: 5, link: "/practice-test/upsc-hi-part-2", name: "UPSC", subname: "Hindi - Part-2" },
-    // { id: 6, link: "/practice-test/upsc-hi-part-3", name: "UPSC", subname: "Hindi - Part-3" }, 
-    { id: 8, link: "/practice-test-o-level/o-level-en-part-1", name: "O Level", subname: "English Part-1" }, 
-    { id: 9, link: "/practice-test-o-level/o-level-en-part-2", name: "O Level", subname: "English Part-2" }, 
-    { id: 10, link: "/practice-test-o-level/o-level-en-part-3", name: "O Level", subname: "English Part-3" }, 
-    { id: 11, link: "/practice-test-o-level/o-level-en-part-4", name: "O Level", subname: "English Part-4" }, 
-    { id: 12, link: "/practice-test-o-level/o-level-en-part-5", name: "O Level", subname: "English Part-5" }, 
-    { id: 13, link: "/practice-test-uppsc/uppsc-hi-part-1", name: "UPPSC", subname: "Hindi - Part-1" }, 
-    { id: 14, link: "/practice-test-uppsc/uppsc-hi-part-2", name: "UPPSC", subname: "Hindi - Part-2" }, 
-    { id: 15, link: "/practice-test-uppsc/uppsc-hi-part-3", name: "UPPSC", subname: "Hindi - Part-3" }, 
-    { id: 16, link: "/practice-test-uppsc/uppsc-hi-part-4", name: "UPPSC", subname: "Hindi - Part-4" }, 
-    { id: 17, link: "/practice-test-uppsc/uppsc-hi-part-5", name: "UPPSC", subname: "Hindi - Part-5" }, 
-    
+  const o_level_data = [
+    { id: 8, link: "/practice-test-o-level/o-level-en-part-1", name: "O Level", subname: "English Part-1" },
+    { id: 9, link: "/practice-test-o-level/o-level-en-part-2", name: "O Level", subname: "English Part-2" },
+    { id: 10, link: "/practice-test-o-level/o-level-en-part-3", name: "O Level", subname: "English Part-3" },
+    { id: 11, link: "/practice-test-o-level/o-level-en-part-4", name: "O Level", subname: "English Part-4" },
+    { id: 12, link: "/practice-test-o-level/o-level-en-part-5", name: "O Level", subname: "English Part-5" },
+  ];
 
+  const uppsc_data = [
+    { id: 13, link: "/practice-test-uppsc/uppsc-hi-part-1", name: "UPPSC", subname: "Hindi - Part-1" },
+    { id: 14, link: "/practice-test-uppsc/uppsc-hi-part-2", name: "UPPSC", subname: "Hindi - Part-2" },
+    { id: 15, link: "/practice-test-uppsc/uppsc-hi-part-3", name: "UPPSC", subname: "Hindi - Part-3" },
+    { id: 16, link: "/practice-test-uppsc/uppsc-hi-part-4", name: "UPPSC", subname: "Hindi - Part-4" },
+    { id: 17, link: "/practice-test-uppsc/uppsc-hi-part-5", name: "UPPSC", subname: "Hindi - Part-5" },
   ];
 
   return (
-    <div>
-      <h1 className="text-4xl font-bold  text-center text-yellow-100">Practice Test</h1>
+    <div className="bg-white/70 min-h-screen rounded shadow-lg py-4">
+      {/* O LEVEL SECTION */}
+      <div className="md:w-8/12 w-11/12 mx-auto mt-4 bg-white rounded shadow-lg py-6 space-y-3">
+        <h1 className="text-3xl font-bold text-center text-slate-700 text-shadow-lg">
+          O Level Practice Test
+        </h1>
 
-      <div className="mt-4 space-y-3 md:flex flex-wrap md:gap-4">
-        {data.map((item) => (
-          <div key={item.id}>  
+        {o_level_data.map((item) => (
+          <div key={item.id}>
+            <Card link={item.link} name={item.name} subname={item.subname} />
+          </div>
+        ))}
+      </div>
+
+      {/* UPPSC SECTION */}
+      <div className="md:w-8/12 w-11/12  mx-auto mt-8 py-6 space-y-3 rounded shadow-lg bg-white">
+        <h1 className="text-3xl font-bold text-center text-slate-700 text-shadow-lg">
+          UPPSC Practice Test
+        </h1>
+
+        {uppsc_data.map((item) => (
+          <div key={item.id}>
             <Card link={item.link} name={item.name} subname={item.subname} />
           </div>
         ))}
