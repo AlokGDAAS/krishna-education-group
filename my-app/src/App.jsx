@@ -14,15 +14,16 @@ import O_level_quiz from "./components/quiz/O_level_quiz";
 import UPPSC_quiz from "./components/quiz/UPPSC_quiz";
 import VedioLec from "./components/YoutubeVedios/VedioLec";
 import Main_slider_1 from "./components/ImageSlider";
+import O_level_quiz_2 from "./components/quiz/O_level_quiz_2";
 
 
 function App() {
   return (
     <div className="min-h-screen bg-[var(--secondary)]/50 p-2">
       <Navbar />
-      <div className="bg-white p-2 rounded-lg shadow-lg">
-          <Main_slider_1/>
-      </div>
+          <div className="bg-white p-2 rounded-lg shadow-lg">
+            <Main_slider_1 />
+          </div>
       
       <div className=" mx-auto py-2 min-h-screen shadow-lg">
         <Routes>
@@ -36,6 +37,7 @@ function App() {
           <Route path="practice-test" element={<Practice_test />} />
           <Route path="/practice-test/:slug" element={<Quiz/>} />
           <Route path="/practice-test-o-level/:slug" element={<O_level_quiz/>} />
+          <Route path="/practice-test-o-level_2/:slug" element={<O_level_quiz_2/>} />
           <Route path="/practice-test-uppsc/:slug" element={<UPPSC_quiz/>} />
         </Routes>
       </div>

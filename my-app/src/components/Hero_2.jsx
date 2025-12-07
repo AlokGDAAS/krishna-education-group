@@ -1,5 +1,6 @@
 import React from "react";
 import Container from "./Container";
+import Main_slider_1 from "./ImageSlider";
 
 function Badge({ children }) {
   return (
@@ -21,7 +22,7 @@ const Hero_2 = () => {
             <div>
               <Badge>Free Guidance • Since 2020</Badge>
               <h2
-                className="mt-4 text-2xl sm:text-4xl font-extrabold leading-snug text-gray-800"
+                className=" text-2xl sm:text-4xl font-extrabold leading-snug text-gray-800"
                 style={{ fontFamily: "Inter, sans-serif" }}
               >
                 Krishna Education Group: —<br />A Step Towards Success.
@@ -43,6 +44,7 @@ const Hero_2 = () => {
               />
             </div>
           </div>
+
         </Container>
       </section>
     </div>
