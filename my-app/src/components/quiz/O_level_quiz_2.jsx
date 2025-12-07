@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import {o_level_2_quiz_en_part_1} from '../quiz-data/O_level_2_quiz_data'
 import { useNavigate, useParams } from "react-router-dom";
+import UPPSC_quiz_solved from "./quiz-cards/UPPSC_quiz_solved";
 
 const O_level_quiz_2 = () => {
   const [answers, setAnswers] = useState({});
@@ -203,6 +204,17 @@ const questions = selected_1.d.filter(q => topics.includes(q.topic));
               >
                 Retry Test
               </button>
+                            <div className="mt-8">
+                {questions.map((q, index) => (
+                  <UPPSC_quiz_solved
+                    q={questions[index]}
+                    index={index}
+                    answers={answers}
+                    score={score}
+                    handleSelect={handleSelect}
+                  />
+                ))}
+              </div>
             </div>
           )}
         </div>
