@@ -272,7 +272,7 @@ export const o_level_2_quiz_en_part_1 = [
       "w3-table class creates a responsive table",
       "on large screens, there is no difference"
     ],
-    answer: "w3-table class creates a responsive table (NOT true)",
+    answer: "w3-table class creates a responsive table",
     topic: "CSS Framework"
   },
   {
@@ -547,7 +547,7 @@ export const o_level_2_quiz_en_part_1 = [
     id: 58,
     question: "Which is not a valid meta search engine?",
     options: ["Yahoo", "Startpage", "Excite", "DuckDuckGo"],
-    answer: "Yahoo (not a meta search engine)",
+    answer: "Yahoo",
     topic: "Web Publishing and Browsing"
   },
   {
@@ -590,7 +590,7 @@ export const o_level_2_quiz_en_part_1 = [
     id: 62,
     question: "Identify the incorrect media type defined in CSS 2.",
     options: ["Handheld", "Braille", "Arial", "Print"],
-    answer: "Arial (NOT a media type)",
+    answer: "Arial",
     topic: "CSS"
   },
   {
@@ -854,7 +854,7 @@ export const o_level_2_quiz_en_part_1 = [
     id: 89,
     question: "Which is not a valid list type in W3.List?",
     options: ["Small", "XSmall", "Large", "XLarge"],
-    answer: "XLarge (not valid)",
+    answer: "XLarge",
     topic: "CSS Framework"
   },
   {
@@ -908,7 +908,7 @@ export const o_level_2_quiz_en_part_1 = [
     id: 96,
     question: "Identify the non-semantic elements in HTML tags.",
     options: ["<div>", "<form>", "<table>", "<article>"],
-    answer: "<div> (non-semantic)",
+    answer: "<div>",
     topic: "HTML"
   },
   {
