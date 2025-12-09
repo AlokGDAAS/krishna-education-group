@@ -296,7 +296,7 @@ export const o_level_2_quiz_en_part_1 = [
       "Ultimate appearance of elements depends on a combination of styles",
       "Styles defined by the user agent take precedence over styles defined by the user"
     ],
-    answer: "Styles defined by the user agent take precedence over styles defined by the user (NOT true)",
+    answer: "Styles defined by the user agent take precedence over styles defined by the user",
     topic: "CSS"
   },
   {
@@ -339,7 +339,7 @@ export const o_level_2_quiz_en_part_1 = [
       "Style-class declarations are preceded by an underscore",
       "Style-class declarations are preceded by a period"
     ],
-    answer: "Style-class declarations are preceded by an underscore (NOT correct)",
+    answer: "Style-class declarations are preceded by an underscore",
     topic: "CSS"
   },
   {
@@ -626,7 +626,7 @@ export const o_level_2_quiz_en_part_1 = [
       "It separates the content and style into separate files",
       "It allows a web designer and a content author to work in parallel"
     ],
-    answer: "It separates content from the presentation but both are still contained in a single file (NOT true)",
+    answer: "It separates content from the presentation but both are still contained in a single file",
     topic: "CSS"
   },
   {
@@ -690,7 +690,7 @@ export const o_level_2_quiz_en_part_1 = [
     id: 72,
     question: "Which of the following is not a type of Screen frames in HTML?",
     options: ["iframe", "uframe", "no frame", "frameset"],
-    answer: "uframe (not valid)",
+    answer: "uframe",
     topic: "HTML"
   },
   {
@@ -747,7 +747,7 @@ export const o_level_2_quiz_en_part_1 = [
       "Headings allow a lesser numbr of letters in the headings",
       "Smallest heading tag is <h6>"
     ],
-    answer: "Headings allow a lesser numbr of letters in the headings (NOT true)",
+    answer: "Headings allow a lesser numbr of letters in the headings",
     topic: "CSS Framework"
   },
   {
@@ -759,7 +759,7 @@ export const o_level_2_quiz_en_part_1 = [
       "The style element’s type attribute specifies the MIME type that describes a file’s content",
       "All the statements are correct"
     ],
-    answer: "Class selectors are used in Embedded Style sheets (NOT correct)",
+    answer: "Class selectors are used in Embedded Style sheets",
     topic: "CSS"
   },
   {
@@ -783,7 +783,7 @@ export const o_level_2_quiz_en_part_1 = [
       "Pseudoclass is separated by an underscore from the name of the element",
       "Pseudoclass are separated by a colon from the name of the element"
     ],
-    answer: "Pseudoclass is separated by an underscore from the name of the element (incorrect)",
+    answer: "Pseudoclass is separated by an underscore from the name of the element",
     topic: "CSS"
   },
   {
@@ -920,7 +920,7 @@ export const o_level_2_quiz_en_part_1 = [
       "Establish visual layout of a webpage",
       "Markup the content of the webpage"
     ],
-    answer: "Markup the content of the webpage (NOT true)",
+    answer: "Markup the content of the webpage",
     topic: "CSS"
   },
   {
