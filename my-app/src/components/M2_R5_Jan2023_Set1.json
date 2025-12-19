@@ -590,7 +590,7 @@
     "id": 62,
     "Question": "Identify the incorrect media type defined in CSS 2.",
     "Options": ["Handheld", "Braille", "Arial", "Print"],
-    "Answer": "Arial (NOT a media type)",
+    "Answer": "Arial",
     "Topic": "CSS"
   },
   {
@@ -690,7 +690,7 @@
     "id": 72,
     "Question": "Which of the following is not a type of Screen frames in HTML?",
     "Options": ["iframe", "uframe", "no frame", "frameset"],
-    "Answer": "uframe (not valid)",
+    "Answer": "uframe",
     "Topic": "HTML"
   },
   {
@@ -908,7 +908,7 @@
     "id": 96,
     "question": "Identify the non-semantic elements in HTML tags.",
     "options": ["<div>", "<form>", "<table>", "<article>"],
-    "answer": "<div> (non-semantic)",
+    "answer": "<div>",
     "topic": "HTML"
   },
   {
@@ -920,7 +920,7 @@
       "Establish visual layout of a webpage",
       "Markup the content of the webpage"
     ],
-    "answer": "Markup the content of the webpage (NOT true)",
+    "answer": "Markup the content of the webpage",
     "topic": "CSS"
   },
   {

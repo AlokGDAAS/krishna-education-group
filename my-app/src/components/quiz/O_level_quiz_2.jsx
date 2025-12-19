@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {o_level_2_quiz_en_part_1} from '../quiz-data/O_level_2_quiz_data'
+import M2_R5_Jan2023_Set1 from '../M2_R5_Jan2023_Set1.json'
 import { useNavigate, useParams } from "react-router-dom";
 import UPPSC_quiz_solved from "./quiz-cards/UPPSC_quiz_solved";
 
@@ -10,12 +10,12 @@ const O_level_quiz_2 = () => {
   const [details , setDetails] = useState(false)
   const {slug} = useParams()
   const navigate = useNavigate();  
-  const topics = ["HTML", "CSS"];
+  const topics = ["HTML", "CSS","CSS Framework"];
 
 
 
   const questions_data = [
-    { head:"o-level_2-en-part-1" , d: o_level_2_quiz_en_part_1, heading:"O Level 2 Practice Test" },
+    { head:"M2_R5_Jan2023_Set1" , d:M2_R5_Jan2023_Set1, heading:"O Level 2 Practice Test" },
 
   ]
 
@@ -32,6 +32,11 @@ const O_level_quiz_2 = () => {
   };
 
 const selected_1 = questions_data.find(q => q.head === slug);
+
+if (!selected_1) {
+  console.error("Invalid slug:", slug);
+  return <p className="text-center mt-10 text-red-600">Invalid Test URL</p>;
+}
 
 // Filter questions only for HTML and CSS topics
 const questions = selected_1.d.filter(q => topics.includes(q.topic));

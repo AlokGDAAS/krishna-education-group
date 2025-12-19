@@ -1,0 +1,1202 @@
+[
+  {
+    "id": 1,
+    "question": "\"w3-border-0\" is a border property for w3.css, which of the following is true ?",
+    "options": [
+      "It has rounded borders",
+      "removes all borders",
+      "removes rounded borders only",
+      "None of these"
+    ],
+    "answer": "removes all borders",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 2,
+    "question": "“w3-row-padding” is a class which defines :",
+    "options": [
+      "Container for responsive classes, with 8px left and right padding",
+      "Container for responsive classes with no padding",
+      "Container for responsive classes with padding",
+      "None of these"
+    ],
+    "answer": "Container for responsive classes, with 8px left and right padding",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 3,
+    "question": "What is true for HTML ?",
+    "options": [
+      "It is used to design static web pages.",
+      "It is used to design dynamic web pages",
+      "Both (A) and (B) are true",
+      "None is true"
+    ],
+    "answer": "It is used to design static web pages.",
+    "topic": "HTML"
+  },
+  {
+    "id": 4,
+    "question": "The proper sequence of tags in HTML while coding for a web page is :",
+    "options": [
+      "<HTML>, <TITLE>, <BODY>, <HEAD>",
+      "<HEAD>, <HTML>, <TITLE>, <BODY>",
+      "<HTML>, <HEAD>, <TITLE>, <BODY>",
+      "<HTML>, <HEAD>, <BODY>, <TITLE>"
+    ],
+    "answer": "<HTML>, <HEAD>, <TITLE>, <BODY>",
+    "topic": "HTML"
+  },
+  {
+    "id": 5,
+    "question": "If you think the value of the variable can change then which keyword is used ?",
+    "options": [
+      "Var",
+      "Const",
+      "Let",
+      "nothing"
+    ],
+    "answer": "Let",
+    "topic": "Javascript"
+  },
+  {
+    "id": 6,
+    "question": "In CSS the difference between two lines of your content is set by :",
+    "options": [
+      "min-height property",
+      "line-height property",
+      "max-height property",
+      "none of these"
+    ],
+    "answer": "line-height property",
+    "topic": "CSS"
+  },
+  {
+    "id": 7,
+    "question": "The # in the above lines of code represents:",
+    "options": [
+      "an id tag",
+      "class name",
+      "an universal tag",
+      "horizontal frame"
+    ],
+    "answer": "an id tag",
+    "topic": "CSS"
+  },
+  {
+    "id": 8,
+    "question": "What is the World Wide Web ?",
+    "options": [
+      "Software that controls the internet.",
+      "Another name for the internet.",
+      "System for interconnected WebPages which are accessible over the internet.",
+      "All of the above"
+    ],
+    "answer": "System for interconnected WebPages which are accessible over the internet.",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 9,
+    "question": "Following HTML tag is used to declare internal CSS :",
+    "options": [
+      "<style>",
+      "<Head>",
+      "<link>",
+      "<Script>"
+    ],
+    "answer": "<style>",
+    "topic": "HTML"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following type of variable is visible only within a function where it is defined ?",
+    "options": [
+      "Global variable",
+      "Local variable",
+      "Both (A) and (B)",
+      "None of the above"
+    ],
+    "answer": "Local variable",
+    "topic": "Javascript"
+  },
+  {
+    "id": 11,
+    "question": "Function that allow calculation in CSS :",
+    "options": [
+      "calc() function",
+      "calculator()",
+      "calculate()",
+      "calcu()"
+    ],
+    "answer": "calc() function",
+    "topic": "CSS"
+  },
+  {
+    "id": 12,
+    "question": "The curve adjustment is used to control the :",
+    "options": [
+      "exposure in the image",
+      "shape of the image",
+      "direction of the image",
+      "All of the above"
+    ],
+    "answer": "exposure in the image",
+    "topic": "Photo Editor"
+  },
+  {
+    "id": 13,
+    "question": "All the tags present in HTML are :",
+    "options": [
+      "Non - Case Sensitive",
+      "Lower Case",
+      "Upper Case",
+      "Case Sensitive"
+    ],
+    "answer": "Non - Case Sensitive",
+    "topic": "HTML"
+  },
+  {
+    "id": 14,
+    "question": "Which of the following Programming languages are used for Back end purpose :",
+    "options": [
+      "C#",
+      "Ruby",
+      "Golang",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 15,
+    "question": "The attribute used to change the background color of an element in CSS :",
+    "options": [
+      "bgcolor",
+      "color-bg",
+      "bg-color",
+      "background - color"
+    ],
+    "answer": "background - color",
+    "topic": "CSS"
+  },
+  {
+    "id": 16,
+    "question": "Which of the following element does not belong to the w3-container class ?",
+    "options": [
+      "<section>",
+      "<get>",
+      "<blockquote>",
+      "<header>"
+    ],
+    "answer": "<get>",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 17,
+    "question": "“w3 - border” is one of the class used for w3.CSS tables which defines :",
+    "options": [
+      "Bordered lines",
+      "Bordered Table",
+      "Dashed lines",
+      "None of these"
+    ],
+    "answer": "Bordered lines",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 18,
+    "question": "Which of the following are free web browsers ?",
+    "options": [
+      "Opera",
+      "Mozilla Firefox",
+      "Brave",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 19,
+    "question": "Which of the following selector is used to select elements whose attribute value ends with a specified value.",
+    "options": [
+      "[attribute=\"value\"]",
+      "[attribute$=\"value\"]",
+      "[$attribute=\"value\"]",
+      "[attribute^=\"value\"]"
+    ],
+    "answer": "[attribute$=\"value\"]",
+    "topic": "CSS"
+  },
+  {
+    "id": 20,
+    "question": "“This” is a :",
+    "options": [
+      "Keyword",
+      "Function",
+      "Declaration Statement",
+      "Data Type"
+    ],
+    "answer": "Keyword",
+    "topic": "Javascript"
+  },
+  {
+    "id": 21,
+    "question": "A module in AngularJS can be created using :",
+    "options": [
+      "angularjs.module",
+      "module.angular",
+      "angular.modules",
+      "angular.module"
+    ],
+    "answer": "angular.module",
+    "topic": "Angular"
+  },
+  {
+    "id": 22,
+    "question": "The protocol HTTP works on which port?",
+    "options": [
+      "20",
+      "80",
+      "21",
+      "443"
+    ],
+    "answer": "80",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 23,
+    "question": "The alert() function in JavaScript is used for :",
+    "options": [
+      "To display a virtual alert box",
+      "To display output on console",
+      "To evaluate the expression",
+      "Both (A) and (C)"
+    ],
+    "answer": "To display a virtual alert box",
+    "topic": "Javascript"
+  },
+  {
+    "id": 24,
+    "question": "Function to insert values of a CSS variable is :",
+    "options": [
+      "var()",
+      "rand()",
+      "varchar()",
+      "calc()"
+    ],
+    "answer": "var()",
+    "topic": "CSS"
+  },
+  {
+    "id": 25,
+    "question": "A type of combinator in CSS is :",
+    "options": [
+      ">",
+      "+",
+      "~",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "CSS"
+  },
+  {
+    "id": 26,
+    "question": "What is the usage of “alt” attribute in the img tag?",
+    "options": [
+      "Specifies an alternate text if the image is not displayed",
+      "Displays alternate text along with the image",
+      "Displays the image only",
+      "None of these"
+    ],
+    "answer": "Specifies an alternate text if the image is not displayed",
+    "topic": "HTML"
+  },
+  {
+    "id": 27,
+    "question": "Which of the following is true for HTTP protocol?",
+    "options": [
+      "Stateless",
+      "Statefull",
+      "Both (A) and (B)",
+      "None of these"
+    ],
+    "answer": "Stateless",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 28,
+    "question": "New layers in an image are always added to the :",
+    "options": [
+      "Top of the stack",
+      "Bottom of the stack",
+      "Middle of the stack",
+      "None of the above"
+    ],
+    "answer": "Top of the stack",
+    "topic": "Photo Editor"
+  },
+  {
+    "id": 29,
+    "question": "The HTML <iframe> tag specifies :",
+    "options": [
+      "An inline frame",
+      "An outline frame",
+      "A vertical frame",
+      "A horizontal frame"
+    ],
+    "answer": "An inline frame",
+    "topic": "HTML"
+  },
+  {
+    "id": 30,
+    "question": "Which of the following is not a selection tool in Photoshop?",
+    "options": [
+      "Marquee",
+      "Lasso",
+      "Grow",
+      "Reverse"
+    ],
+    "answer": "Reverse",
+    "topic": "Photo Editor"
+  },
+  {
+    "id": 31,
+    "question": "URL stands for which of the following:",
+    "options": [
+      "Uniform Research Locator",
+      "Uniform Resource Locator",
+      "Universal Resource Locator",
+      "None of these"
+    ],
+    "answer": "Uniform Resource Locator",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 32,
+    "question": "The root element is another name of which of the following tags?",
+    "options": [
+      "<head>",
+      "<body>",
+      "<element>",
+      "<html>"
+    ],
+    "answer": "<html>",
+    "topic": "HTML"
+  },
+  {
+    "id": 33,
+    "question": "What indentation options are available in Sublime Text editor?",
+    "options": [
+      "Indent",
+      "Unindent",
+      "Reindent",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "Editors"
+  },
+  {
+    "id": 34,
+    "question": "AngularJS developed by __________ and follows __________.",
+    "options": [
+      "Misko Hevery, Model View Controller",
+      "Elon Musk, Model View Data",
+      "Bill Gates, Spiral Model",
+      "Amazon, Model View System"
+    ],
+    "answer": "Misko Hevery, Model View Controller",
+    "topic": "Angular"
+  },
+  {
+    "id": 35,
+    "question": "Document Object Model represents :",
+    "options": [
+      "Whole HTML Document",
+      "Only <title> element",
+      "<body>..</body> element",
+      "None of the above"
+    ],
+    "answer": "Whole HTML Document",
+    "topic": "Javascript"
+  },
+  {
+    "id": 36,
+    "question": "Which protocol is used to transmit information on www?",
+    "options": [
+      "HTPP",
+      "HTTP",
+      "HPPT",
+      "HTTTP"
+    ],
+    "answer": "HTTP",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 37,
+    "question": "Id selector is denoted by :",
+    "options": [
+      "#",
+      "1#",
+      "*",
+      "None of these"
+    ],
+    "answer": "#",
+    "topic": "CSS"
+  },
+  {
+    "id": 38,
+    "question": "Which of the following frameworks are used for backend?",
+    "options": [
+      "Flask",
+      "Express",
+      "Django",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "Javascript"
+  },
+  {
+    "id": 39,
+    "question": "Which of the following directives are used in AngularJS?",
+    "options": [
+      "ng-app",
+      "nc-init",
+      "Both (A) and (B)",
+      "None of the above"
+    ],
+    "answer": "ng-app",
+    "topic": "Angular"
+  },
+  {
+    "id": 40,
+    "question": "Which of the following is not a browser?",
+    "options": [
+      "Chrome",
+      "Firefox",
+      "Google",
+      "Safari"
+    ],
+    "answer": "Google",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 41,
+    "question": "*my classname { attributes here } In the above line of code * represents:",
+    "options": [
+      "class selector",
+      "universal selector",
+      "id selector",
+      "None of the above"
+    ],
+    "answer": "universal selector",
+    "topic": "CSS"
+  },
+  {
+    "id": 42,
+    "question": "Which of the following w3.CSS classes is not used to align-text?",
+    "options": [
+      "class=\"w3-left-align\"",
+      "class=\"w3-right-align\"",
+      "class=\"w3-center-align\"",
+      "class=\"w3-center\""
+    ],
+    "answer": "class=\"w3-center-align\"",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 43,
+    "question": "The ng-model directive in AngularJS provides:",
+    "options": [
+      "type validation for application data",
+      "status for application data",
+      "CSS classes for HTML elements",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "Angular"
+  },
+  {
+    "id": 44,
+    "question": "Which of the following classes is used to display an extra large list?",
+    "options": [
+      "w3-large",
+      "w3-xxlarge",
+      "w3-xlarge",
+      "None of these"
+    ],
+    "answer": "w3-xxlarge",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 45,
+    "question": "HSL in CSS stands for?",
+    "options": [
+      "hue, standard, lightning",
+      "height, standard, line-break",
+      "hue, saturation, lightness",
+      "hue, standard, line-width"
+    ],
+    "answer": "hue, saturation, lightness",
+    "topic": "CSS"
+  },
+  {
+    "id": 46,
+    "question": "Notepad++ is written in which language?",
+    "options": [
+      "PHP",
+      "Python",
+      "C++",
+      "Java"
+    ],
+    "answer": "C++",
+    "topic": "Editors"
+  },
+  {
+    "id": 47,
+    "question": "Which of the following IDEs are used for the development of AngularJS?",
+    "options": [
+      "Sublime Text",
+      "Eclipse",
+      "Visual Studio",
+      "All of these"
+    ],
+    "answer": "All of these",
+    "topic": "Editors"
+  },
+  {
+    "id": 48,
+    "question": "To add rounded corners to an image which class is used?",
+    "options": [
+      "w3-round-corner",
+      "w3-rounded",
+      "w3-round",
+      "None of these"
+    ],
+    "answer": "w3-round",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 49,
+    "question": "The type of CSS popularly used for designing pages for websites:",
+    "options": [
+      "Inline",
+      "External",
+      "Internal",
+      "None of the above"
+    ],
+    "answer": "External",
+    "topic": "CSS"
+  },
+  {
+    "id": 50,
+    "question": "In order to change the shape which tool is used?",
+    "options": [
+      "Free transform tool",
+      "Free tool",
+      "Transform Free tool",
+      "None of the above"
+    ],
+    "answer": "Free transform tool",
+    "topic": "Photo Editor"
+  },
+  {
+    "id": 51,
+    "question": "How to change the text sizes in CSS?",
+    "options": [
+      "font-family",
+      "font size",
+      "font",
+      "Both (A) and (C)"
+    ],
+    "answer": "font",
+    "topic": "CSS"
+  },
+  {
+    "id": 52,
+    "question": "Which of the following is not a search engine?",
+    "options": [
+      "Safari",
+      "Yahoo",
+      "Google",
+      "DuckDuckGo"
+    ],
+    "answer": "Safari",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 53,
+    "question": "“s3” class in w3.CSS defines:",
+    "options": [
+      "3 of 12 columns (width:33.33%) for large screens",
+      "3 of 12 columns (width:33.33%) for small screens",
+      "3 of 12 columns (width:25.00%) for small screens",
+      "3 of 12 columns (height:25.00%) for large screens"
+    ],
+    "answer": "3 of 12 columns (width:33.33%) for small screens",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 54,
+    "question": "On encountering an empty statement the interpreter will do:",
+    "options": [
+      "Encounters an error",
+      "Ignores the statements",
+      "Throw exception",
+      "None of these"
+    ],
+    "answer": "Ignores the statements",
+    "topic": "Javascript"
+  },
+  {
+    "id": 55,
+    "question": "Confirm() method in JavaScript belongs to which object?",
+    "options": [
+      "document",
+      "window",
+      "frame",
+      "method"
+    ],
+    "answer": "window",
+    "topic": "Javascript"
+  },
+  {
+    "id": 56,
+    "question": "Which of the following is the default font used in w3.CSS?",
+    "options": [
+      "Times New Roman",
+      "Verdana",
+      "Arial",
+      "Segoe UI"
+    ],
+    "answer": "Verdana",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 57,
+    "question": "Sublime text editor is written in which language?",
+    "options": [
+      "PHP",
+      "Python",
+      "C++",
+      "Both (B) and (C)"
+    ],
+    "answer": "Both (B) and (C)",
+    "topic": "Editors"
+  },
+  {
+    "id": 58,
+    "question": "Which of the following are two common event handler functions used for both Buttons and Movie Clips?",
+    "options": [
+      "onRollOver()",
+      "onRollOut()",
+      "Both (A) and (B)",
+      "None of the above"
+    ],
+    "answer": "Both (A) and (B)",
+    "topic": "Javascript"
+  },
+  {
+    "id": 59,
+    "question": "Which of the following is the correct CSS syntax?",
+    "options": [
+      "<h1 \"color:Tomato;\">...</h1>",
+      "<h1 style:\"color=Tomato;\">...</h1>",
+      "<h1 style=\"color:Tomato;\">...</h1>",
+      "<h1 \"color=Tomato;\">...</h1>"
+    ],
+    "answer": "<h1 style=\"color:Tomato;\">...</h1>",
+    "topic": "CSS"
+  },
+  {
+    "id": 60,
+    "question": "Which of the following is the symbol used for filter in AngularJS?",
+    "options": [
+      "||",
+      "|",
+      "^|^",
+      "&|&"
+    ],
+    "answer": "|",
+    "topic": "Angular"
+  },
+  {
+    "id": 61,
+    "question": "Which tags won’t get affected if their closing tags are not used in HTML?",
+    "options": [
+      "<html>",
+      "<hr>",
+      "<br>",
+      "Both (B) and (C)"
+    ],
+    "answer": "Both (B) and (C)",
+    "topic": "HTML"
+  },
+  {
+    "id": 62,
+    "question": "Which of the following is the correct Tween in Adobe Flash CS4?",
+    "options": [
+      "Classic Tween",
+      "Shape tweens",
+      "Motion Tween",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "Photo Editor"
+  },
+  {
+    "id": 63,
+    "question": "What will be the response of the form if method = 'post'?",
+    "options": [
+      "Submitted form data is not shown in the URL",
+      "Submitted form data is shown in the URL",
+      "Appends the form data to the URL, in name/value pairs",
+      "None of these"
+    ],
+    "answer": "Submitted form data is not shown in the URL",
+    "topic": "Javascript"
+  },
+  {
+    "id": 64,
+    "question": "Which of the following is used to specify the transparency of an element in CSS?",
+    "options": [
+      "opacity",
+      "filter",
+      "visibility",
+      "vague"
+    ],
+    "answer": "opacity",
+    "topic": "CSS"
+  },
+  {
+    "id": 65,
+    "question": "The operator '>>>' represents:",
+    "options": [
+      "Bitwise Right shift",
+      "Bitwise Right shift with zero",
+      "Bitwise Left shift",
+      "Bitwise Left shift with zero"
+    ],
+    "answer": "Bitwise Right shift with zero",
+    "topic": "Javascript"
+  },
+  {
+    "id": 66,
+    "question": "Sublime Text editor is compatible with which Operating System?",
+    "options": [
+      "Windows",
+      "Linux",
+      "MacOS",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "Editors"
+  },
+  {
+    "id": 67,
+    "question": "The correct syntax for referring to an external CSS?",
+    "options": [
+      "<link rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+      "<style rel=\"stylesheet\" type=\"text/css\" href=\"style.css\">",
+      "Both (A) and (B)",
+      "Neither (A) nor (B)"
+    ],
+    "answer": "Neither (A) nor (B)",
+    "topic": "CSS"
+  },
+  {
+    "id": 68,
+    "question": "Which of the following supported the initial INTERNET development?",
+    "options": [
+      "IBM",
+      "Microsoft",
+      "ARPANET",
+      "None of these"
+    ],
+    "answer": "ARPANET",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 69,
+    "question": "How to add shadow to text in CSS?",
+    "options": [
+      "Content Shadow",
+      "Text Shadow",
+      "Word Shadow",
+      "Text outline"
+    ],
+    "answer": "Text Shadow",
+    "topic": "CSS"
+  },
+  {
+    "id": 70,
+    "question": "Which of the following are the methods of the MovieClip object?",
+    "options": [
+      "play()",
+      "stop()",
+      "gotoAndPlay()",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "Photo Editor"
+  },
+  {
+    "id": 71,
+    "question": "How many heading tags are available in HTML by default?",
+    "options": [
+      "2",
+      "6",
+      "4",
+      "7"
+    ],
+    "answer": "6",
+    "topic": "HTML"
+  },
+  {
+    "id": 72,
+    "question": "How to remove parts of an image?",
+    "options": [
+      "by using crop feature",
+      "by using resize feature",
+      "by using rotate feature",
+      "by using print feature"
+    ],
+    "answer": "by using crop feature",
+    "topic": "Angular"
+  },
+  {
+    "id": 73,
+    "question": "Expressions in AngularJS can be written as:",
+    "options": [
+      "{{expression}}",
+      "ng-bind=\"expression\"",
+      "Both (A) and (B)",
+      "None of the above"
+    ],
+    "answer": "Both (A) and (B)",
+    "topic": "Angular"
+  },
+  {
+    "id": 74,
+    "question": "A new directive in AngularJS is created by using:",
+    "options": [
+      ".directive",
+      ".directives",
+      "function.directive",
+      "angular.directives"
+    ],
+    "answer": ".directive",
+    "topic": "Angular"
+  },
+  {
+    "id": 75,
+    "question": "SGML stands for:",
+    "options": [
+      "Standard group markup language",
+      "Style general markup language",
+      "Standard generalized markup language",
+      "Style generalized markup language"
+    ],
+    "answer": "Standard generalized markup language",
+    "topic": "HTML"
+  },
+  {
+    "id": 76,
+    "question": "Which of the following is a type of web hosting?",
+    "options": [
+      "Shared hosting",
+      "Virtual private server",
+      "Cloud",
+      "All of these"
+    ],
+    "answer": "All of these",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 77,
+    "question": "Which option would you adjust to make colors more vivid?",
+    "options": [
+      "Sharpness",
+      "Noise reduction",
+      "Saturation",
+      "Image Dimensions"
+    ],
+    "answer": "Saturation",
+    "topic": "CSS"
+  },
+  {
+    "id": 78,
+    "question": "Who proposed the World Wide Web (www)?",
+    "options": [
+      "Tim Berner Lee",
+      "Bill Gates",
+      "Elon Musk",
+      "Bill Rogers"
+    ],
+    "answer": "Tim Berner Lee",
+    "topic": "Web Publishing and Browsing"
+  },
+  {
+    "id": 79,
+    "question": "“w3-hover-color” class defines the:",
+    "options": [
+      "text hover color for any html element",
+      "color of any html element",
+      "background hover color for any html elements",
+      "None of these"
+    ],
+    "answer": "text hover color for any html element",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 80,
+    "question": "In which of the following ways can you insert a SCRIPT tag in JavaScript?",
+    "options": [
+      "Between two BODY tags",
+      "Between two HEAD tags",
+      "In the HEAD section as a link to an external file",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "Javascript"
+  },
+  {
+    "id": 81,
+    "question": "In CSS which of the following are different types of gradients?",
+    "options": [
+      "Linear",
+      "Conic",
+      "Radial",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "CSS"
+  },
+  {
+    "id": 82,
+    "question": "Which property of w3.CSS restricts a responsive image to a maximum size?",
+    "options": [
+      "max:width property",
+      "image:restrict property",
+      "max:height property",
+      "image:width property"
+    ],
+    "answer": "max:width property",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 83,
+    "question": "Which of these represents the description list tags?",
+    "options": [
+      "<tr>, <td>, <dl>",
+      "<dt>, <dl>, <d>",
+      "<dt>, <dl>, <dd1>",
+      "<dt>, <dl>, <dd>"
+    ],
+    "answer": "<dt>, <dl>, <dd>",
+    "topic": "HTML"
+  },
+  {
+    "id": 84,
+    "question": "W3.CSS is a standard CSS that has:",
+    "options": [
+      "jQuery library",
+      "JavaScript library",
+      "Both (A) and (B) are true",
+      "Both (A) and (B) are false"
+    ],
+    "answer": "Both (A) and (B) are false",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 85,
+    "question": "Which of the following is the correct syntax of variables in JavaScript?",
+    "options": [
+      "2number",
+      "my phone number",
+      "my_phone_number",
+      "None of these"
+    ],
+    "answer": "my_phone_number",
+    "topic": "Javascript"
+  },
+  {
+    "id": 86,
+    "question": "An HTML program can be compiled using which extension?",
+    "options": [
+      ".html and .ht",
+      ".ht and .htm",
+      ".html and .h",
+      ".htm and .html"
+    ],
+    "answer": ".htm and .html",
+    "topic": "HTML"
+  },
+  {
+    "id": 87,
+    "question": "The syntax of AngularJS looks like:",
+    "options": [
+      "<div ng-app=\" \">...</div>",
+      "<div nk-app=\" \">...</div>",
+      "<div nc-init=\" \">...</div>",
+      "None of the above"
+    ],
+    "answer": "<div ng-app=\" \">...</div>",
+    "topic": "Angular"
+  },
+  {
+    "id": 88,
+    "question": "W3.CSS has a panel class that adds top/bottom margin and left/right padding. Which is true?",
+    "options": [
+      "16px, 16px, 16px, 16px",
+      "16px, 20px, 14px, 14px",
+      "16px, 16px, 14px, 14px",
+      "14px, 14px, 16px, 16px"
+    ],
+    "answer": "16px, 16px, 14px, 14px",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 89,
+    "question": "Which of the following is an image file format?",
+    "options": [
+      ".docx",
+      ".txt",
+      ".pdf",
+      ".jpg"
+    ],
+    "answer": ".jpg",
+    "topic": "HTML"
+  },
+  {
+    "id": 90,
+    "question": "The attribute used to make rounded corners around an element in CSS is:",
+    "options": [
+      "border-radius",
+      "border-round",
+      "border-spacing",
+      "None of the above"
+    ],
+    "answer": "border-radius",
+    "topic": "CSS"
+  },
+  {
+    "id": 91,
+    "question": "Different ways in which CSS can be added to HTML:",
+    "options": [
+      "Inline",
+      "Internal",
+      "External",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "CSS"
+  },
+  {
+    "id": 92,
+    "question": "Give the output of the program: alert(number) where number=50 globally.",
+    "options": [
+      "50",
+      "Error",
+      "Number",
+      "None of the above"
+    ],
+    "answer": "50",
+    "topic": "Javascript"
+  },
+  {
+    "id": 93,
+    "question": "Symbol used to write comments in CSS is:",
+    "options": [
+      "/**/",
+      "//",
+      "##",
+      "#"
+    ],
+    "answer": "/**/",
+    "topic": "CSS"
+  },
+  {
+    "id": 94,
+    "question": "Syntax to add container in w3.CSS:",
+    "options": [
+      "class=\"w3-container\"",
+      "class=\"container\"",
+      "class=\"w3.container\"",
+      "None of these"
+    ],
+    "answer": "class=\"w3-container\"",
+    "topic": "CSS Framework"
+  },
+  {
+    "id": 95,
+    "question": "Which of the following is not a photo editor tool?",
+    "options": [
+      "Canva",
+      "Photopea",
+      "Pixel",
+      "All of the above"
+    ],
+    "answer": "Pixel",
+    "topic": "Photo Editor"
+  },
+  {
+    "id": 96,
+    "question": "Which of the programming languages are supported by Notepad++?",
+    "options": [
+      "MATLAB",
+      "R",
+      "Both (A) and (B)",
+      "None of these"
+    ],
+    "answer": "Both (A) and (B)",
+    "topic": "Editors"
+  },
+  {
+    "id": 97,
+    "question": "Tone balance feature in Photoshop is split into:",
+    "options": [
+      "Shadows",
+      "Midtones",
+      "Highlights",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "topic": "Photo Editor"
+  },
+  {
+    "id": 98,
+    "question": "Effect of missing name attribute in HTML form input?",
+    "options": [
+      "Value of that input field will not be submitted",
+      "Value of that input field will be submitted",
+      "Code will get an error",
+      "None of these"
+    ],
+    "answer": "Value of that input field will not be submitted",
+    "topic": "HTML"
+  },
+  {
+    "id": 99,
+    "question": "What happens if we set target attribute to '_blank' in form?",
+    "options": [
+      "Response shown in current window",
+      "Response shown in a new window or tab",
+      "Response shown in parent frame",
+      "None of these"
+    ],
+    "answer": "Response shown in a new window or tab",
+    "topic": "HTML"
+  },
+  {
+    "id": 100,
+    "question": "What does an empty tag represent?",
+    "options": [
+      "No concept like this",
+      "Does not require a closing tag",
+      "It does not contain any content",
+      "None of the above"
+    ],
+    "answer": "It does not contain any content",
+    "topic": "HTML"
+  }
+]
