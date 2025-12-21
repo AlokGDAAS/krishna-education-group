@@ -482,247 +482,247 @@
   {
     "id": 51,
     "Question": "Service which helps an organization to host a website on the Web Server:",
-    "Options": [
+    "options": [
       "Web Service",
       "Web Hosting",
       "Web Marketing",
       "Web Publishing"
     ],
     "Answer": "Web Hosting",
-    "Topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing"
   },
   {
     "id": 52,
     "Question": "Which is not a vibrant color?",
-    "Options": ["Red", "Orange", "White", "Purple"],
+    "options": ["Red", "Orange", "White", "Purple"],
     "Answer": "White",
-    "Topic": "CSS"
+    "topic": "CSS"
   },
   {
     "id": 53,
     "Question": "Identify which is not the correct Image Class in W3.Image.",
-    "Options": ["w3-round", "w3-circle", "w3-border", "w3-oval"],
+    "options": ["w3-round", "w3-circle", "w3-border", "w3-oval"],
     "Answer": "w3-oval",
-    "Topic": "CSS Framework"
+    "topic": "CSS Framework"
   },
   {
     "id": 54,
     "Question": "To cluster a group of elements together to apply formatting:",
-    "Options": ["tag", "class", "id", "div"],
+    "options": ["tag", "class", "id", "div"],
     "Answer": "div",
-    "Topic": "HTML"
+    "topic": "HTML"
   },
   {
     "id": 55,
     "Question": "Identify the correct statement for Absolute Positioning in CSS:",
-    "Options": [
+    "options": [
       "It is a browser determined positioning",
       "It uses the position property of CSS to define absolute positioning",
       "It gives authors greater control on how elements are displayed",
       "None of the above statements are correct"
     ],
     "Answer": "It uses the position property of CSS to define absolute positioning",
-    "Topic": "CSS"
+    "topic": "CSS"
   },
   {
     "id": 56,
     "Question": "How many columns are supported in the responsive grid?",
-    "Options": ["10", "11", "12", "13"],
+    "options": ["10", "11", "12", "13"],
     "Answer": "12",
-    "Topic": "CSS Framework"
+    "topic": "CSS Framework"
   },
   {
     "id": 57,
     "Question": "What is the role of JavaScript in web design?",
-    "Options": [
+    "options": [
       "Define the content of webpages",
       "Specify the layout of webpages",
       "Program the behavior of webpages",
       "None of the above"
     ],
     "Answer": "Program the behavior of webpages",
-    "Topic": "Javascript"
+    "topic": "Javascript"
   },
   {
     "id": 58,
     "Question": "Which is not a valid meta search engine?",
-    "Options": ["Yahoo", "Startpage", "Excite", "DuckDuckGo"],
+    "options": ["Yahoo", "Startpage", "Excite", "DuckDuckGo"],
     "Answer": "Yahoo (not a meta search engine)",
-    "Topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing"
   },
   {
     "id": 59,
     "Question": "__________ are used to identify user input, user action and browser actions.",
-    "Options": [
+    "options": [
       "Input handler",
       "Event handler",
       "Document handler",
       "Action handler"
     ],
     "Answer": "Event handler",
-    "Topic": "HTML"
+    "topic": "HTML"
   },
   {
     "id": 60,
     "Question": "Quick Selection tool is used for the purpose of:",
-    "Options": [
+    "options": [
       "Copy Selection",
       "Paste Selection",
       "Find image edges and automatically stops the selection",
       "None of the above"
     ],
     "Answer": "Find image edges and automatically stops the selection",
-    "Topic": "Photo Editor"
+    "topic": "Photo Editor"
   },
   {
     "id": 61,
     "Question": "What is true about the Box model of CSS",
-    "Options": [
+    "options": [
       "It defines a virtual box drawn around elements",
       "Content of each element is surrounded by padding only",
       "Content of each element is surrounded by a border only",
       "Content of each element is surrounded by a margin only"
     ],
     "Answer": "It defines a virtual box drawn around elements",
-    "Topic": "CSS"
+    "topic": "CSS"
   },
   {
     "id": 62,
     "Question": "Identify the incorrect media type defined in CSS 2.",
-    "Options": ["Handheld", "Braille", "Arial", "Print"],
+    "options": ["Handheld", "Braille", "Arial", "Print"],
     "Answer": "Arial",
-    "Topic": "CSS"
+    "topic": "CSS"
   },
   {
     "id": 63,
     "Question": "w3-color and w3-text-color classes can be used to color:",
-    "Options": [
+    "options": [
       "any HTML element",
       "Heading only",
       "paragraph element only",
       "table element only"
     ],
     "Answer": "any HTML element",
-    "Topic": "CSS Framework"
+    "topic": "CSS Framework"
   },
   {
     "id": 64,
     "Question": "Shortcut keys to activate Gaussian Blur:",
-    "Options": [
+    "options": [
       "CTRL+Alt+Shift+G",
       "CTRL+Alt+G",
       "CTRL+Shift+G",
       "CTRL+Alt+Shift+0"
     ],
     "Answer": "CTRL+Alt+Shift+G",
-    "Topic": "Photo Editor"
+    "topic": "Photo Editor"
   },
   {
     "id": 65,
     "Question": "What is not true about External Style sheet?",
-    "Options": [
+    "options": [
       "It is a separate document that contains only CSS rules",
       "It separates content from the presentation but both are still contained in a single file",
       "It separates the content and style into separate files",
       "It allows a web designer and a content author to work in parallel"
     ],
     "Answer": "It separates content from the presentation but both are still contained in a single file (NOT true)",
-    "Topic": "CSS"
+    "topic": "CSS"
   },
   {
     "id": 66,
     "Question": "Identify the invalid statement about Angular JS Expressions.",
-    "Options": [
+    "options": [
       "written inside double braces: {{ expression }}",
       "written inside a directive: ng-bind='expression'",
       "return the result exactly where the expression is written",
       "Angular JS expressions are different from JavaScript expressions"
     ],
     "Answer": "Angular JS expressions are different from JavaScript expressions (invalid)",
-    "Topic": "Angular"
+    "topic": "Angular"
   },
   {
     "id": 67,
     "Question": "__________ tag embeds CSS in a webpage.",
-    "Options": ["<html>", "<style>", "<css>", "<xml>"],
+    "options": ["<html>", "<style>", "<css>", "<xml>"],
     "Answer": "<style>",
-    "Topic": "HTML"
+    "topic": "HTML"
   },
   {
     "id": 68,
     "Question": "What is not true about ng-repeat directive in Angular JS?",
-    "Options": [
+    "options": [
       "repeats an HTML element",
       "clones HTML elements once for each item in a collection",
       "used on an array of objects",
       "defines initial values for an Angular JS application"
     ],
     "Answer": "defines initial values for an Angular JS application (NOT true)",
-    "Topic": "Angular"
+    "topic": "Angular"
   },
   {
     "id": 69,
     "Question": "Which operator is used to get datatype of a variable in JavaScript?",
-    "Options": ["instanceof", "gettype", "typeof", "none of the above"],
+    "options": ["instanceof", "gettype", "typeof", "none of the above"],
     "Answer": "typeof",
-    "Topic": "Javascript"
+    "topic": "Javascript"
   },
   {
     "id": 70,
     "Question": "MIME stands for _________.",
-    "Options": [
+    "options": [
       "Multipurpose Internet Mail Extensions",
       "Multipurpose Instant Mail Extensions",
       "Multipurpose Internet Message Extensions",
       "Multipurpose Instant Message Exchange"
     ],
     "Answer": "Multipurpose Internet Mail Extensions",
-    "Topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing"
   },
   {
     "id": 71,
     "Question": "Shortcut keys to hide lines in Notepad++:",
-    "Options": ["Alt+H", "Shift+H", "CTRL+H", "None of the above"],
+    "options": ["Alt+H", "Shift+H", "CTRL+H", "None of the above"],
     "Answer": "None of the above",
-    "Topic": "Photo Editor"
+    "topic": "Photo Editor"
   },
   {
     "id": 72,
     "Question": "Which of the following is not a type of Screen frames in HTML?",
-    "Options": ["iframe", "uframe", "no frame", "frameset"],
+    "options": ["iframe", "uframe", "no frame", "frameset"],
     "Answer": "uframe",
-    "Topic": "HTML"
+    "topic": "HTML"
   },
   {
     "id": 73,
     "Question": "Lasso tool is best used for:",
-    "Options": [
+    "options": [
       "Cleaning up a selection that you started with another tool",
       "Deselecting the selection already done",
       "Remove a selection",
       "None of the above"
     ],
     "Answer": "Cleaning up a selection that you started with another tool",
-    "Topic": "Photo Editor"
+    "topic": "Photo Editor"
   },
   {
     "id": 74,
     "Question": "Which of the following directives is used to start an Angular JS application?",
-    "Options": ["ng-repeat", "ng-init", "ng-app", "ng-model"],
+    "options": ["ng-repeat", "ng-init", "ng-app", "ng-model"],
     "Answer": "ng-app",
-    "Topic": "Angular"
+    "topic": "Angular"
   },
   {
     "id": 75,
     "Question": "__________ makes the text bold.",
-    "Options": [
+    "options": [
       "font-length: bold",
       "font-weight: bold",
       "font-style: bold",
       "text-align: bold"
     ],
     "Answer": "font-weight: bold",
-    "Topic": "CSS"
+    "topic": "CSS"
   },
   {
     "id": 76,

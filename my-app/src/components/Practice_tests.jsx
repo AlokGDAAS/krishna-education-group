@@ -31,6 +31,7 @@ const Practice_test = () => {
 
   const o_level_data_2 = [
     { id: 18, link: "/practice-test-o-level_2/M2_R5_Jan2023_Set1", name: "O Level_2", subname: "English Part-1" },
+    { id: 19, link: "/practice-test-o-level_2/M2_R5_Jul2022_Set1", name: "O Level_2", subname: "English Part-2" },
 
   ];
 
