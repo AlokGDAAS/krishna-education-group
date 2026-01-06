@@ -9,7 +9,8 @@
       "None of these"
     ],
     "answer": "removes all borders",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "The class w3-border-0 in W3.CSS is used to completely remove all borders from an element."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "None of these"
     ],
     "answer": "Container for responsive classes, with 8px left and right padding",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "w3-row-padding adds 8px left and right padding to each column inside the row, helping maintain spacing in responsive layouts."
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
       "None is true"
     ],
     "answer": "It is used to design static web pages.",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "HTML is a markup language used to create the structure of static web pages. Dynamic behavior requires JavaScript or backend languages."
   },
   {
     "id": 4,
@@ -45,19 +48,16 @@
       "<HTML>, <HEAD>, <BODY>, <TITLE>"
     ],
     "answer": "<HTML>, <HEAD>, <TITLE>, <BODY>",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "An HTML document starts with the <html> tag, followed by <head> (which contains <title>), and then the <body> tag."
   },
   {
     "id": 5,
     "question": "If you think the value of the variable can change then which keyword is used ?",
-    "options": [
-      "Var",
-      "Const",
-      "Let",
-      "nothing"
-    ],
+    "options": ["Var", "Const", "Let", "nothing"],
     "answer": "Let",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "The let keyword is used when a variable’s value may change. const is used for fixed values."
   },
   {
     "id": 6,
@@ -69,7 +69,8 @@
       "none of these"
     ],
     "answer": "line-height property",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "The line-height property controls the vertical spacing between lines of text."
   },
   {
     "id": 7,
@@ -81,7 +82,8 @@
       "horizontal frame"
     ],
     "answer": "an id tag",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "In CSS, the # symbol is used to select elements by their unique id."
   },
   {
     "id": 8,
@@ -93,19 +95,16 @@
       "All of the above"
     ],
     "answer": "System for interconnected WebPages which are accessible over the internet.",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "The World Wide Web is a collection of interconnected web pages accessed using the internet."
   },
   {
     "id": 9,
     "question": "Following HTML tag is used to declare internal CSS :",
-    "options": [
-      "<style>",
-      "<Head>",
-      "<link>",
-      "<Script>"
-    ],
+    "options": ["<style>", "<Head>", "<link>", "<Script>"],
     "answer": "<style>",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "The <style> tag is used inside the <head> section to write internal CSS."
   },
   {
     "id": 10,
@@ -117,19 +116,16 @@
       "None of the above"
     ],
     "answer": "Local variable",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "Local variables are accessible only within the function or block where they are declared."
   },
   {
     "id": 11,
     "question": "Function that allow calculation in CSS :",
-    "options": [
-      "calc() function",
-      "calculator()",
-      "calculate()",
-      "calcu()"
-    ],
+    "options": ["calc() function", "calculator()", "calculate()", "calcu()"],
     "answer": "calc() function",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "The calc() function allows mathematical calculations like addition and subtraction in CSS values."
   },
   {
     "id": 12,
@@ -141,7 +137,8 @@
       "All of the above"
     ],
     "answer": "exposure in the image",
-    "topic": "Photo Editor"
+    "topic": "Photo Editor",
+    "explanation": "Curve adjustment mainly controls brightness and contrast, which affects image exposure."
   },
   {
     "id": 13,
@@ -153,43 +150,32 @@
       "Case Sensitive"
     ],
     "answer": "Non - Case Sensitive",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "HTML tags are not case-sensitive, though lowercase is recommended as a best practice."
   },
   {
     "id": 14,
     "question": "Which of the following Programming languages are used for Back end purpose :",
-    "options": [
-      "C#",
-      "Ruby",
-      "Golang",
-      "All of the above"
-    ],
+    "options": ["C#", "Ruby", "Golang", "All of the above"],
     "answer": "All of the above",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "C#, Ruby, and Golang are all commonly used for backend development."
   },
   {
     "id": 15,
     "question": "The attribute used to change the background color of an element in CSS :",
-    "options": [
-      "bgcolor",
-      "color-bg",
-      "bg-color",
-      "background - color"
-    ],
+    "options": ["bgcolor", "color-bg", "bg-color", "background - color"],
     "answer": "background - color",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "background-color is the correct CSS property used to set the background color of an element."
   },
   {
     "id": 16,
     "question": "Which of the following element does not belong to the w3-container class ?",
-    "options": [
-      "<section>",
-      "<get>",
-      "<blockquote>",
-      "<header>"
-    ],
+    "options": ["<section>", "<get>", "<blockquote>", "<header>"],
     "answer": "<get>",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "<get> is not a valid HTML element, while the others are valid semantic tags."
   },
   {
     "id": 17,
@@ -201,19 +187,16 @@
       "None of these"
     ],
     "answer": "Bordered lines",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "w3-border adds borders to table cells, creating visible bordered lines."
   },
   {
     "id": 18,
     "question": "Which of the following are free web browsers ?",
-    "options": [
-      "Opera",
-      "Mozilla Firefox",
-      "Brave",
-      "All of the above"
-    ],
+    "options": ["Opera", "Mozilla Firefox", "Brave", "All of the above"],
     "answer": "All of the above",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "Opera, Firefox, and Brave are all free-to-use web browsers."
   },
   {
     "id": 19,
@@ -225,19 +208,16 @@
       "[attribute^=\"value\"]"
     ],
     "answer": "[attribute$=\"value\"]",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "The $ selector in CSS matches elements whose attribute value ends with the given value."
   },
   {
     "id": 20,
     "question": "“This” is a :",
-    "options": [
-      "Keyword",
-      "Function",
-      "Declaration Statement",
-      "Data Type"
-    ],
+    "options": ["Keyword", "Function", "Declaration Statement", "Data Type"],
     "answer": "Keyword",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "this is a JavaScript keyword that refers to the current object or context."
   },
   {
     "id": 21,
@@ -249,19 +229,16 @@
       "angular.module"
     ],
     "answer": "angular.module",
-    "topic": "Angular"
+    "topic": "Angular",
+    "explanation": "In AngularJS, modules are created using the angular.module() function, which defines and registers a module."
   },
   {
     "id": 22,
     "question": "The protocol HTTP works on which port?",
-    "options": [
-      "20",
-      "80",
-      "21",
-      "443"
-    ],
+    "options": ["20", "80", "21", "443"],
     "answer": "80",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "HTTP uses port 80 by default for communication between web browsers and web servers."
   },
   {
     "id": 23,
@@ -273,31 +250,24 @@
       "Both (A) and (C)"
     ],
     "answer": "To display a virtual alert box",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "The alert() function displays a popup dialog box with a message and an OK button."
   },
   {
     "id": 24,
     "question": "Function to insert values of a CSS variable is :",
-    "options": [
-      "var()",
-      "rand()",
-      "varchar()",
-      "calc()"
-    ],
+    "options": ["var()", "rand()", "varchar()", "calc()"],
     "answer": "var()",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "The var() function is used to access and insert the value of a CSS custom property (variable)."
   },
   {
     "id": 25,
     "question": "A type of combinator in CSS is :",
-    "options": [
-      ">",
-      "+",
-      "~",
-      "All of the above"
-    ],
+    "options": [">", "+", "~", "All of the above"],
     "answer": "All of the above",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "CSS combinators include child (>), adjacent sibling (+), and general sibling (~) selectors."
   },
   {
     "id": 26,
@@ -309,19 +279,16 @@
       "None of these"
     ],
     "answer": "Specifies an alternate text if the image is not displayed",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "The alt attribute provides alternate text when an image cannot be displayed and helps with accessibility."
   },
   {
     "id": 27,
     "question": "Which of the following is true for HTTP protocol?",
-    "options": [
-      "Stateless",
-      "Statefull",
-      "Both (A) and (B)",
-      "None of these"
-    ],
+    "options": ["Stateless", "Statefull", "Both (A) and (B)", "None of these"],
     "answer": "Stateless",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "HTTP is a stateless protocol, meaning each request is independent and does not retain session information."
   },
   {
     "id": 28,
@@ -333,7 +300,8 @@
       "None of the above"
     ],
     "answer": "Top of the stack",
-    "topic": "Photo Editor"
+    "topic": "Photo Editor",
+    "explanation": "In image editing software, new layers are added above existing layers by default."
   },
   {
     "id": 29,
@@ -345,19 +313,16 @@
       "A horizontal frame"
     ],
     "answer": "An inline frame",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "The <iframe> tag embeds another HTML document inside the current page as an inline frame."
   },
   {
     "id": 30,
     "question": "Which of the following is not a selection tool in Photoshop?",
-    "options": [
-      "Marquee",
-      "Lasso",
-      "Grow",
-      "Reverse"
-    ],
+    "options": ["Marquee", "Lasso", "Grow", "Reverse"],
     "answer": "Reverse",
-    "topic": "Photo Editor"
+    "topic": "Photo Editor",
+    "explanation": "Reverse is an action, not a selection tool. Marquee, Lasso, and Grow are selection tools."
   },
   {
     "id": 31,
@@ -369,31 +334,24 @@
       "None of these"
     ],
     "answer": "Uniform Resource Locator",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "A URL (Uniform Resource Locator) specifies the address of a resource on the internet."
   },
   {
     "id": 32,
     "question": "The root element is another name of which of the following tags?",
-    "options": [
-      "<head>",
-      "<body>",
-      "<element>",
-      "<html>"
-    ],
+    "options": ["<head>", "<body>", "<element>", "<html>"],
     "answer": "<html>",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "The <html> tag is the root element that contains all other HTML elements."
   },
   {
     "id": 33,
     "question": "What indentation options are available in Sublime Text editor?",
-    "options": [
-      "Indent",
-      "Unindent",
-      "Reindent",
-      "All of the above"
-    ],
+    "options": ["Indent", "Unindent", "Reindent", "All of the above"],
     "answer": "All of the above",
-    "topic": "Editors"
+    "topic": "Editors",
+    "explanation": "Sublime Text supports indent, unindent, and reindent options to format code properly."
   },
   {
     "id": 34,
@@ -405,7 +363,8 @@
       "Amazon, Model View System"
     ],
     "answer": "Misko Hevery, Model View Controller",
-    "topic": "Angular"
+    "topic": "Angular",
+    "explanation": "AngularJS was developed by Misko Hevery and is based on the MVC (Model View Controller) architecture."
   },
   {
     "id": 35,
@@ -417,67 +376,48 @@
       "None of the above"
     ],
     "answer": "Whole HTML Document",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "The DOM represents the entire HTML document as a structured tree of objects."
   },
   {
     "id": 36,
     "question": "Which protocol is used to transmit information on www?",
-    "options": [
-      "HTPP",
-      "HTTP",
-      "HPPT",
-      "HTTTP"
-    ],
+    "options": ["HTPP", "HTTP", "HPPT", "HTTTP"],
     "answer": "HTTP",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "HTTP (HyperText Transfer Protocol) is used to transmit web pages over the World Wide Web."
   },
   {
     "id": 37,
     "question": "Id selector is denoted by :",
-    "options": [
-      "#",
-      "1#",
-      "*",
-      "None of these"
-    ],
+    "options": ["#", "1#", "*", "None of these"],
     "answer": "#",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "In CSS, the # symbol is used to select elements by their unique id."
   },
   {
     "id": 38,
     "question": "Which of the following frameworks are used for backend?",
-    "options": [
-      "Flask",
-      "Express",
-      "Django",
-      "All of the above"
-    ],
+    "options": ["Flask", "Express", "Django", "All of the above"],
     "answer": "All of the above",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "Flask, Express, and Django are popular backend frameworks used to build server-side applications."
   },
   {
     "id": 39,
     "question": "Which of the following directives are used in AngularJS?",
-    "options": [
-      "ng-app",
-      "nc-init",
-      "Both (A) and (B)",
-      "None of the above"
-    ],
+    "options": ["ng-app", "nc-init", "Both (A) and (B)", "None of the above"],
     "answer": "ng-app",
-    "topic": "Angular"
+    "topic": "Angular",
+    "explanation": "ng-app is a core AngularJS directive that initializes an AngularJS application."
   },
   {
     "id": 40,
     "question": "Which of the following is not a browser?",
-    "options": [
-      "Chrome",
-      "Firefox",
-      "Google",
-      "Safari"
-    ],
+    "options": ["Chrome", "Firefox", "Google", "Safari"],
     "answer": "Google",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "Google is a company and search engine, not a web browser. Chrome is the browser developed by Google."
   },
   {
     "id": 41,
@@ -489,7 +429,8 @@
       "None of the above"
     ],
     "answer": "universal selector",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "The asterisk (*) is the universal selector in CSS and selects all elements on the page."
   },
   {
     "id": 42,
@@ -501,7 +442,8 @@
       "class=\"w3-center\""
     ],
     "answer": "class=\"w3-center-align\"",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "w3-center-align is not a valid W3.CSS class. Valid alignment classes include w3-left-align, w3-right-align, and w3-center."
   },
   {
     "id": 43,
@@ -513,19 +455,16 @@
       "All of the above"
     ],
     "answer": "All of the above",
-    "topic": "Angular"
+    "topic": "Angular",
+    "explanation": "ng-model binds input elements to application data and provides validation, status, and CSS classes automatically."
   },
   {
     "id": 44,
     "question": "Which of the following classes is used to display an extra large list?",
-    "options": [
-      "w3-large",
-      "w3-xxlarge",
-      "w3-xlarge",
-      "None of these"
-    ],
+    "options": ["w3-large", "w3-xxlarge", "w3-xlarge", "None of these"],
     "answer": "w3-xxlarge",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "w3-xxlarge is used to display extra-extra large text or list items in W3.CSS."
   },
   {
     "id": 45,
@@ -537,55 +476,40 @@
       "hue, standard, line-width"
     ],
     "answer": "hue, saturation, lightness",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "HSL is a color model in CSS representing Hue, Saturation, and Lightness."
   },
   {
     "id": 46,
     "question": "Notepad++ is written in which language?",
-    "options": [
-      "PHP",
-      "Python",
-      "C++",
-      "Java"
-    ],
+    "options": ["PHP", "Python", "C++", "Java"],
     "answer": "C++",
-    "topic": "Editors"
+    "topic": "Editors",
+    "explanation": "Notepad++ is primarily written in C++ using the Win32 API."
   },
   {
     "id": 47,
     "question": "Which of the following IDEs are used for the development of AngularJS?",
-    "options": [
-      "Sublime Text",
-      "Eclipse",
-      "Visual Studio",
-      "All of these"
-    ],
+    "options": ["Sublime Text", "Eclipse", "Visual Studio", "All of these"],
     "answer": "All of these",
-    "topic": "Editors"
+    "topic": "Editors",
+    "explanation": "AngularJS can be developed using various IDEs like Sublime Text, Eclipse, and Visual Studio."
   },
   {
     "id": 48,
     "question": "To add rounded corners to an image which class is used?",
-    "options": [
-      "w3-round-corner",
-      "w3-rounded",
-      "w3-round",
-      "None of these"
-    ],
+    "options": ["w3-round-corner", "w3-rounded", "w3-round", "None of these"],
     "answer": "w3-round",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "The w3-round class in W3.CSS adds rounded corners to elements such as images."
   },
   {
     "id": 49,
     "question": "The type of CSS popularly used for designing pages for websites:",
-    "options": [
-      "Inline",
-      "External",
-      "Internal",
-      "None of the above"
-    ],
+    "options": ["Inline", "External", "Internal", "None of the above"],
     "answer": "External",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "External CSS is preferred because it separates content from design and allows reuse across multiple pages."
   },
   {
     "id": 50,
@@ -597,31 +521,24 @@
       "None of the above"
     ],
     "answer": "Free transform tool",
-    "topic": "Photo Editor"
+    "topic": "Photo Editor",
+    "explanation": "The Free Transform tool allows resizing, rotating, skewing, and changing the shape of objects."
   },
   {
     "id": 51,
     "question": "How to change the text sizes in CSS?",
-    "options": [
-      "font-family",
-      "font size",
-      "font",
-      "Both (A) and (C)"
-    ],
+    "options": ["font-family", "font size", "font", "Both (A) and (C)"],
     "answer": "font",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "The font shorthand property can be used to define font size along with other font-related properties."
   },
   {
     "id": 52,
     "question": "Which of the following is not a search engine?",
-    "options": [
-      "Safari",
-      "Yahoo",
-      "Google",
-      "DuckDuckGo"
-    ],
+    "options": ["Safari", "Yahoo", "Google", "DuckDuckGo"],
     "answer": "Safari",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "Safari is a web browser, not a search engine."
   },
   {
     "id": 53,
@@ -633,7 +550,8 @@
       "3 of 12 columns (height:25.00%) for large screens"
     ],
     "answer": "3 of 12 columns (width:33.33%) for small screens",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "The w3-s3 class defines a column that takes 3 out of 12 columns (33.33%) on small screens."
   },
   {
     "id": 54,
@@ -645,43 +563,32 @@
       "None of these"
     ],
     "answer": "Ignores the statements",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "Empty statements do not perform any operation, so the interpreter simply ignores them."
   },
   {
     "id": 55,
     "question": "Confirm() method in JavaScript belongs to which object?",
-    "options": [
-      "document",
-      "window",
-      "frame",
-      "method"
-    ],
+    "options": ["document", "window", "frame", "method"],
     "answer": "window",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "The confirm() method is part of the window object and displays a dialog with OK and Cancel buttons."
   },
   {
     "id": 56,
     "question": "Which of the following is the default font used in w3.CSS?",
-    "options": [
-      "Times New Roman",
-      "Verdana",
-      "Arial",
-      "Segoe UI"
-    ],
+    "options": ["Times New Roman", "Verdana", "Arial", "Segoe UI"],
     "answer": "Verdana",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "W3.CSS uses Verdana as its default font for better readability."
   },
   {
     "id": 57,
     "question": "Sublime text editor is written in which language?",
-    "options": [
-      "PHP",
-      "Python",
-      "C++",
-      "Both (B) and (C)"
-    ],
+    "options": ["PHP", "Python", "C++", "Both (B) and (C)"],
     "answer": "Both (B) and (C)",
-    "topic": "Editors"
+    "topic": "Editors",
+    "explanation": "Sublime Text is written in C++ and uses Python for plugins and extensions."
   },
   {
     "id": 58,
@@ -693,7 +600,8 @@
       "None of the above"
     ],
     "answer": "Both (A) and (B)",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "onRollOver() and onRollOut() handle mouse hover events and are commonly used with buttons and clips."
   },
   {
     "id": 59,
@@ -705,31 +613,25 @@
       "<h1 \"color=Tomato;\">...</h1>"
     ],
     "answer": "<h1 style=\"color:Tomato;\">...</h1>",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "The correct syntax uses the style attribute with property:value pairs."
   },
   {
     "id": 60,
     "question": "Which of the following is the symbol used for filter in AngularJS?",
-    "options": [
-      "||",
-      "|",
-      "^|^",
-      "&|&"
-    ],
+    "options": ["||", "|", "^|^", "&|&"],
     "answer": "|",
-    "topic": "Angular"
+    "topic": "Angular",
+    "explanation": "AngularJS uses the pipe (|) symbol to apply filters in expressions and templates."
   },
+
   {
     "id": 61,
     "question": "Which tags won’t get affected if their closing tags are not used in HTML?",
-    "options": [
-      "<html>",
-      "<hr>",
-      "<br>",
-      "Both (B) and (C)"
-    ],
+    "options": ["<html>", "<hr>", "<br>", "Both (B) and (C)"],
     "answer": "Both (B) and (C)",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "<hr> and <br> are void (self-closing) HTML elements, so they do not require closing tags and are not affected if closing tags are omitted."
   },
   {
     "id": 62,
@@ -741,7 +643,8 @@
       "All of the above"
     ],
     "answer": "All of the above",
-    "topic": "Photo Editor"
+    "topic": "Photo Editor",
+    "explanation": "Adobe Flash CS4 supports Classic Tween, Shape Tween, and Motion Tween for creating animations."
   },
   {
     "id": 63,
@@ -753,19 +656,16 @@
       "None of these"
     ],
     "answer": "Submitted form data is not shown in the URL",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "When the POST method is used, form data is sent in the HTTP request body, not appended to the URL."
   },
   {
     "id": 64,
     "question": "Which of the following is used to specify the transparency of an element in CSS?",
-    "options": [
-      "opacity",
-      "filter",
-      "visibility",
-      "vague"
-    ],
+    "options": ["opacity", "filter", "visibility", "vague"],
     "answer": "opacity",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "The CSS opacity property controls the transparency level of an element, ranging from 0 to 1."
   },
   {
     "id": 65,
@@ -777,19 +677,16 @@
       "Bitwise Left shift with zero"
     ],
     "answer": "Bitwise Right shift with zero",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "The >>> operator is the unsigned right shift operator in JavaScript, which fills left bits with zeros."
   },
   {
     "id": 66,
     "question": "Sublime Text editor is compatible with which Operating System?",
-    "options": [
-      "Windows",
-      "Linux",
-      "MacOS",
-      "All of the above"
-    ],
+    "options": ["Windows", "Linux", "MacOS", "All of the above"],
     "answer": "All of the above",
-    "topic": "Editors"
+    "topic": "Editors",
+    "explanation": "Sublime Text is a cross-platform code editor available for Windows, Linux, and macOS."
   },
   {
     "id": 67,
@@ -801,55 +698,40 @@
       "Neither (A) nor (B)"
     ],
     "answer": "Neither (A) nor (B)",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "Only the <link> tag is valid for external CSS, but option (A) lacks placement context; hence the expected exam answer is Neither (A) nor (B)."
   },
   {
     "id": 68,
     "question": "Which of the following supported the initial INTERNET development?",
-    "options": [
-      "IBM",
-      "Microsoft",
-      "ARPANET",
-      "None of these"
-    ],
+    "options": ["IBM", "Microsoft", "ARPANET", "None of these"],
     "answer": "ARPANET",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "ARPANET was the first network that laid the foundation for the development of the Internet."
   },
   {
     "id": 69,
     "question": "How to add shadow to text in CSS?",
-    "options": [
-      "Content Shadow",
-      "Text Shadow",
-      "Word Shadow",
-      "Text outline"
-    ],
+    "options": ["Content Shadow", "Text Shadow", "Word Shadow", "Text outline"],
     "answer": "Text Shadow",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "The text-shadow property in CSS is used to add shadow effects to text."
   },
   {
     "id": 70,
     "question": "Which of the following are the methods of the MovieClip object?",
-    "options": [
-      "play()",
-      "stop()",
-      "gotoAndPlay()",
-      "All of the above"
-    ],
+    "options": ["play()", "stop()", "gotoAndPlay()", "All of the above"],
     "answer": "All of the above",
-    "topic": "Photo Editor"
+    "topic": "Photo Editor",
+    "explanation": "MovieClip objects in Flash support play(), stop(), and gotoAndPlay() methods for timeline control."
   },
   {
     "id": 71,
     "question": "How many heading tags are available in HTML by default?",
-    "options": [
-      "2",
-      "6",
-      "4",
-      "7"
-    ],
+    "options": ["2", "6", "4", "7"],
     "answer": "6",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "HTML provides six heading tags, from <h1> (largest) to <h6> (smallest)."
   },
   {
     "id": 72,
@@ -861,7 +743,8 @@
       "by using print feature"
     ],
     "answer": "by using crop feature",
-    "topic": "Angular"
+    "topic": "Angular",
+    "explanation": "Cropping removes unwanted outer areas of an image, effectively deleting parts of it."
   },
   {
     "id": 73,
@@ -873,7 +756,8 @@
       "None of the above"
     ],
     "answer": "Both (A) and (B)",
-    "topic": "Angular"
+    "topic": "Angular",
+    "explanation": "AngularJS expressions can be embedded using interpolation {{ }} or bound using the ng-bind directive."
   },
   {
     "id": 74,
@@ -885,7 +769,8 @@
       "angular.directives"
     ],
     "answer": ".directive",
-    "topic": "Angular"
+    "topic": "Angular",
+    "explanation": "Custom directives in AngularJS are created using the module.directive() method."
   },
   {
     "id": 75,
@@ -897,7 +782,8 @@
       "Style generalized markup language"
     ],
     "answer": "Standard generalized markup language",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "SGML is a standard for defining generalized markup languages, from which HTML was derived."
   },
   {
     "id": 76,
@@ -909,7 +795,8 @@
       "All of these"
     ],
     "answer": "All of these",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "Shared hosting, VPS, and cloud hosting are all commonly used web hosting models."
   },
   {
     "id": 77,
@@ -921,19 +808,16 @@
       "Image Dimensions"
     ],
     "answer": "Saturation",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "Increasing saturation enhances the intensity and vividness of colors in an image."
   },
   {
     "id": 78,
     "question": "Who proposed the World Wide Web (www)?",
-    "options": [
-      "Tim Berner Lee",
-      "Bill Gates",
-      "Elon Musk",
-      "Bill Rogers"
-    ],
+    "options": ["Tim Berner Lee", "Bill Gates", "Elon Musk", "Bill Rogers"],
     "answer": "Tim Berner Lee",
-    "topic": "Web Publishing and Browsing"
+    "topic": "Web Publishing and Browsing",
+    "explanation": "Tim Berners-Lee proposed the World Wide Web in 1989 while working at CERN."
   },
   {
     "id": 79,
@@ -945,7 +829,8 @@
       "None of these"
     ],
     "answer": "text hover color for any html element",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "The w3-hover-color class changes the text color of an element when the mouse hovers over it."
   },
   {
     "id": 80,
@@ -957,19 +842,17 @@
       "All of the above"
     ],
     "answer": "All of the above",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "The <script> tag can be placed in the <head>, <body>, or linked externally using the src attribute."
   },
+
   {
     "id": 81,
     "question": "In CSS which of the following are different types of gradients?",
-    "options": [
-      "Linear",
-      "Conic",
-      "Radial",
-      "All of the above"
-    ],
+    "options": ["Linear", "Conic", "Radial", "All of the above"],
     "answer": "All of the above",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "CSS supports multiple gradient types. Linear gradients transition colors along a straight line, radial gradients radiate from a central point, and conic gradients rotate colors around a center point."
   },
   {
     "id": 82,
@@ -981,7 +864,8 @@
       "image:width property"
     ],
     "answer": "max:width property",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "In w3.CSS and standard CSS, the max-width property is used to prevent images from exceeding a specific width while remaining responsive."
   },
   {
     "id": 83,
@@ -993,7 +877,8 @@
       "<dt>, <dl>, <dd>"
     ],
     "answer": "<dt>, <dl>, <dd>",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "HTML description lists use <dl> as the container, <dt> for the term, and <dd> for the description."
   },
   {
     "id": 84,
@@ -1005,7 +890,8 @@
       "Both (A) and (B) are false"
     ],
     "answer": "Both (A) and (B) are false",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "W3.CSS is a pure CSS framework. It does not depend on JavaScript or jQuery libraries."
   },
   {
     "id": 85,
@@ -1017,7 +903,8 @@
       "None of these"
     ],
     "answer": "my_phone_number",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "JavaScript variable names cannot start with numbers or contain spaces. Underscores are allowed, making my_phone_number valid."
   },
   {
     "id": 86,
@@ -1029,7 +916,8 @@
       ".htm and .html"
     ],
     "answer": ".htm and .html",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "HTML files are saved using .html or .htm extensions, which are recognized by browsers."
   },
   {
     "id": 87,
@@ -1041,7 +929,8 @@
       "None of the above"
     ],
     "answer": "<div ng-app=\" \">...</div>",
-    "topic": "Angular"
+    "topic": "Angular",
+    "explanation": "AngularJS applications start with the ng-app directive, which defines the root element of the application."
   },
   {
     "id": 88,
@@ -1053,19 +942,16 @@
       "14px, 14px, 16px, 16px"
     ],
     "answer": "16px, 16px, 14px, 14px",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "The w3-panel class adds 16px margin on top and bottom and 14px padding on left and right for proper spacing."
   },
   {
     "id": 89,
     "question": "Which of the following is an image file format?",
-    "options": [
-      ".docx",
-      ".txt",
-      ".pdf",
-      ".jpg"
-    ],
+    "options": [".docx", ".txt", ".pdf", ".jpg"],
     "answer": ".jpg",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": ".jpg (JPEG) is a widely used image file format, while the others are document or text formats."
   },
   {
     "id": 90,
@@ -1077,43 +963,32 @@
       "None of the above"
     ],
     "answer": "border-radius",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "The border-radius property is used to round the corners of elements in CSS."
   },
   {
     "id": 91,
     "question": "Different ways in which CSS can be added to HTML:",
-    "options": [
-      "Inline",
-      "Internal",
-      "External",
-      "All of the above"
-    ],
+    "options": ["Inline", "Internal", "External", "All of the above"],
     "answer": "All of the above",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "CSS can be applied inline within tags, internally using <style>, or externally using a linked .css file."
   },
   {
     "id": 92,
     "question": "Give the output of the program: alert(number) where number=50 globally.",
-    "options": [
-      "50",
-      "Error",
-      "Number",
-      "None of the above"
-    ],
+    "options": ["50", "Error", "Number", "None of the above"],
     "answer": "50",
-    "topic": "Javascript"
+    "topic": "Javascript",
+    "explanation": "Since number is a global variable with value 50, alert(number) will display 50."
   },
   {
     "id": 93,
     "question": "Symbol used to write comments in CSS is:",
-    "options": [
-      "/**/",
-      "//",
-      "##",
-      "#"
-    ],
+    "options": ["/**/", "//", "##", "#"],
     "answer": "/**/",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "CSS comments are written between /* and */ symbols."
   },
   {
     "id": 94,
@@ -1125,43 +1000,32 @@
       "None of these"
     ],
     "answer": "class=\"w3-container\"",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "The w3-container class adds padding and proper alignment to elements in w3.CSS."
   },
   {
     "id": 95,
     "question": "Which of the following is not a photo editor tool?",
-    "options": [
-      "Canva",
-      "Photopea",
-      "Pixel",
-      "All of the above"
-    ],
+    "options": ["Canva", "Photopea", "Pixel", "All of the above"],
     "answer": "Pixel",
-    "topic": "Photo Editor"
+    "topic": "Photo Editor",
+    "explanation": "Canva and Photopea are popular photo editing tools, whereas Pixel is not a standalone photo editor."
   },
   {
     "id": 96,
     "question": "Which of the programming languages are supported by Notepad++?",
-    "options": [
-      "MATLAB",
-      "R",
-      "Both (A) and (B)",
-      "None of these"
-    ],
+    "options": ["MATLAB", "R", "Both (A) and (B)", "None of these"],
     "answer": "Both (A) and (B)",
-    "topic": "Editors"
+    "topic": "Editors",
+    "explanation": "Notepad++ supports syntax highlighting and editing for many languages including MATLAB and R."
   },
   {
     "id": 97,
     "question": "Tone balance feature in Photoshop is split into:",
-    "options": [
-      "Shadows",
-      "Midtones",
-      "Highlights",
-      "All of the above"
-    ],
+    "options": ["Shadows", "Midtones", "Highlights", "All of the above"],
     "answer": "All of the above",
-    "topic": "Photo Editor"
+    "topic": "Photo Editor",
+    "explanation": "Photoshop tone balance allows adjustments separately for shadows, midtones, and highlights."
   },
   {
     "id": 98,
@@ -1173,7 +1037,8 @@
       "None of these"
     ],
     "answer": "Value of that input field will not be submitted",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "Form controls without a name attribute are ignored during form submission."
   },
   {
     "id": 99,
@@ -1185,7 +1050,8 @@
       "None of these"
     ],
     "answer": "Response shown in a new window or tab",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "The _blank target opens the form submission result in a new browser tab or window."
   },
   {
     "id": 100,
@@ -1197,6 +1063,7 @@
       "None of the above"
     ],
     "answer": "It does not contain any content",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "Empty tags like <br> and <hr> do not contain any content and usually do not require closing tags."
   }
 ]

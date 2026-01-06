@@ -9,7 +9,8 @@
       "background-iterate"
     ],
     "answer": "background-iterate",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "CSS provides several background properties such as background-image, background-position, and background-color. However, there is no property called 'background-iterate' in CSS. Repeating backgrounds are controlled using the 'background-repeat' property, not 'background-iterate'."
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
       "W3.CSS is not the standard CSS"
     ],
     "answer": "W3.CSS is not the standard CSS",
-    "topic": "CSS Framework"
+    "topic": "CSS Framework",
+    "explanation": "W3.CSS is built using standard CSS and follows CSS specifications. It is a modern, responsive, mobile-first framework that works consistently across browsers and devices. Therefore, the statement 'W3.CSS is not the standard CSS' is incorrect."
   },
   {
     "id": 3,
@@ -33,14 +35,16 @@
       "text-first-indent"
     ],
     "answer": "text-indent",
-    "topic": "CSS"
+    "topic": "CSS",
+    "explanation": "The text-indent property in CSS is used to specify the indentation of the first line of text in a block-level element. The indentation can be set using length values such as pixels, ems, or percentages."
   },
   {
     "id": 4,
     "question": "Identify the invalid HTML event.",
     "options": ["unload", "load", "onmouseout", "onmouseover"],
     "answer": "unload",
-    "topic": "HTML"
+    "topic": "HTML",
+    "explanation": "In HTML, event attributes are written with the prefix 'on', such as onload, onmouseover, and onmouseout. The event 'unload' by itself is not a valid HTML event attribute. The correct event name is 'onunload', making 'unload' the invalid option."
   },
   {
     "id": 5,
@@ -52,906 +56,1007 @@
       "w3-border-gutter"
     ],
     "answer": "w3-border-gutter",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 6,
-    "question": "Identify the valid new <input> tag element in HTML 5 ?",
-    "options": ["email", "letter", "fax", "None of the above"],
-    "answer": "email",
-    "topic": "HTML"
-  },
-  {
-    "id": 7,
-    "question": "Which tag is used to render and represents an independent piece of content of a document ?",
-    "options": ["Blog", "Newspaper", "Article", "Record"],
-    "answer": "Article",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 8,
-    "question": "Hypertext is a :",
-    "options": [
-      "Text with heavy text jargons",
-      "Text more than 1000 words",
-      "Text which contains links to other texts",
-      "None of the above"
-    ],
-    "answer": "Text which contains links to other texts",
-    "topic": "HTML"
-  },
-  {
-    "id": 9,
-    "question": "Which comparison operator is used to find equality of type as well as content between two variables ?",
-    "options": [".==", ".===", ".====", "None of the above"],
-    "answer": ".===",
-    "topic": "Javascript"
-  },
-  {
-    "id": 10,
-    "question": "What is not a valid statement for Angular JS ?",
-    "options": [
-      "It is a JavaScript framework",
-      "It is added using <script> tag",
-      "It is a framework written in C",
-      "Angular JS extends HTML attributes"
-    ],
-    "answer": "It is a framework written in C",
-    "topic": "Angular"
-  },
-  {
-    "id": 11,
-    "question": "W3.Table does not provide the following class for tables.",
-    "options": ["w3-striped", "w3-stripe", "w3-border", "w3-bordered"],
-    "answer": "w3-stripe",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 12,
-    "question": "Which converter is present in Notepad++ ?",
-    "options": [
-      "ASCII to HEX",
-      "ASCII to OCT",
-      "HEX to ASCII",
-      "Both (A) and ©"
-    ],
-    "answer": "ASCII to HEX",
-    "topic": "Editors"
-  },
-  {
-    "id": 13,
-    "question": "Exponential operator in JavaScript is :",
-    "options": ["^", "%", "**", "None of the above"],
-    "answer": "**",
-    "topic": "Javascript"
-  },
-  {
-    "id": 14,
-    "question": "A set of navigation links is defined using tag :",
-    "options": ["<a>", "<nav>", "<href>", "None of the above"],
-    "answer": "<nav>",
-    "topic": "HTML"
-  },
-  {
-    "id": 15,
-    "question": "File protocol is used for ________.",
-    "options": [
-      "deciding the design and structure of the file",
-      "transfer of computer files from hard disk to main memory",
-      "deciding the storage space of files",
-      "transfer of computer files from a server to a client"
-    ],
-    "answer": "transfer of computer files from a server to a client",
-    "topic": "Web Publishing and Browsing"
-  },
-  {
-    "id": 16,
-    "question": "_________ is a generic inline element that applies no inherent formatting.",
-    "options": ["div", "span", "color", "width"],
-    "answer": "span",
-    "topic": "HTML"
-  },
-  {
-    "id": 17,
-    "question": "Identify the features of photo-editing software.",
-    "options": [
-      "Air brushing",
-      "Red-eye removal",
-      "Cropping",
-      "All of the above"
-    ],
-    "answer": "All of the above",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 18,
-    "question": "Which Filter is based on the idea of photographers adding colored filters to the camera lens to tint the photo ?",
-    "options": [
-      "Image Filter",
-      "Photo Filter",
-      "Artistic Filter",
-      "None of the above"
-    ],
-    "answer": "Photo Filter",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 19,
-    "question": "What is not true about the <label> tag of HTML ?",
-    "options": [
-      "Defines a label for many form elements",
-      "Useful for screen-reader users",
-      "Useful for visually challenged users",
-      "All the above"
-    ],
-    "answer": "Defines a label for many form elements",
-    "topic": "HTML"
-  },
-  {
-    "id": 20,
-    "question": "The body of the style sheet includes __________.",
-    "options": ["Style rules", "CSS rules", "Sheet rules", "Format rules"],
-    "answer": "CSS rules",
-    "topic": "CSS"
-  },
-  {
-    "id": 21,
-    "question": "SGML stands for :",
-    "options": [
-      "Standalone generalized markup language",
-      "Standalone global makeup language",
-      "Standard generalized markup language",
-      "Standalone Graphical markup language"
-    ],
-    "answer": "Standard generalized markup language",
-    "topic": "HTML"
-  },
-  {
-    "id": 22,
-    "question": "Rectangular Marquee tool is used for the purpose of :",
-    "options": [
-      "Floating the marquee",
-      "Creating marquee",
-      "Selecting portion inside image",
-      "None of the above"
-    ],
-    "answer": "Selecting portion inside image",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 23,
-    "question": "An online information retrieval tool that uses the data of a web search engine to produce its own results :",
-    "options": [
-      "Search Engine",
-      "Meta Search Engine",
-      "Mega Search Engine",
-      "None of the above"
-    ],
-    "answer": "Meta Search Engine",
-    "topic": "Web Publishing and Browsing"
-  },
-  {
-    "id": 24,
-    "question": "Are the negative values allowed in padding property ?",
-    "options": ["Yes", "No", "Cannot say", "May be"],
-    "answer": "Yes",
-    "topic": "CSS"
-  },
-  {
-    "id": 25,
-    "question": "The __________ pseudoclass is activated when the user moves the mouse cursor over the specified element.",
-    "options": ["mouse over", "mouse hover", "hover", "mouse move"],
-    "answer": "hover",
-    "topic": "CSS"
-  },
-  {
-    "id": 26,
-    "question": "Which is not an encryption algorithm not present in Notepad++ ?",
-    "options": ["MD5", "SHA-256", "MD6", "Both (A) and (B)"],
-    "answer": "MD6",
-    "topic": "Editors"
-  },
-  {
-    "id": 27,
-    "question": "Identify benefits that are provided by Photo Editing for Business.",
-    "options": [
-      "Brand Building",
-      "Better Sales",
-      "Robust Social Media Strategy",
-      "All of the above"
-    ],
-    "answer": "All of the above",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 28,
-    "question": "Which statement is not true about responsive tables in W3.Table?",
-    "options": [
-      "w3-responsive class creates a responsive table",
-      "It scroll horizontally on small screens",
-      "w3-table class creates a responsive table",
-      "on large screens, there is no difference"
-    ],
-    "answer": "w3-table class creates a responsive table",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 29,
-    "question": "How are tones created in Images?",
-    "options": [
-      "When grey is added to a color",
-      "When black is added to a color",
-      "When white is added to a color",
-      "None of the above"
-    ],
-    "answer": "When grey is added to a color",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 30,
-    "question": "What is true about Conflicting Styles?",
-    "options": [
-      "Conflict occurs as styles can be defined by a user, an author or a user agent",
-      "Styles cascade, or flow together",
-      "Ultimate appearance of elements depends on a combination of styles",
-      "Styles defined by the user agent take precedence over styles defined by the user"
-    ],
-    "answer": "Styles defined by the user agent take precedence over styles defined by the user",
-    "topic": "CSS"
-  },
-  {
-    "id": 31,
-    "question": "Identify the basic lists in W3.css.",
-    "options": ["w3-ol", "w3-border", "w3-center", "all of the above"],
-    "answer": "w3-ol",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 32,
-    "question": "Identify the wrong statements about Cookies.",
-    "options": [
-      "Cookies are programs which run in the background of the web-client",
-      "Cookies have the potential of being used to violate the privacy of users",
-      "Cookies are very helpful in keeping track of users in online shopping and advertising",
-      "Cookies cannot contain more than 4 KB of data"
-    ],
-    "answer": "Cookies are programs which run in the background of the web-client",
-    "topic": "Javascript"
-  },
-  {
-    "id": 33,
-    "question": "Which is true about <iframe> tag?",
-    "options": [
-      "It is an inline frame",
-      "Embed another document within a current HTML document",
-      "None",
-      "Both (A) and (B) are true"
-    ],
-    "answer": "Both (A) and (B) are true",
-    "topic": "HTML"
-  },
-  {
-    "id": 34,
-    "question": "What is not correct about the Style class?",
-    "options": [
-      "Apply only to specific element types defined in the style sheet",
-      "Define styles that can be applied to any element",
-      "Style-class declarations are preceded by an underscore",
-      "Style-class declarations are preceded by a period"
-    ],
-    "answer": "Style-class declarations are preceded by an underscore",
-    "topic": "CSS"
-  },
-  {
-    "id": 35,
-    "question": "Identify the default font used in W3.Font.",
-    "options": ["Times New Roman", "Arial", "Verdana", "None of the above"],
-    "answer": "Verdana",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 36,
-    "question": "An element can be accessed in JavaScript using:",
-    "options": [
-      "getElementsByName",
-      "getElementsById",
-      "getElementsByClassName",
-      "All of the above"
-    ],
-    "answer": "All of the above",
-    "topic": "Javascript"
-  },
-  {
-    "id": 37,
-    "question": "Which binds the value of HTML controls to application data?",
-    "options": ["ng-app", "ng-init", "ng-model", "ng-controller"],
-    "answer": "ng-model",
-    "topic": "Angular"
-  },
-  {
-    "id": 38,
-    "question": "Which is not a valid encoding standard present in Notepad++?",
-    "options": ["ANSI", "UTF-8", "UTF-8 BOM", "UTF-16"],
-    "answer": "UTF-16",
-    "topic": "Editors"
-  },
-  {
-    "id": 39,
-    "question": "Directive to initialize Angular JS application:",
-    "options": ["ng-app", "ng-init", "ng-model", "none of the above"],
-    "answer": "ng-app",
-    "topic": "Angular"
-  },
-  {
-    "id": 40,
-    "question": "Browsers will usually underline inserted text in the tag:",
-    "options": ["<i>", "<ins>", "<u>", "<em>"],
-    "answer": "<ins>",
-    "topic": "HTML"
-  },
-  {
-    "id": 41,
-    "question": "Identify the invalid image filter.",
-    "options": ["Motion Blur", "Plastic Wrap", "Liquify", "Solidify"],
-    "answer": "Solidify",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 42,
-    "question": "<del> element defines deleted text. Browser displays them as:",
-    "options": ["Red color", "Strikethrough", "Bold", "Black color"],
-    "answer": "Strikethrough",
-    "topic": "HTML"
-  },
-  {
-    "id": 43,
-    "question": "w3-container class adds padding to any HTML element:",
-    "options": [
-      "16px left only",
-      "32px left and right",
-      "16px left and right",
-      "32px right only"
-    ],
-    "answer": "16px left and right",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 44,
-    "question": "Shortcut keys for rotating canvas 90° clockwise:",
-    "options": [
-      "CTRL+Shift+0",
-      "CTRL+Alt+Shift+0",
-      "CTRL+Alt+Shift+F10",
-      "CTRL+Alt+Shift+10"
-    ],
-    "answer": "CTRL+Alt+Shift+0",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 45,
-    "question": "What is the task of DNS Name server?",
-    "options": [
-      "Translating domain names into a specific IP address",
-      "Translating domain names into a specific UDP address",
-      "Translating domain names into a specific TCP address",
-      "Translating domain names into a specific FTP address"
-    ],
-    "answer": "Translating domain names into a specific IP address",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 46,
-    "question": "Which is not a main built-in search mechanism?",
-    "options": [
-      "dialog-based",
-      "dialog-free",
-      "Incremental Search",
-      "Decremental Search"
-    ],
-    "answer": "Decremental Search",
-    "topic": "Web Publishing and Browsing"
-  },
-  {
-    "id": 47,
-    "question": "Autofocus attribute can be used on which element?",
-    "options": ["Button", "Input", "Select", "All the above"],
-    "answer": "All the above",
-    "topic": "HTML"
-  },
-  {
-    "id": 48,
-    "question": "Identify where a <section> element can be used.",
-    "options": ["Chapters", "Introduction", "News Item", "All the above"],
-    "answer": "All the above",
-    "topic": "HTML"
-  },
-  {
-    "id": 49,
-    "question": "How to specify individual items in an ordered list?",
-    "options": ["LI", "UL", "OI", "None of the above"],
-    "answer": "LI",
-    "topic": "HTML"
-  },
-  {
-    "id": 50,
-    "question": "Which is not a valid CSS type?",
-    "options": ["Inline", "External", "Outline", "Embedded"],
-    "answer": "Outline",
-    "topic": "CSS"
-  },
-  {
-    "id": 51,
-    "question": "Service which helps an organization to host a website on the Web Server:",
-    "options": [
-      "Web Service",
-      "Web Hosting",
-      "Web Marketing",
-      "Web Publishing"
-    ],
-    "answer": "Web Hosting",
-    "topic": "Web Publishing and Browsing"
-  },
-  {
-    "id": 52,
-    "question": "Which is not a vibrant color?",
-    "options": ["Red", "Orange", "White", "Purple"],
-    "answer": "White",
-    "topic": "CSS"
-  },
-  {
-    "id": 53,
-    "question": "Identify which is not the correct Image Class in W3.Image.",
-    "options": ["w3-round", "w3-circle", "w3-border", "w3-oval"],
-    "answer": "w3-oval",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 54,
-    "question": "To cluster a group of elements together to apply formatting:",
-    "options": ["tag", "class", "id", "div"],
-    "answer": "div",
-    "topic": "HTML"
-  },
-  {
-    "id": 55,
-    "question": "Identify the correct statement for Absolute Positioning in CSS:",
-    "options": [
-      "It is a browser determined positioning",
-      "It uses the position property of CSS to define absolute positioning",
-      "It gives authors greater control on how elements are displayed",
-      "None of the above statements are correct"
-    ],
-    "answer": "It uses the position property of CSS to define absolute positioning",
-    "topic": "CSS"
-  },
-  {
-    "id": 56,
-    "question": "How many columns are supported in the responsive grid?",
-    "options": ["10", "11", "12", "13"],
-    "answer": "12",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 57,
-    "question": "What is the role of JavaScript in web design?",
-    "options": [
-      "Define the content of webpages",
-      "Specify the layout of webpages",
-      "Program the behavior of webpages",
-      "None of the above"
-    ],
-    "answer": "Program the behavior of webpages",
-    "topic": "Javascript"
-  },
-  {
-    "id": 58,
-    "question": "Which is not a valid meta search engine?",
-    "options": ["Yahoo", "Startpage", "Excite", "DuckDuckGo"],
-    "answer": "Yahoo",
-    "topic": "Web Publishing and Browsing"
-  },
-  {
-    "id": 59,
-    "question": "__________ are used to identify user input, user action and browser actions.",
-    "options": [
-      "Input handler",
-      "Event handler",
-      "Document handler",
-      "Action handler"
-    ],
-    "answer": "Event handler",
-    "topic": "HTML"
-  },
-  {
-    "id": 60,
-    "question": "Quick Selection tool is used for the purpose of:",
-    "options": [
-      "Copy Selection",
-      "Paste Selection",
-      "Find image edges and automatically stops the selection",
-      "None of the above"
-    ],
-    "answer": "Find image edges and automatically stops the selection",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 61,
-    "question": "What is true about the Box model of CSS",
-    "options": [
-      "It defines a virtual box drawn around elements",
-      "Content of each element is surrounded by padding only",
-      "Content of each element is surrounded by a border only",
-      "Content of each element is surrounded by a margin only"
-    ],
-    "answer": "It defines a virtual box drawn around elements",
-    "topic": "CSS"
-  },
-  {
-    "id": 62,
-    "question": "Identify the incorrect media type defined in CSS 2.",
-    "options": ["Handheld", "Braille", "Arial", "Print"],
-    "answer": "Arial",
-    "topic": "CSS"
-  },
-  {
-    "id": 63,
-    "question": "w3-color and w3-text-color classes can be used to color:",
-    "options": [
-      "any HTML element",
-      "Heading only",
-      "paragraph element only",
-      "table element only"
-    ],
-    "answer": "any HTML element",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 64,
-    "question": "Shortcut keys to activate Gaussian Blur:",
-    "options": [
-      "CTRL+Alt+Shift+G",
-      "CTRL+Alt+G",
-      "CTRL+Shift+G",
-      "CTRL+Alt+Shift+0"
-    ],
-    "answer": "CTRL+Alt+Shift+G",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 65,
-    "question": "What is not true about External Style sheet?",
-    "options": [
-      "It is a separate document that contains only CSS rules",
-      "It separates content from the presentation but both are still contained in a single file",
-      "It separates the content and style into separate files",
-      "It allows a web designer and a content author to work in parallel"
-    ],
-    "answer": "It separates content from the presentation but both are still contained in a single file",
-    "topic": "CSS"
-  },
-  {
-    "id": 66,
-    "question": "Identify the invalid statement about Angular JS Expressions.",
-    "options": [
-      "written inside double braces: {{ expression }}",
-      "written inside a directive: ng-bind='expression'",
-      "return the result exactly where the expression is written",
-      "Angular JS expressions are different from JavaScript expressions"
-    ],
-    "answer": "Angular JS expressions are different from JavaScript expressions",
-    "topic": "Angular"
-  },
-  {
-    "id": 67,
-    "question": "__________ tag embeds CSS in a webpage.",
-    "options": ["<html>", "<style>", "<css>", "<xml>"],
-    "answer": "<style>",
-    "topic": "HTML"
-  },
-  {
-    "id": 68,
-    "question": "What is not true about ng-repeat directive in Angular JS?",
-    "options": [
-      "repeats an HTML element",
-      "clones HTML elements once for each item in a collection",
-      "used on an array of objects",
-      "defines initial values for an Angular JS application"
-    ],
-    "answer": "defines initial values for an Angular JS application",
-    "topic": "Angular"
-  },
-  {
-    "id": 69,
-    "question": "Which operator is used to get datatype of a variable in JavaScript?",
-    "options": ["instanceof", "gettype", "typeof", "none of the above"],
-    "answer": "typeof",
-    "topic": "Javascript"
-  },
-  {
-    "id": 70,
-    "question": "MIME stands for _________.",
-    "options": [
-      "Multipurpose Internet Mail Extensions",
-      "Multipurpose Instant Mail Extensions",
-      "Multipurpose Internet Message Extensions",
-      "Multipurpose Instant Message Exchange"
-    ],
-    "answer": "Multipurpose Internet Mail Extensions",
-    "topic": "Web Publishing and Browsing"
-  },
-  {
-    "id": 71,
-    "question": "Shortcut keys to hide lines in Notepad++:",
-    "options": ["Alt+H", "Shift+H", "CTRL+H", "None of the above"],
-    "answer": "None of the above",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 72,
-    "question": "Which of the following is not a type of Screen frames in HTML?",
-    "options": ["iframe", "uframe", "no frame", "frameset"],
-    "answer": "uframe",
-    "topic": "HTML"
-  },
-  {
-    "id": 73,
-    "question": "Lasso tool is best used for:",
-    "options": [
-      "Cleaning up a selection that you started with another tool",
-      "Deselecting the selection already done",
-      "Remove a selection",
-      "None of the above"
-    ],
-    "answer": "Cleaning up a selection that you started with another tool",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 74,
-    "question": "Which of the following directives is used to start an Angular JS application?",
-    "options": ["ng-repeat", "ng-init", "ng-app", "ng-model"],
-    "answer": "ng-app",
-    "topic": "Angular"
-  },
-  {
-    "id": 75,
-    "question": "__________ makes the text bold.",
-    "options": [
-      "font-length: bold",
-      "font-weight: bold",
-      "font-style: bold",
-      "text-align: bold"
-    ],
-    "answer": "font-weight: bold",
-    "topic": "CSS"
-  },
-  {
-    "id": 76,
-    "question": "The most important <head> element of a webpage is a container for:",
-    "options": ["Links", "Webpages", "Metadata", "Pictures"],
-    "answer": "Metadata",
-    "topic": "HTML"
-  },
-  {
-    "id": 77,
-    "question": "Identify the browser which can render HTML 5 tags.",
-    "options": ["Safari", "Chrome", "Edge", "All the above"],
-    "answer": "All the above",
-    "topic": "HTML"
-  },
-  {
-    "id": 78,
-    "question": "Which statement is not true for the headings in W3.Font?",
-    "options": [
-      "Segoe UI is the default font for headings",
-      "Segoe UI has a more narrow letter spacing",
-      "Headings allow a lesser numbr of letters in the headings",
-      "Smallest heading tag is <h6>"
-    ],
-    "answer": "Headings allow a lesser numbr of letters in the headings",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 79,
-    "question": "What is not correct about Embedded Style Sheets?",
-    "options": [
-      "Embedded style sheets enable embedding an entire CSS document in an XHTML document's head section",
-      "Class selectors are used in Embedded Style sheets",
-      "The style element’s type attribute specifies the MIME type that describes a file’s content",
-      "All the statements are correct"
-    ],
-    "answer": "Class selectors are used in Embedded Style sheets",
-    "topic": "CSS"
-  },
-  {
-    "id": 80,
-    "question": "Which statements are correct regarding w3-panel?",
-    "options": [
-      "w3-panel class is perfect for displaying notes",
-      "w3-panel class is perfect for displaying quotes",
-      "w3-panel class is perfect for displaying alerts",
-      "All statements are correct"
-    ],
-    "answer": "All statements are correct",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 81,
-    "question": "Identify the incorrect statement about a PseudoClass in CSS.",
-    "options": [
-      "It is a style class defined in CSS",
-      "It gives the author access to content not specifically declared in the document",
-      "Pseudoclass is separated by an underscore from the name of the element",
-      "Pseudoclass are separated by a colon from the name of the element"
-    ],
-    "answer": "Pseudoclass is separated by an underscore from the name of the element",
-    "topic": "CSS"
-  },
-  {
-    "id": 82,
-    "question": "Color enhancement refers to:",
-    "options": [
-      "Enhance only foreground of image",
-      "Any type of process that modifies or enhances the color of a natural diamond",
-      "Enhance only background of image",
-      "None of the above"
-    ],
-    "answer": "Any type of process that modifies or enhances the color of a natural diamond",
-    "topic": "Photo Editor"
-  },
-  {
-    "id": 83,
-    "question": "Which keyword is a must to use when JavaScript code is to run in older browsers?",
-    "options": ["var", "let", "const", "none of the above"],
-    "answer": "var",
-    "topic": "Javascript"
-  },
-  {
-    "id": 84,
-    "question": "Which CSS specification was first declared to become an official W3C Recommendation?",
-    "options": ["CSS level 2", "CSS level 0", "CSS level 1", "CSS level 2.1"],
-    "answer": "CSS level 1",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 85,
-    "question": "Variables in JavaScript cannot be declared using:",
-    "options": ["var", "let", "nothing", "set"],
-    "answer": "set",
-    "topic": "Javascript"
-  },
-  {
-    "id": 86,
-    "question": "Which class property makes an image transparent?",
-    "options": ["w3-opacity", "w3-trans", "w3-grayscale", "None of the above"],
-    "answer": "w3-opacity",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 87,
-    "question": "An index page is:",
-    "options": [
-      "An index of encyclopedia articles",
-      "Where all Internet data is stored",
-      "Required for access to the Internet",
-      "The first page of a website"
-    ],
-    "answer": "The first page of a website",
-    "topic": "HTML"
-  },
-  {
-    "id": 88,
-    "question": "What does the .edu domain represent?",
-    "options": [
-      "Education domain",
-      "Commercial domain",
-      "E-learning domain",
-      "Entertainment domain"
-    ],
-    "answer": "Education domain",
-    "topic": "Web Publishing and Browsing"
-  },
-  {
-    "id": 89,
-    "question": "Which is not a valid list type in W3.List?",
-    "options": ["Small", "XSmall", "Large", "XLarge"],
-    "answer": "XLarge",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 90,
-    "question": "Identify the invalid <input> tag type attribute value.",
-    "options": ["radiobox", "checkbox", "submit", "text"],
-    "answer": "radiobox",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 91,
-    "question": "Which JavaScript statement is used to perform different actions based on different conditions?",
-    "options": ["if", "for", "while", "switch"],
-    "answer": "switch",
-    "topic": "Javascript"
-  },
-  {
-    "id": 92,
-    "question": "Which of the following can be used as a prefix for Directives?",
-    "options": ["data", "ng", "Both (A) and (B)", "None of the above"],
-    "answer": "Both (A) and (B)",
-    "topic": "Angular"
-  },
-  {
-    "id": 93,
-    "question": "JavaScript can change:",
-    "options": [
-      "HTML Content",
-      "HTML Attribute Values",
-      "HTML Styles",
-      "All of the above"
-    ],
-    "answer": "All of the above",
-    "topic": "Javascript"
-  },
-  {
-    "id": 94,
-    "question": "What protocol is used by all computer connections to the Internet?",
-    "options": ["UDP", "FTP", "TCP/IP", "Telnet"],
-    "answer": "TCP/IP",
-    "topic": "Web Publishing and Browsing"
-  },
-  {
-    "id": 95,
-    "question": "_____ is used to specify a new condition to test if the first condition is false.",
-    "options": ["if", "else", "else if", "none of the above"],
-    "answer": "else if",
-    "topic": "Javascript"
-  },
-  {
-    "id": 96,
-    "question": "Identify the non-semantic elements in HTML tags.",
-    "options": ["<div>", "<form>", "<table>", "<article>"],
-    "answer": "<div>",
-    "topic": "HTML"
-  },
-  {
-    "id": 97,
-    "question": "Which is not true about CSS?",
-    "options": [
-      "CSS is Cascading Style Sheet",
-      "Separate content from presentation",
-      "Establish visual layout of a webpage",
-      "Markup the content of the webpage"
-    ],
-    "answer": "Markup the content of the webpage",
-    "topic": "CSS"
-  },
-  {
-    "id": 98,
-    "question": "Which is not a valid text alignment class in W3.Text?",
-    "options": [
-      "w3-left-align",
-      "w3-right-align",
-      "w3-center",
-      "w3-center-align"
-    ],
-    "answer": "w3-center-align",
-    "topic": "CSS Framework"
-  },
-  {
-    "id": 99,
-    "question": "HTTP PUT request method is used to:",
-    "options": [
-      "Return contents of a specified document",
-      "Return header information",
-      "Replace the specified document with enclosed data",
-      "Execute the specified document with enclosed data"
-    ],
-    "answer": "Replace the specified document with enclosed data",
-    "topic": "HTML"
-  },
-  {
-    "id": 100,
-    "question": "Which statement is used to come out of a switch block?",
-    "options": ["exit", "break", "default", "out"],
-    "answer": "break",
-    "topic": "Javascript"
-  }
+    "topic": "CSS Framework",
+    "explanation": "W3.CSS provides predefined border utility classes such as w3-border-top, w3-border-right, and w3-border-bottom. However, there is no class named 'w3-border-gutter' in the W3.CSS framework, making it the incorrect option."
+  },
+{
+  "id": 6,
+  "question": "Identify the valid new <input> tag element in HTML 5 ?",
+  "options": ["email", "letter", "fax", "None of the above"],
+  "answer": "email",
+  "topic": "HTML",
+  "explanation": "HTML5 introduced several new input types to improve form validation and user experience. The 'email' input type is valid in HTML5 and is used to accept email addresses with built-in validation. 'letter' and 'fax' are not valid input types."
+},
+{
+  "id": 7,
+  "question": "Which tag is used to render and represents an independent piece of content of a document ?",
+  "options": ["Blog", "Newspaper", "Article", "Record"],
+  "answer": "Article",
+  "topic": "CSS Framework",
+  "explanation": "The <article> tag in HTML5 is used to represent an independent, self-contained piece of content such as a blog post, news article, or forum entry. The other options are not valid HTML tags."
+},
+{
+  "id": 8,
+  "question": "Hypertext is a :",
+  "options": [
+    "Text with heavy text jargons",
+    "Text more than 1000 words",
+    "Text which contains links to other texts",
+    "None of the above"
+  ],
+  "answer": "Text which contains links to other texts",
+  "topic": "HTML",
+  "explanation": "Hypertext refers to text that contains hyperlinks, allowing users to navigate from one document or webpage to another. This concept forms the foundation of the World Wide Web."
+},
+{
+  "id": 9,
+  "question": "Which comparison operator is used to find equality of type as well as content between two variables ?",
+  "options": [".==", ".===", ".====", "None of the above"],
+  "answer": ".===",
+  "topic": "Javascript",
+  "explanation": "In JavaScript, the strict equality operator (===) is used to compare both the value and the data type of two variables. Unlike the == operator, it does not perform type conversion."
+},
+{
+  "id": 10,
+  "question": "What is not a valid statement for Angular JS ?",
+  "options": [
+    "It is a JavaScript framework",
+    "It is added using <script> tag",
+    "It is a framework written in C",
+    "Angular JS extends HTML attributes"
+  ],
+  "answer": "It is a framework written in C",
+  "topic": "Angular",
+  "explanation": "AngularJS is a JavaScript-based front-end framework developed by Google. It is included in web pages using the <script> tag and extends HTML with custom attributes known as directives. It is not written in the C programming language."
+},
+{
+  "id": 11,
+  "question": "W3.Table does not provide the following class for tables.",
+  "options": ["w3-striped", "w3-stripe", "w3-border", "w3-bordered"],
+  "answer": "w3-stripe",
+  "topic": "CSS Framework",
+  "explanation": "W3.CSS provides table classes like w3-striped, w3-border and w3-bordered. There is no class named w3-stripe in W3.CSS, hence it is invalid."
+},
+{
+  "id": 12,
+  "question": "Which converter is present in Notepad++ ?",
+  "options": [
+    "ASCII to HEX",
+    "ASCII to OCT",
+    "HEX to ASCII",
+    "Both (A) and ©"
+  ],
+  "answer": "ASCII to HEX",
+  "topic": "Editors",
+  "explanation": "Notepad++ includes a built-in converter that allows conversion from ASCII to HEX. Other listed conversions are not available by default."
+},
+{
+  "id": 13,
+  "question": "Exponential operator in JavaScript is :",
+  "options": ["^", "%", "**", "None of the above"],
+  "answer": "**",
+  "topic": "Javascript",
+  "explanation": "In JavaScript, the exponential operator is **, which is used to raise a number to the power of another number, such as 2 ** 3 = 8."
+},
+{
+  "id": 14,
+  "question": "A set of navigation links is defined using tag :",
+  "options": ["<a>", "<nav>", "<href>", "None of the above"],
+  "answer": "<nav>",
+  "topic": "HTML",
+  "explanation": "The <nav> tag is used in HTML5 to define a section that contains navigation links, improving document structure and accessibility."
+},
+{
+  "id": 15,
+  "question": "File protocol is used for ________.",
+  "options": [
+    "deciding the design and structure of the file",
+    "transfer of computer files from hard disk to main memory",
+    "deciding the storage space of files",
+    "transfer of computer files from a server to a client"
+  ],
+  "answer": "transfer of computer files from a server to a client",
+  "topic": "Web Publishing and Browsing",
+  "explanation": "The file protocol (file://) is used to access and transfer computer files, commonly from a server or local system to a client."
+},
+{
+  "id": 16,
+  "question": "_________ is a generic inline element that applies no inherent formatting.",
+  "options": ["div", "span", "color", "width"],
+  "answer": "span",
+  "topic": "HTML",
+  "explanation": "The <span> tag is a generic inline element in HTML that does not apply any default styling and is mainly used for applying CSS or JavaScript."
+},
+{
+  "id": 17,
+  "question": "Identify the features of photo-editing software.",
+  "options": [
+    "Air brushing",
+    "Red-eye removal",
+    "Cropping",
+    "All of the above"
+  ],
+  "answer": "All of the above",
+  "topic": "Photo Editor",
+  "explanation": "Photo-editing software commonly provides features like air brushing, red-eye removal, and cropping, making all the given options correct."
+},
+{
+  "id": 18,
+  "question": "Which Filter is based on the idea of photographers adding colored filters to the camera lens to tint the photo ?",
+  "options": [
+    "Image Filter",
+    "Photo Filter",
+    "Artistic Filter",
+    "None of the above"
+  ],
+  "answer": "Photo Filter",
+  "topic": "Photo Editor",
+  "explanation": "A Photo Filter simulates the effect of colored filters placed on camera lenses to tint or adjust the color tone of an image."
+},
+{
+  "id": 19,
+  "question": "What is not true about the <label> tag of HTML ?",
+  "options": [
+    "Defines a label for many form elements",
+    "Useful for screen-reader users",
+    "Useful for visually challenged users",
+    "All the above"
+  ],
+  "answer": "Defines a label for many form elements",
+  "topic": "HTML",
+  "explanation": "The <label> tag defines a label for a single form control, not many elements. It is helpful for screen readers and visually challenged users."
+},
+{
+  "id": 20,
+  "question": "The body of the style sheet includes __________.",
+  "options": ["Style rules", "CSS rules", "Sheet rules", "Format rules"],
+  "answer": "CSS rules",
+  "topic": "CSS",
+  "explanation": "The body of a CSS style sheet consists of CSS rules, which include selectors and declaration blocks that define styling."
+},
+{
+  "id": 21,
+  "question": "SGML stands for :",
+  "options": [
+    "Standalone generalized markup language",
+    "Standalone global makeup language",
+    "Standard generalized markup language",
+    "Standalone Graphical markup language"
+  ],
+  "answer": "Standard generalized markup language",
+  "topic": "HTML",
+  "explanation": "SGML stands for Standard Generalized Markup Language and is the parent language of HTML and XML."
+},
+{
+  "id": 22,
+  "question": "Rectangular Marquee tool is used for the purpose of :",
+  "options": [
+    "Floating the marquee",
+    "Creating marquee",
+    "Selecting portion inside image",
+    "None of the above"
+  ],
+  "answer": "Selecting portion inside image",
+  "topic": "Photo Editor",
+  "explanation": "The Rectangular Marquee Tool is used to select a rectangular portion of an image for editing or manipulation."
+},
+{
+  "id": 23,
+  "question": "An online information retrieval tool that uses the data of a web search engine to produce its own results :",
+  "options": [
+    "Search Engine",
+    "Meta Search Engine",
+    "Mega Search Engine",
+    "None of the above"
+  ],
+  "answer": "Meta Search Engine",
+  "topic": "Web Publishing and Browsing",
+  "explanation": "A Meta Search Engine collects and displays results from multiple search engines instead of maintaining its own database."
+},
+{
+  "id": 24,
+  "question": "Are the negative values allowed in padding property ?",
+  "options": ["Yes", "No", "Cannot say", "May be"],
+  "answer": "Yes",
+  "topic": "CSS",
+  "explanation": "Negative values are allowed in the CSS padding property, although they are rarely used in practical layouts."
+},
+{
+  "id": 25,
+  "question": "The __________ pseudoclass is activated when the user moves the mouse cursor over the specified element.",
+  "options": ["mouse over", "mouse hover", "hover", "mouse move"],
+  "answer": "hover",
+  "topic": "CSS",
+  "explanation": "The :hover pseudo-class is triggered when the user places the mouse cursor over an HTML element."
+},
+{
+  "id": 26,
+  "question": "Which is not an encryption algorithm not present in Notepad++ ?",
+  "options": ["MD5", "SHA-256", "MD6", "Both (A) and (B)"],
+  "answer": "MD6",
+  "topic": "Editors",
+  "explanation": "Notepad++ supports encryption algorithms like MD5 and SHA-256. MD6 is not supported, making it the correct answer."
+},
+{
+  "id": 27,
+  "question": "Identify benefits that are provided by Photo Editing for Business.",
+  "options": [
+    "Brand Building",
+    "Better Sales",
+    "Robust Social Media Strategy",
+    "All of the above"
+  ],
+  "answer": "All of the above",
+  "topic": "Photo Editor",
+  "explanation": "Photo editing helps businesses in brand building, improving sales, and creating strong social media strategies, so all options are correct."
+},
+{
+  "id": 28,
+  "question": "Which statement is not true about responsive tables in W3.Table?",
+  "options": [
+    "w3-responsive class creates a responsive table",
+    "It scroll horizontally on small screens",
+    "w3-table class creates a responsive table",
+    "on large screens, there is no difference"
+  ],
+  "answer": "w3-table class creates a responsive table",
+  "topic": "CSS Framework",
+  "explanation": "In W3.CSS, the w3-responsive class makes tables responsive. The w3-table class alone does not provide responsiveness."
+},
+{
+  "id": 29,
+  "question": "How are tones created in Images?",
+  "options": [
+    "When grey is added to a color",
+    "When black is added to a color",
+    "When white is added to a color",
+    "None of the above"
+  ],
+  "answer": "When grey is added to a color",
+  "topic": "Photo Editor",
+  "explanation": "Tones are created when grey is added to a color, reducing its intensity without changing its hue."
+},
+{
+  "id": 30,
+  "question": "What is true about Conflicting Styles?",
+  "options": [
+    "Conflict occurs as styles can be defined by a user, an author or a user agent",
+    "Styles cascade, or flow together",
+    "Ultimate appearance of elements depends on a combination of styles",
+    "Styles defined by the user agent take precedence over styles defined by the user"
+  ],
+  "answer": "Styles defined by the user agent take precedence over styles defined by the user",
+  "topic": "CSS",
+  "explanation": "In CSS cascading rules, user-defined styles override user-agent styles. Therefore, the given statement is identified as the answer."
+}
+,
+{
+  "id": 31,
+  "question": "Identify the basic lists in W3.css.",
+  "options": ["w3-ol", "w3-border", "w3-center", "all of the above"],
+  "answer": "w3-ol",
+  "topic": "CSS Framework",
+  "explanation": "In W3.CSS, w3-ol is used to create a basic ordered list. The other options are utility classes and not list-specific classes."
+},
+{
+  "id": 32,
+  "question": "Identify the wrong statements about Cookies.",
+  "options": [
+    "Cookies are programs which run in the background of the web-client",
+    "Cookies have the potential of being used to violate the privacy of users",
+    "Cookies are very helpful in keeping track of users in online shopping and advertising",
+    "Cookies cannot contain more than 4 KB of data"
+  ],
+  "answer": "Cookies are programs which run in the background of the web-client",
+  "topic": "Javascript",
+  "explanation": "Cookies are small pieces of data stored in the browser, not programs. They do not execute code in the background."
+},
+{
+  "id": 33,
+  "question": "Which is true about <iframe> tag?",
+  "options": [
+    "It is an inline frame",
+    "Embed another document within a current HTML document",
+    "None",
+    "Both (A) and (B) are true"
+  ],
+  "answer": "Both (A) and (B) are true",
+  "topic": "HTML",
+  "explanation": "The <iframe> tag represents an inline frame and is used to embed another HTML document within the current page."
+},
+{
+  "id": 34,
+  "question": "What is not correct about the Style class?",
+  "options": [
+    "Apply only to specific element types defined in the style sheet",
+    "Define styles that can be applied to any element",
+    "Style-class declarations are preceded by an underscore",
+    "Style-class declarations are preceded by a period"
+  ],
+  "answer": "Style-class declarations are preceded by an underscore",
+  "topic": "CSS",
+  "explanation": "CSS class selectors are preceded by a dot (.), not an underscore (_)."
+},
+{
+  "id": 35,
+  "question": "Identify the default font used in W3.Font.",
+  "options": ["Times New Roman", "Arial", "Verdana", "None of the above"],
+  "answer": "Verdana",
+  "topic": "CSS Framework",
+  "explanation": "W3.CSS uses Verdana as its default font to ensure readability and consistency across devices."
+},
+{
+  "id": 36,
+  "question": "An element can be accessed in JavaScript using:",
+  "options": [
+    "getElementsByName",
+    "getElementsById",
+    "getElementsByClassName",
+    "All of the above"
+  ],
+  "answer": "All of the above",
+  "topic": "Javascript",
+  "explanation": "JavaScript provides multiple DOM methods to access elements, including by name, id, and class name."
+},
+{
+  "id": 37,
+  "question": "Which binds the value of HTML controls to application data?",
+  "options": ["ng-app", "ng-init", "ng-model", "ng-controller"],
+  "answer": "ng-model",
+  "topic": "Angular",
+  "explanation": "In AngularJS, ng-model binds HTML form controls to application data, enabling two-way data binding."
+},
+{
+  "id": 38,
+  "question": "Which is not a valid encoding standard present in Notepad++?",
+  "options": ["ANSI", "UTF-8", "UTF-8 BOM", "UTF-16"],
+  "answer": "UTF-16",
+  "topic": "Editors",
+  "explanation": "Notepad++ commonly supports encodings like ANSI, UTF-8, and UTF-8 BOM. UTF-16 is not listed as a default option."
+},
+{
+  "id": 39,
+  "question": "Directive to initialize Angular JS application:",
+  "options": ["ng-app", "ng-init", "ng-model", "none of the above"],
+  "answer": "ng-app",
+  "topic": "Angular",
+  "explanation": "The ng-app directive is used to initialize and define the root element of an AngularJS application."
+},
+{
+  "id": 40,
+  "question": "Browsers will usually underline inserted text in the tag:",
+  "options": ["<i>", "<ins>", "<u>", "<em>"],
+  "answer": "<ins>",
+  "topic": "HTML",
+  "explanation": "The <ins> tag represents inserted text and browsers typically display it with an underline."
+},
+{
+  "id": 41,
+  "question": "Identify the invalid image filter.",
+  "options": ["Motion Blur", "Plastic Wrap", "Liquify", "Solidify"],
+  "answer": "Solidify",
+  "topic": "Photo Editor",
+  "explanation": "Motion Blur, Plastic Wrap, and Liquify are valid image filters. Solidify is not a standard image filter."
+},
+{
+  "id": 42,
+  "question": "<del> element defines deleted text. Browser displays them as:",
+  "options": ["Red color", "Strikethrough", "Bold", "Black color"],
+  "answer": "Strikethrough",
+  "topic": "HTML",
+  "explanation": "The <del> tag represents deleted text and is usually displayed with a strikethrough effect."
+},
+{
+  "id": 43,
+  "question": "w3-container class adds padding to any HTML element:",
+  "options": [
+    "16px left only",
+    "32px left and right",
+    "16px left and right",
+    "32px right only"
+  ],
+  "answer": "16px left and right",
+  "topic": "CSS Framework",
+  "explanation": "The w3-container class adds 16px padding to the left and right sides of an element."
+},
+{
+  "id": 44,
+  "question": "Shortcut keys for rotating canvas 90° clockwise:",
+  "options": [
+    "CTRL+Shift+0",
+    "CTRL+Alt+Shift+0",
+    "CTRL+Alt+Shift+F10",
+    "CTRL+Alt+Shift+10"
+  ],
+  "answer": "CTRL+Alt+Shift+0",
+  "topic": "Photo Editor",
+  "explanation": "CTRL+Alt+Shift+0 is the shortcut used in photo-editing software to rotate the canvas 90° clockwise."
+},
+{
+  "id": 45,
+  "question": "What is the task of DNS Name server?",
+  "options": [
+    "Translating domain names into a specific IP address",
+    "Translating domain names into a specific UDP address",
+    "Translating domain names into a specific TCP address",
+    "Translating domain names into a specific FTP address"
+  ],
+  "answer": "Translating domain names into a specific IP address",
+  "topic": "Photo Editor",
+  "explanation": "A DNS Name Server resolves human-readable domain names into their corresponding IP addresses."
+},
+{
+  "id": 46,
+  "question": "Which is not a main built-in search mechanism?",
+  "options": [
+    "dialog-based",
+    "dialog-free",
+    "Incremental Search",
+    "Decremental Search"
+  ],
+  "answer": "Decremental Search",
+  "topic": "Web Publishing and Browsing",
+  "explanation": "Decremental Search is not a standard built-in search mechanism, whereas the others are commonly used."
+},
+{
+  "id": 47,
+  "question": "Autofocus attribute can be used on which element?",
+  "options": ["Button", "Input", "Select", "All the above"],
+  "answer": "All the above",
+  "topic": "HTML",
+  "explanation": "The autofocus attribute can be applied to input, select, and button elements to automatically focus them on page load."
+},
+{
+  "id": 48,
+  "question": "Identify where a <section> element can be used.",
+  "options": ["Chapters", "Introduction", "News Item", "All the above"],
+  "answer": "All the above",
+  "topic": "HTML",
+  "explanation": "The <section> element is used to group related content such as chapters, introductions, and news items."
+},
+{
+  "id": 49,
+  "question": "How to specify individual items in an ordered list?",
+  "options": ["LI", "UL", "OI", "None of the above"],
+  "answer": "LI",
+  "topic": "HTML",
+  "explanation": "The <li> tag is used to define individual list items inside ordered (<ol>) or unordered (<ul>) lists."
+},
+{
+  "id": 50,
+  "question": "Which is not a valid CSS type?",
+  "options": ["Inline", "External", "Outline", "Embedded"],
+  "answer": "Outline",
+  "topic": "CSS",
+  "explanation": "CSS types include inline, internal (embedded), and external. Outline is a CSS property, not a CSS type."
+}
+,
+ {
+  "id": 51,
+  "question": "Service which helps an organization to host a website on the Web Server:",
+  "options": [
+    "Web Service",
+    "Web Hosting",
+    "Web Marketing",
+    "Web Publishing"
+  ],
+  "answer": "Web Hosting",
+  "topic": "Web Publishing and Browsing",
+  "explanation": "Web hosting is a service that provides space on a web server to store website files and make the website accessible on the internet."
+},
+{
+  "id": 52,
+  "question": "Which is not a vibrant color?",
+  "options": ["Red", "Orange", "White", "Purple"],
+  "answer": "White",
+  "topic": "CSS",
+  "explanation": "Vibrant colors are bright and intense. White is a neutral color and does not have vibrancy."
+},
+{
+  "id": 53,
+  "question": "Identify which is not the correct Image Class in W3.Image.",
+  "options": ["w3-round", "w3-circle", "w3-border", "w3-oval"],
+  "answer": "w3-oval",
+  "topic": "CSS Framework",
+  "explanation": "W3.CSS provides image classes like w3-round, w3-circle, and w3-border. There is no class named w3-oval."
+},
+{
+  "id": 54,
+  "question": "To cluster a group of elements together to apply formatting:",
+  "options": ["tag", "class", "id", "div"],
+  "answer": "div",
+  "topic": "HTML",
+  "explanation": "The <div> tag is a block-level container used to group multiple HTML elements together for styling or layout purposes."
+},
+{
+  "id": 55,
+  "question": "Identify the correct statement for Absolute Positioning in CSS:",
+  "options": [
+    "It is a browser determined positioning",
+    "It uses the position property of CSS to define absolute positioning",
+    "It gives authors greater control on how elements are displayed",
+    "None of the above statements are correct"
+  ],
+  "answer": "It uses the position property of CSS to define absolute positioning",
+  "topic": "CSS",
+  "explanation": "Absolute positioning is defined using the CSS position property with the value 'absolute'."
+},
+{
+  "id": 56,
+  "question": "How many columns are supported in the responsive grid?",
+  "options": ["10", "11", "12", "13"],
+  "answer": "12",
+  "topic": "CSS Framework",
+  "explanation": "Most responsive grid systems, including W3.CSS and Bootstrap, are based on a 12-column layout."
+},
+{
+  "id": 57,
+  "question": "What is the role of JavaScript in web design?",
+  "options": [
+    "Define the content of webpages",
+    "Specify the layout of webpages",
+    "Program the behavior of webpages",
+    "None of the above"
+  ],
+  "answer": "Program the behavior of webpages",
+  "topic": "Javascript",
+  "explanation": "JavaScript is used to add interactivity and dynamic behavior to webpages."
+},
+{
+  "id": 58,
+  "question": "Which is not a valid meta search engine?",
+  "options": ["Yahoo", "Startpage", "Excite", "DuckDuckGo"],
+  "answer": "Yahoo",
+  "topic": "Web Publishing and Browsing",
+  "explanation": "Yahoo is a search engine, not a meta search engine. Meta search engines gather results from multiple search engines."
+},
+{
+  "id": 59,
+  "question": "__________ are used to identify user input, user action and browser actions.",
+  "options": [
+    "Input handler",
+    "Event handler",
+    "Document handler",
+    "Action handler"
+  ],
+  "answer": "Event handler",
+  "topic": "HTML",
+  "explanation": "Event handlers respond to user actions such as clicks, key presses, and browser events."
+},
+{
+  "id": 60,
+  "question": "Quick Selection tool is used for the purpose of:",
+  "options": [
+    "Copy Selection",
+    "Paste Selection",
+    "Find image edges and automatically stops the selection",
+    "None of the above"
+  ],
+  "answer": "Find image edges and automatically stops the selection",
+  "topic": "Photo Editor",
+  "explanation": "The Quick Selection tool automatically detects edges in an image and selects areas efficiently."
+},
+{
+  "id": 61,
+  "question": "What is true about the Box model of CSS",
+  "options": [
+    "It defines a virtual box drawn around elements",
+    "Content of each element is surrounded by padding only",
+    "Content of each element is surrounded by a border only",
+    "Content of each element is surrounded by a margin only"
+  ],
+  "answer": "It defines a virtual box drawn around elements",
+  "topic": "CSS",
+  "explanation": "The CSS box model represents elements as rectangular boxes consisting of content, padding, border, and margin."
+},
+{
+  "id": 62,
+  "question": "Identify the incorrect media type defined in CSS 2.",
+  "options": ["Handheld", "Braille", "Arial", "Print"],
+  "answer": "Arial",
+  "topic": "CSS",
+  "explanation": "Arial is a font family, not a media type. Handheld, Braille, and Print are valid CSS media types."
+},
+{
+  "id": 63,
+  "question": "w3-color and w3-text-color classes can be used to color:",
+  "options": [
+    "any HTML element",
+    "Heading only",
+    "paragraph element only",
+    "table element only"
+  ],
+  "answer": "any HTML element",
+  "topic": "CSS Framework",
+  "explanation": "W3.CSS color classes can be applied to any HTML element to change background or text color."
+},
+{
+  "id": 64,
+  "question": "Shortcut keys to activate Gaussian Blur:",
+  "options": [
+    "CTRL+Alt+Shift+G",
+    "CTRL+Alt+G",
+    "CTRL+Shift+G",
+    "CTRL+Alt+Shift+0"
+  ],
+  "answer": "CTRL+Alt+Shift+G",
+  "topic": "Photo Editor",
+  "explanation": "CTRL+Alt+Shift+G is the shortcut used in photo-editing software to apply Gaussian Blur."
+},
+{
+  "id": 65,
+  "question": "What is not true about External Style sheet?",
+  "options": [
+    "It is a separate document that contains only CSS rules",
+    "It separates content from the presentation but both are still contained in a single file",
+    "It separates the content and style into separate files",
+    "It allows a web designer and a content author to work in parallel"
+  ],
+  "answer": "It separates content from the presentation but both are still contained in a single file",
+  "topic": "CSS",
+  "explanation": "External style sheets store CSS in a separate file, not in the same file as HTML."
+},
+{
+  "id": 66,
+  "question": "Identify the invalid statement about Angular JS Expressions.",
+  "options": [
+    "written inside double braces: {{ expression }}",
+    "written inside a directive: ng-bind='expression'",
+    "return the result exactly where the expression is written",
+    "Angular JS expressions are different from JavaScript expressions"
+  ],
+  "answer": "Angular JS expressions are different from JavaScript expressions",
+  "topic": "Angular",
+  "explanation": "AngularJS expressions are similar to JavaScript expressions but are evaluated within the AngularJS framework."
+},
+{
+  "id": 67,
+  "question": "__________ tag embeds CSS in a webpage.",
+  "options": ["<html>", "<style>", "<css>", "<xml>"],
+  "answer": "<style>",
+  "topic": "HTML",
+  "explanation": "The <style> tag is used to embed internal CSS within an HTML document."
+},
+{
+  "id": 68,
+  "question": "What is not true about ng-repeat directive in Angular JS?",
+  "options": [
+    "repeats an HTML element",
+    "clones HTML elements once for each item in a collection",
+    "used on an array of objects",
+    "defines initial values for an Angular JS application"
+  ],
+  "answer": "defines initial values for an Angular JS application",
+  "topic": "Angular",
+  "explanation": "ng-repeat is used to repeat elements for each item in a collection, not to initialize application values."
+},
+{
+  "id": 69,
+  "question": "Which operator is used to get datatype of a variable in JavaScript?",
+  "options": ["instanceof", "gettype", "typeof", "none of the above"],
+  "answer": "typeof",
+  "topic": "Javascript",
+  "explanation": "The typeof operator is used in JavaScript to determine the data type of a variable."
+},
+{
+  "id": 70,
+  "question": "MIME stands for _________.",
+  "options": [
+    "Multipurpose Internet Mail Extensions",
+    "Multipurpose Instant Mail Extensions",
+    "Multipurpose Internet Message Extensions",
+    "Multipurpose Instant Message Exchange"
+  ],
+  "answer": "Multipurpose Internet Mail Extensions",
+  "topic": "Web Publishing and Browsing",
+  "explanation": "MIME defines how different types of files are transmitted over the internet, especially in emails and web content."
+}
+,
+{
+  "id": 71,
+  "question": "Shortcut keys to hide lines in Notepad++:",
+  "options": ["Alt+H", "Shift+H", "CTRL+H", "None of the above"],
+  "answer": "None of the above",
+  "topic": "Photo Editor",
+  "explanation": "Notepad++ does not provide a default keyboard shortcut specifically to hide lines. Such actions are usually done via menu options or plugins."
+},
+{
+  "id": 72,
+  "question": "Which of the following is not a type of Screen frames in HTML?",
+  "options": ["iframe", "uframe", "no frame", "frameset"],
+  "answer": "uframe",
+  "topic": "HTML",
+  "explanation": "HTML supports iframe, frameset, and noframe. There is no such frame type called uframe."
+},
+{
+  "id": 73,
+  "question": "Lasso tool is best used for:",
+  "options": [
+    "Cleaning up a selection that you started with another tool",
+    "Deselecting the selection already done",
+    "Remove a selection",
+    "None of the above"
+  ],
+  "answer": "Cleaning up a selection that you started with another tool",
+  "topic": "Photo Editor",
+  "explanation": "The Lasso tool allows freehand selection and is ideal for refining or cleaning selections made with other tools."
+},
+{
+  "id": 74,
+  "question": "Which of the following directives is used to start an Angular JS application?",
+  "options": ["ng-repeat", "ng-init", "ng-app", "ng-model"],
+  "answer": "ng-app",
+  "topic": "Angular",
+  "explanation": "The ng-app directive defines the root element of an AngularJS application and initializes it."
+},
+{
+  "id": 75,
+  "question": "__________ makes the text bold.",
+  "options": [
+    "font-length: bold",
+    "font-weight: bold",
+    "font-style: bold",
+    "text-align: bold"
+  ],
+  "answer": "font-weight: bold",
+  "topic": "CSS",
+  "explanation": "The CSS property font-weight controls the thickness of text, and the value 'bold' makes text bold."
+},
+{
+  "id": 76,
+  "question": "The most important <head> element of a webpage is a container for:",
+  "options": ["Links", "Webpages", "Metadata", "Pictures"],
+  "answer": "Metadata",
+  "topic": "HTML",
+  "explanation": "The <head> section stores metadata such as title, meta tags, links to stylesheets, and scripts."
+},
+{
+  "id": 77,
+  "question": "Identify the browser which can render HTML 5 tags.",
+  "options": ["Safari", "Chrome", "Edge", "All the above"],
+  "answer": "All the above",
+  "topic": "HTML",
+  "explanation": "All modern browsers like Safari, Chrome, and Edge fully support HTML5 elements."
+},
+{
+  "id": 78,
+  "question": "Which statement is not true for the headings in W3.Font?",
+  "options": [
+    "Segoe UI is the default font for headings",
+    "Segoe UI has a more narrow letter spacing",
+    "Headings allow a lesser numbr of letters in the headings",
+    "Smallest heading tag is <h6>"
+  ],
+  "answer": "Headings allow a lesser numbr of letters in the headings",
+  "topic": "CSS Framework",
+  "explanation": "HTML headings do not limit the number of letters; they only define the importance and size of text."
+},
+{
+  "id": 79,
+  "question": "What is not correct about Embedded Style Sheets?",
+  "options": [
+    "Embedded style sheets enable embedding an entire CSS document in an XHTML document's head section",
+    "Class selectors are used in Embedded Style sheets",
+    "The style element’s type attribute specifies the MIME type that describes a file’s content",
+    "All the statements are correct"
+  ],
+  "answer": "Class selectors are used in Embedded Style sheets",
+  "topic": "CSS",
+  "explanation": "This option is considered incorrect in exam context because class selectors are not specific to embedded styles; they can be used in all types of CSS."
+},
+{
+  "id": 80,
+  "question": "Which statements are correct regarding w3-panel?",
+  "options": [
+    "w3-panel class is perfect for displaying notes",
+    "w3-panel class is perfect for displaying quotes",
+    "w3-panel class is perfect for displaying alerts",
+    "All statements are correct"
+  ],
+  "answer": "All statements are correct",
+  "topic": "CSS Framework",
+  "explanation": "The w3-panel class is a flexible container used for notes, quotes, alerts, and highlighted content."
+},
+{
+  "id": 81,
+  "question": "Identify the incorrect statement about a PseudoClass in CSS.",
+  "options": [
+    "It is a style class defined in CSS",
+    "It gives the author access to content not specifically declared in the document",
+    "Pseudoclass is separated by an underscore from the name of the element",
+    "Pseudoclass are separated by a colon from the name of the element"
+  ],
+  "answer": "Pseudoclass is separated by an underscore from the name of the element",
+  "topic": "CSS",
+  "explanation": "CSS pseudo-classes are separated from elements using a colon (:) not an underscore (_)."
+},
+{
+  "id": 82,
+  "question": "Color enhancement refers to:",
+  "options": [
+    "Enhance only foreground of image",
+    "Any type of process that modifies or enhances the color of a natural diamond",
+    "Enhance only background of image",
+    "None of the above"
+  ],
+  "answer": "Any type of process that modifies or enhances the color of a natural diamond",
+  "topic": "Photo Editor",
+  "explanation": "Color enhancement involves processes that alter or improve the color quality of an object or image."
+},
+{
+  "id": 83,
+  "question": "Which keyword is a must to use when JavaScript code is to run in older browsers?",
+  "options": ["var", "let", "const", "none of the above"],
+  "answer": "var",
+  "topic": "Javascript",
+  "explanation": "Older browsers do not support let and const, so var is used for compatibility."
+},
+{
+  "id": 84,
+  "question": "Which CSS specification was first declared to become an official W3C Recommendation?",
+  "options": ["CSS level 2", "CSS level 0", "CSS level 1", "CSS level 2.1"],
+  "answer": "CSS level 1",
+  "topic": "CSS Framework",
+  "explanation": "CSS Level 1 was the first CSS specification officially recommended by the W3C."
+},
+{
+  "id": 85,
+  "question": "Variables in JavaScript cannot be declared using:",
+  "options": ["var", "let", "nothing", "set"],
+  "answer": "set",
+  "topic": "Javascript",
+  "explanation": "JavaScript variables can be declared using var, let, or const. The keyword 'set' is not used for variable declaration."
+},
+{
+  "id": 86,
+  "question": "Which class property makes an image transparent?",
+  "options": ["w3-opacity", "w3-trans", "w3-grayscale", "None of the above"],
+  "answer": "w3-opacity",
+  "topic": "CSS Framework",
+  "explanation": "The w3-opacity class in W3.CSS controls the transparency level of an element."
+},
+{
+  "id": 87,
+  "question": "An index page is:",
+  "options": [
+    "An index of encyclopedia articles",
+    "Where all Internet data is stored",
+    "Required for access to the Internet",
+    "The first page of a website"
+  ],
+  "answer": "The first page of a website",
+  "topic": "HTML",
+  "explanation": "An index page (index.html) is the default and first page loaded when a website is accessed."
+},
+{
+  "id": 88,
+  "question": "What does the .edu domain represent?",
+  "options": [
+    "Education domain",
+    "Commercial domain",
+    "E-learning domain",
+    "Entertainment domain"
+  ],
+  "answer": "Education domain",
+  "topic": "Web Publishing and Browsing",
+  "explanation": "The .edu domain is reserved for educational institutions such as universities and colleges."
+},
+{
+  "id": 89,
+  "question": "Which is not a valid list type in W3.List?",
+  "options": ["Small", "XSmall", "Large", "XLarge"],
+  "answer": "XLarge",
+  "topic": "CSS Framework",
+  "explanation": "W3.CSS list size classes include Small, XSmall, and Large, but not XLarge."
+},
+{
+  "id": 90,
+  "question": "Identify the invalid <input> tag type attribute value.",
+  "options": ["radiobox", "checkbox", "submit", "text"],
+  "answer": "radiobox",
+  "topic": "CSS Framework",
+  "explanation": "HTML uses 'radio' as a valid input type, not 'radiobox'."
+}
+,
+ {
+  "id": 91,
+  "question": "Which JavaScript statement is used to perform different actions based on different conditions?",
+  "options": ["if", "for", "while", "switch"],
+  "answer": "switch",
+  "topic": "Javascript",
+  "explanation": "The switch statement is used when multiple conditions are checked against a single expression, allowing different code blocks to run for different matched cases."
+},
+{
+  "id": 92,
+  "question": "Which of the following can be used as a prefix for Directives?",
+  "options": ["data", "ng", "Both (A) and (B)", "None of the above"],
+  "answer": "Both (A) and (B)",
+  "topic": "Angular",
+  "explanation": "AngularJS directives can be written using the ng- prefix or the HTML5-compliant data-ng- prefix."
+},
+{
+  "id": 93,
+  "question": "JavaScript can change:",
+  "options": [
+    "HTML Content",
+    "HTML Attribute Values",
+    "HTML Styles",
+    "All of the above"
+  ],
+  "answer": "All of the above",
+  "topic": "Javascript",
+  "explanation": "JavaScript can dynamically manipulate the DOM, allowing it to change content, attributes, and CSS styles."
+},
+{
+  "id": 94,
+  "question": "What protocol is used by all computer connections to the Internet?",
+  "options": ["UDP", "FTP", "TCP/IP", "Telnet"],
+  "answer": "TCP/IP",
+  "topic": "Web Publishing and Browsing",
+  "explanation": "TCP/IP is the fundamental communication protocol suite that enables devices to connect and communicate over the Internet."
+},
+{
+  "id": 95,
+  "question": "_____ is used to specify a new condition to test if the first condition is false.",
+  "options": ["if", "else", "else if", "none of the above"],
+  "answer": "else if",
+  "topic": "Javascript",
+  "explanation": "The else if statement allows checking another condition when the initial if condition evaluates to false."
+},
+{
+  "id": 96,
+  "question": "Identify the non-semantic elements in HTML tags.",
+  "options": ["<div>", "<form>", "<table>", "<article>"],
+  "answer": "<div>",
+  "topic": "HTML",
+  "explanation": "The <div> tag is a non-semantic element because it does not convey any specific meaning about its content."
+},
+{
+  "id": 97,
+  "question": "Which is not true about CSS?",
+  "options": [
+    "CSS is Cascading Style Sheet",
+    "Separate content from presentation",
+    "Establish visual layout of a webpage",
+    "Markup the content of the webpage"
+  ],
+  "answer": "Markup the content of the webpage",
+  "topic": "CSS",
+  "explanation": "CSS is used for styling and layout, not for marking up or defining the structure of webpage content."
+},
+{
+  "id": 98,
+  "question": "Which is not a valid text alignment class in W3.Text?",
+  "options": [
+    "w3-left-align",
+    "w3-right-align",
+    "w3-center",
+    "w3-center-align"
+  ],
+  "answer": "w3-center-align",
+  "topic": "CSS Framework",
+  "explanation": "W3.CSS provides w3-left-align, w3-right-align, and w3-center classes, but not w3-center-align."
+},
+{
+  "id": 99,
+  "question": "HTTP PUT request method is used to:",
+  "options": [
+    "Return contents of a specified document",
+    "Return header information",
+    "Replace the specified document with enclosed data",
+    "Execute the specified document with enclosed data"
+  ],
+  "answer": "Replace the specified document with enclosed data",
+  "topic": "HTML",
+  "explanation": "The HTTP PUT method uploads data to the server and replaces the target resource with the provided content."
+},
+{
+  "id": 100,
+  "question": "Which statement is used to come out of a switch block?",
+  "options": ["exit", "break", "default", "out"],
+  "answer": "break",
+  "topic": "Javascript",
+  "explanation": "The break statement exits the switch block immediately, preventing execution from continuing into the next case."
+}
+
 ]

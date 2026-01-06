@@ -81,7 +81,17 @@ const UPPSC_quiz_solved = ({ q, index, answers, score, handleSelect }) => {
             )}
           </label>
         ))}
+
       </div>
+
+            {/* Statements */}
+      {q.explanation && 
+      <div className="border mt-4 p-2 rounded-sm bg-blue-100">
+        <h1 className="font-bold">Explnation</h1>
+        <p className="text-sm">{q.explanation}</p>
+      </div>
+      
+}
     </div>
   );
 };

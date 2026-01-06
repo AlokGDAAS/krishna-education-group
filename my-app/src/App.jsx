@@ -15,6 +15,7 @@ import UPPSC_quiz from "./components/quiz/UPPSC_quiz";
 import VedioLec from "./components/YoutubeVedios/VedioLec";
 import Main_slider_1 from "./components/ImageSlider";
 import O_level_quiz_2 from "./components/quiz/O_level_quiz_2";
+import O_level_quiz_2_read_mode from "./components/quiz/O_level_quiz_2_read_mode";
 
 
 function App() {
@@ -38,6 +39,7 @@ function App() {
           <Route path="/practice-test/:slug" element={<Quiz/>} />
           <Route path="/practice-test-o-level/:slug" element={<O_level_quiz/>} />
           <Route path="/practice-test-o-level_2/:slug" element={<O_level_quiz_2/>} />
+          <Route path="/practice-test-o-level_2_read_mode/:slug" element={<O_level_quiz_2_read_mode/>} />
           <Route path="/practice-test-uppsc/:slug" element={<UPPSC_quiz/>} />
         </Routes>
       </div>
