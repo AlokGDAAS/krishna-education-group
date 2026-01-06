@@ -272,7 +272,7 @@
       "w3-table class creates a responsive table",
       "on large screens, there is no difference"
     ],
-    "answer": "w3-table class creates a responsive table (NOT true)",
+    "answer": "w3-table class creates a responsive table",
     "topic": "CSS Framework"
   },
   {
@@ -296,7 +296,7 @@
       "Ultimate appearance of elements depends on a combination of styles",
       "Styles defined by the user agent take precedence over styles defined by the user"
     ],
-    "answer": "Styles defined by the user agent take precedence over styles defined by the user (NOT true)",
+    "answer": "Styles defined by the user agent take precedence over styles defined by the user",
     "topic": "CSS"
   },
   {
@@ -315,7 +315,7 @@
       "Cookies are very helpful in keeping track of users in online shopping and advertising",
       "Cookies cannot contain more than 4 KB of data"
     ],
-    "answer": "Cookies are programs which run in the background of the web-client (wrong)",
+    "answer": "Cookies are programs which run in the background of the web-client",
     "topic": "Javascript"
   },
   {
@@ -339,7 +339,7 @@
       "Style-class declarations are preceded by an underscore",
       "Style-class declarations are preceded by a period"
     ],
-    "answer": "Style-class declarations are preceded by an underscore (NOT correct)",
+    "answer": "Style-class declarations are preceded by an underscore",
     "topic": "CSS"
   },
   {
@@ -481,247 +481,247 @@
   },
   {
     "id": 51,
-    "Question": "Service which helps an organization to host a website on the Web Server:",
+    "question": "Service which helps an organization to host a website on the Web Server:",
     "options": [
       "Web Service",
       "Web Hosting",
       "Web Marketing",
       "Web Publishing"
     ],
-    "Answer": "Web Hosting",
+    "answer": "Web Hosting",
     "topic": "Web Publishing and Browsing"
   },
   {
     "id": 52,
-    "Question": "Which is not a vibrant color?",
+    "question": "Which is not a vibrant color?",
     "options": ["Red", "Orange", "White", "Purple"],
-    "Answer": "White",
+    "answer": "White",
     "topic": "CSS"
   },
   {
     "id": 53,
-    "Question": "Identify which is not the correct Image Class in W3.Image.",
+    "question": "Identify which is not the correct Image Class in W3.Image.",
     "options": ["w3-round", "w3-circle", "w3-border", "w3-oval"],
-    "Answer": "w3-oval",
+    "answer": "w3-oval",
     "topic": "CSS Framework"
   },
   {
     "id": 54,
-    "Question": "To cluster a group of elements together to apply formatting:",
+    "question": "To cluster a group of elements together to apply formatting:",
     "options": ["tag", "class", "id", "div"],
-    "Answer": "div",
+    "answer": "div",
     "topic": "HTML"
   },
   {
     "id": 55,
-    "Question": "Identify the correct statement for Absolute Positioning in CSS:",
+    "question": "Identify the correct statement for Absolute Positioning in CSS:",
     "options": [
       "It is a browser determined positioning",
       "It uses the position property of CSS to define absolute positioning",
       "It gives authors greater control on how elements are displayed",
       "None of the above statements are correct"
     ],
-    "Answer": "It uses the position property of CSS to define absolute positioning",
+    "answer": "It uses the position property of CSS to define absolute positioning",
     "topic": "CSS"
   },
   {
     "id": 56,
-    "Question": "How many columns are supported in the responsive grid?",
+    "question": "How many columns are supported in the responsive grid?",
     "options": ["10", "11", "12", "13"],
-    "Answer": "12",
+    "answer": "12",
     "topic": "CSS Framework"
   },
   {
     "id": 57,
-    "Question": "What is the role of JavaScript in web design?",
+    "question": "What is the role of JavaScript in web design?",
     "options": [
       "Define the content of webpages",
       "Specify the layout of webpages",
       "Program the behavior of webpages",
       "None of the above"
     ],
-    "Answer": "Program the behavior of webpages",
+    "answer": "Program the behavior of webpages",
     "topic": "Javascript"
   },
   {
     "id": 58,
-    "Question": "Which is not a valid meta search engine?",
+    "question": "Which is not a valid meta search engine?",
     "options": ["Yahoo", "Startpage", "Excite", "DuckDuckGo"],
-    "Answer": "Yahoo (not a meta search engine)",
+    "answer": "Yahoo",
     "topic": "Web Publishing and Browsing"
   },
   {
     "id": 59,
-    "Question": "__________ are used to identify user input, user action and browser actions.",
+    "question": "__________ are used to identify user input, user action and browser actions.",
     "options": [
       "Input handler",
       "Event handler",
       "Document handler",
       "Action handler"
     ],
-    "Answer": "Event handler",
+    "answer": "Event handler",
     "topic": "HTML"
   },
   {
     "id": 60,
-    "Question": "Quick Selection tool is used for the purpose of:",
+    "question": "Quick Selection tool is used for the purpose of:",
     "options": [
       "Copy Selection",
       "Paste Selection",
       "Find image edges and automatically stops the selection",
       "None of the above"
     ],
-    "Answer": "Find image edges and automatically stops the selection",
+    "answer": "Find image edges and automatically stops the selection",
     "topic": "Photo Editor"
   },
   {
     "id": 61,
-    "Question": "What is true about the Box model of CSS",
+    "question": "What is true about the Box model of CSS",
     "options": [
       "It defines a virtual box drawn around elements",
       "Content of each element is surrounded by padding only",
       "Content of each element is surrounded by a border only",
       "Content of each element is surrounded by a margin only"
     ],
-    "Answer": "It defines a virtual box drawn around elements",
+    "answer": "It defines a virtual box drawn around elements",
     "topic": "CSS"
   },
   {
     "id": 62,
-    "Question": "Identify the incorrect media type defined in CSS 2.",
+    "question": "Identify the incorrect media type defined in CSS 2.",
     "options": ["Handheld", "Braille", "Arial", "Print"],
-    "Answer": "Arial",
+    "answer": "Arial",
     "topic": "CSS"
   },
   {
     "id": 63,
-    "Question": "w3-color and w3-text-color classes can be used to color:",
+    "question": "w3-color and w3-text-color classes can be used to color:",
     "options": [
       "any HTML element",
       "Heading only",
       "paragraph element only",
       "table element only"
     ],
-    "Answer": "any HTML element",
+    "answer": "any HTML element",
     "topic": "CSS Framework"
   },
   {
     "id": 64,
-    "Question": "Shortcut keys to activate Gaussian Blur:",
+    "question": "Shortcut keys to activate Gaussian Blur:",
     "options": [
       "CTRL+Alt+Shift+G",
       "CTRL+Alt+G",
       "CTRL+Shift+G",
       "CTRL+Alt+Shift+0"
     ],
-    "Answer": "CTRL+Alt+Shift+G",
+    "answer": "CTRL+Alt+Shift+G",
     "topic": "Photo Editor"
   },
   {
     "id": 65,
-    "Question": "What is not true about External Style sheet?",
+    "question": "What is not true about External Style sheet?",
     "options": [
       "It is a separate document that contains only CSS rules",
       "It separates content from the presentation but both are still contained in a single file",
       "It separates the content and style into separate files",
       "It allows a web designer and a content author to work in parallel"
     ],
-    "Answer": "It separates content from the presentation but both are still contained in a single file (NOT true)",
+    "answer": "It separates content from the presentation but both are still contained in a single file",
     "topic": "CSS"
   },
   {
     "id": 66,
-    "Question": "Identify the invalid statement about Angular JS Expressions.",
+    "question": "Identify the invalid statement about Angular JS Expressions.",
     "options": [
       "written inside double braces: {{ expression }}",
       "written inside a directive: ng-bind='expression'",
       "return the result exactly where the expression is written",
       "Angular JS expressions are different from JavaScript expressions"
     ],
-    "Answer": "Angular JS expressions are different from JavaScript expressions (invalid)",
+    "answer": "Angular JS expressions are different from JavaScript expressions",
     "topic": "Angular"
   },
   {
     "id": 67,
-    "Question": "__________ tag embeds CSS in a webpage.",
+    "question": "__________ tag embeds CSS in a webpage.",
     "options": ["<html>", "<style>", "<css>", "<xml>"],
-    "Answer": "<style>",
+    "answer": "<style>",
     "topic": "HTML"
   },
   {
     "id": 68,
-    "Question": "What is not true about ng-repeat directive in Angular JS?",
+    "question": "What is not true about ng-repeat directive in Angular JS?",
     "options": [
       "repeats an HTML element",
       "clones HTML elements once for each item in a collection",
       "used on an array of objects",
       "defines initial values for an Angular JS application"
     ],
-    "Answer": "defines initial values for an Angular JS application (NOT true)",
+    "answer": "defines initial values for an Angular JS application",
     "topic": "Angular"
   },
   {
     "id": 69,
-    "Question": "Which operator is used to get datatype of a variable in JavaScript?",
+    "question": "Which operator is used to get datatype of a variable in JavaScript?",
     "options": ["instanceof", "gettype", "typeof", "none of the above"],
-    "Answer": "typeof",
+    "answer": "typeof",
     "topic": "Javascript"
   },
   {
     "id": 70,
-    "Question": "MIME stands for _________.",
+    "question": "MIME stands for _________.",
     "options": [
       "Multipurpose Internet Mail Extensions",
       "Multipurpose Instant Mail Extensions",
       "Multipurpose Internet Message Extensions",
       "Multipurpose Instant Message Exchange"
     ],
-    "Answer": "Multipurpose Internet Mail Extensions",
+    "answer": "Multipurpose Internet Mail Extensions",
     "topic": "Web Publishing and Browsing"
   },
   {
     "id": 71,
-    "Question": "Shortcut keys to hide lines in Notepad++:",
+    "question": "Shortcut keys to hide lines in Notepad++:",
     "options": ["Alt+H", "Shift+H", "CTRL+H", "None of the above"],
-    "Answer": "None of the above",
+    "answer": "None of the above",
     "topic": "Photo Editor"
   },
   {
     "id": 72,
-    "Question": "Which of the following is not a type of Screen frames in HTML?",
+    "question": "Which of the following is not a type of Screen frames in HTML?",
     "options": ["iframe", "uframe", "no frame", "frameset"],
-    "Answer": "uframe",
+    "answer": "uframe",
     "topic": "HTML"
   },
   {
     "id": 73,
-    "Question": "Lasso tool is best used for:",
+    "question": "Lasso tool is best used for:",
     "options": [
       "Cleaning up a selection that you started with another tool",
       "Deselecting the selection already done",
       "Remove a selection",
       "None of the above"
     ],
-    "Answer": "Cleaning up a selection that you started with another tool",
+    "answer": "Cleaning up a selection that you started with another tool",
     "topic": "Photo Editor"
   },
   {
     "id": 74,
-    "Question": "Which of the following directives is used to start an Angular JS application?",
+    "question": "Which of the following directives is used to start an Angular JS application?",
     "options": ["ng-repeat", "ng-init", "ng-app", "ng-model"],
-    "Answer": "ng-app",
+    "answer": "ng-app",
     "topic": "Angular"
   },
   {
     "id": 75,
-    "Question": "__________ makes the text bold.",
+    "question": "__________ makes the text bold.",
     "options": [
       "font-length: bold",
       "font-weight: bold",
       "font-style: bold",
       "text-align: bold"
     ],
-    "Answer": "font-weight: bold",
+    "answer": "font-weight: bold",
     "topic": "CSS"
   },
   {
@@ -747,7 +747,7 @@
       "Headings allow a lesser numbr of letters in the headings",
       "Smallest heading tag is <h6>"
     ],
-    "answer": "Headings allow a lesser numbr of letters in the headings (NOT true)",
+    "answer": "Headings allow a lesser numbr of letters in the headings",
     "topic": "CSS Framework"
   },
   {
@@ -759,7 +759,7 @@
       "The style element’s type attribute specifies the MIME type that describes a file’s content",
       "All the statements are correct"
     ],
-    "answer": "Class selectors are used in Embedded Style sheets (NOT correct)",
+    "answer": "Class selectors are used in Embedded Style sheets",
     "topic": "CSS"
   },
   {
@@ -783,7 +783,7 @@
       "Pseudoclass is separated by an underscore from the name of the element",
       "Pseudoclass are separated by a colon from the name of the element"
     ],
-    "answer": "Pseudoclass is separated by an underscore from the name of the element (incorrect)",
+    "answer": "Pseudoclass is separated by an underscore from the name of the element",
     "topic": "CSS"
   },
   {
@@ -854,7 +854,7 @@
     "id": 89,
     "question": "Which is not a valid list type in W3.List?",
     "options": ["Small", "XSmall", "Large", "XLarge"],
-    "answer": "XLarge (not valid)",
+    "answer": "XLarge",
     "topic": "CSS Framework"
   },
   {
