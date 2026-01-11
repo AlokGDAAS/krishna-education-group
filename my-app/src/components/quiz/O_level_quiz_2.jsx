@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import M2_R5_Jan2023_Set1 from '../M2_R5_Jan2023_Set1.json'
 import M2_R5_Jul2022_Set1 from '../M2_R5_July_2022_Set1.json'
+import M2_R5_Jan2022_Set1 from '../M2_R5_Jan2022_Set1.json'
 import { useNavigate, useParams } from "react-router-dom";
 import UPPSC_quiz_solved from "./quiz-cards/UPPSC_quiz_solved";
 
@@ -28,6 +29,7 @@ const O_level_quiz_2 = () => {
   const questions_data = [
     { head:"M2_R5_Jan2023_Set1" , d:M2_R5_Jan2023_Set1, heading:"O Level 2 Practice Test" },
     { head:"M2_R5_Jul2022_Set1" , d:M2_R5_Jul2022_Set1, heading:"O Level 2 Practice Test" },
+    { head:"M2_R5_Jan2022_Set1" , d:M2_R5_Jan2022_Set1, heading:"O Level 2 Practice Test" },
 
   ]
 

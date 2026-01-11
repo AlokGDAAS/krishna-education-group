@@ -32,12 +32,21 @@ const Practice_test = () => {
   const o_level_data_2 = [
     { id: 18, link: "/practice-test-o-level_2/M2_R5_Jan2023_Set1", name: "O Level_2", subname: "English Part-1" },
     { id: 19, link: "/practice-test-o-level_2/M2_R5_Jul2022_Set1", name: "O Level_2", subname: "English Part-2" },
+    { id: 20, link: "/practice-test-o-level_2/M2_R5_Jan2022_Set1", name: "O Level_2", subname: "English Part-3" },
 
   ];
 
   const o_level_data_2_read_mode = [
-    { id: 20, link: "/practice-test-o-level_2_read_mode/M2_R5_Jan2023_Set1_read_mode", name: "O Level_2", subname: "English Part-1 Read mode" },
-    { id: 21, link: "/practice-test-o-level_2_read_mode/M2_R5_Jul2022_Set1_read_mode", name: "O Level_2", subname: "English Part-2 Read mode" },
+    { id: 21, link: "/practice-test-o-level_2_read_mode/M2_R5_Jan2023_Set1_read_mode", name: "O Level_2", subname: "English Part-1 Read mode" },
+    { id: 22, link: "/practice-test-o-level_2_read_mode/M2_R5_Jul2022_Set1_read_mode", name: "O Level_2", subname: "English Part-2 Read mode" },
+    { id: 23, link: "/practice-test-o-level_2_read_mode/M2_R5_Jan2022_Set1_read_mode", name: "O Level_2", subname: "English Part-3 Read mode" },
+    
+
+  ];
+
+  const o_level_data_2_read_mode_theory = [
+    { id: 24, link: "/practice-test-o-level_2_read_mode_theory/M2_R5_Jan2022_Set1_read_mode_theory", name: "O Level_2", subname: "English Part-1 Read mode theory" },
+    
 
   ];
 
@@ -97,6 +106,19 @@ const Practice_test = () => {
         </h1>
 
         {o_level_data_2_read_mode.map((item) => (
+          <div key={item.id}>
+            <Card link={item.link} name={item.name} subname={item.subname} />
+          </div>
+        ))}
+      </div>
+
+      {/* O level 2 section read mode theory*/}
+      <div className="md:w-8/12 w-11/12  mx-auto mt-8 py-6 space-y-3 rounded shadow-lg bg-white">
+        <h1 className="text-3xl font-bold text-center text-slate-700 text-shadow-lg">
+          O Level 2 Practice test read mode Theory
+        </h1>
+
+        {o_level_data_2_read_mode_theory.map((item) => (
           <div key={item.id}>
             <Card link={item.link} name={item.name} subname={item.subname} />
           </div>

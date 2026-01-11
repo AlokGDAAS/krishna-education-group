@@ -1,0 +1,394 @@
+[
+
+      "HTML",
+    "CSS",
+    "CSS Framework",
+    "Javascript",
+    "Angular",
+    "Editors",
+    "Web Publishing and Browsing",
+    "Photo Editor",
+  {
+    "id": 1,
+    "question": "Which of the following is used to read an HTML page and render it?",
+    "options": ["Web browser", "Web server", "Web matrix", "Web network"],
+    "answer": "Web browser",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "A web browser (like Chrome, Firefox, Edge) reads HTML code and renders it into a visual web page. A web server only stores and delivers files, it does not display them."
+  },
+  {
+    "id": 2,
+    "question": "DNS translates __________.",
+    "options": [
+      "domain name into IP",
+      "IP into domain name",
+      "both (A) & (B)",
+      "domain name into physical address"
+    ],
+    "answer": "domain name into IP",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "DNS (Domain Name System) converts human-readable domain names like google.com into IP addresses so that computers can locate servers on the internet."
+  },
+  {
+    "id": 3,
+    "question": "Once the email is sent, the message is broken into pieces called __________.",
+    "options": ["Packets", "Process", "Digits", "Bytes"],
+    "answer": "Packets",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "Data sent over a network is divided into small units called packets. These packets travel independently and are reassembled at the destination."
+  },
+  {
+    "id": 4,
+    "question": "The __________ attribute adds space within each cell.",
+    "options": ["Cell Spacing", "Cell Padding", "Width", "Align"],
+    "answer": "Cell Padding",
+    "topic": "HTML",
+    "explanation": "Cell padding controls the space between the content of a table cell and its border. Cell spacing controls the space between cells."
+  },
+  {
+    "id": 5,
+    "question": "What is the correct HTML for referring to an external style sheet?",
+    "options": [
+      "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+      "<stylesheet> mystyle.css</stylesheet>",
+      "<style src=\"mystyle.css\">",
+      "<style link=\"mystyle.css\">"
+    ],
+    "answer": "<link rel=\"stylesheet\" type=\"text/css\" href=\"mystyle.css\">",
+    "topic": "CSS",
+    "explanation": "An external CSS file is linked using the <link> tag inside the <head> section. Other options are not valid HTML syntax for linking CSS."
+  },
+  {
+    "id": 6,
+    "question": "Where in an HTML document is the correct place to refer to an external style sheet?",
+    "options": [
+      "In the <body> section",
+      "In the <head> section",
+      "At the end of the document",
+      "Anywhere in the document"
+    ],
+    "answer": "In the <head> section",
+    "topic": "CSS",
+    "explanation": "External style sheets are linked inside the <head> section so that styles are loaded before the page content is rendered."
+  },
+  {
+    "id": 7,
+    "question": "Choose the correct HTML element for the largest heading:",
+    "options": ["<h6>", "<head>", "<h1>", "<heading>"],
+    "answer": "<h1>",
+    "topic": "HTML",
+    "explanation": "HTML headings range from <h1> (largest) to <h6> (smallest). <h1> is used for the main heading of a page."
+  },
+  {
+    "id": 8,
+    "question": "What is the correct syntax for referring to an external script called \"xxx.js\"?",
+    "options": [
+      "<script href=\"xxx.js\">",
+      "<script src=\"xxx.js\">",
+      "<script name=\"xxx.js\">",
+      "<script id=\"xxx.js\">"
+    ],
+    "answer": "<script src=\"xxx.js\">",
+    "topic": "Javascript",
+    "explanation": "The src attribute of the <script> tag is used to link an external JavaScript file. Other attributes shown are not used for this purpose."
+  },
+  {
+    "id": 9,
+    "question": "How do you write \"Hello World\" in an alert box?",
+    "options": [
+      "alert(\"Hello World\")",
+      "alertBox(\"Hello World\")",
+      "msgBox(\"Hello World\")",
+      "msg(\"Hello World\")"
+    ],
+    "answer": "alert(\"Hello World\")",
+    "topic": "Javascript",
+    "explanation": "In JavaScript, the built-in alert() function displays a message in a popup dialog box."
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is a filter in Angular JS?",
+    "options": ["Currency", "Date", "Uppercase", "All of the above"],
+    "answer": "All of the above",
+    "topic": "Angular",
+    "explanation": "AngularJS provides built-in filters such as currency, date, and uppercase to format data in views. Therefore, all listed options are correct."
+  },
+
+  {
+    "id": 11,
+    "question": "It is faster to render HTML and CSS than to interpret and execute JavaScript.",
+    "options": [
+      "True",
+      "False",
+      "Only in old browsers",
+      "Depends on internet speed"
+    ],
+    "answer": "True",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "HTML and CSS are parsed and rendered directly by the browser, while JavaScript must be interpreted and executed, which takes additional processing time. Hence, rendering HTML and CSS is generally faster."
+  },
+  {
+    "id": 12,
+    "question": "Padding property is allowed using negative values.",
+    "options": ["True", "False", "Only in HTML5", "Only in tables"],
+    "answer": "False",
+    "topic": "CSS",
+    "explanation": "CSS does not allow negative values for padding. Only margins can have negative values. Padding always adds space inside an element."
+  },
+  {
+    "id": 13,
+    "question": "The external JavaScript file must contain the <script> tag.",
+    "options": ["True", "False", "Only in React", "Only in HTML5"],
+    "answer": "False",
+    "topic": "Javascript",
+    "explanation": "An external JavaScript file should contain only JavaScript code. The <script> tag is used in the HTML file to link the external JavaScript file."
+  },
+  {
+    "id": 14,
+    "question": "JavaScript is the same as Java.",
+    "options": [
+      "True",
+      "False",
+      "Only syntax is same",
+      "Both are browsers only"
+    ],
+    "answer": "False",
+    "topic": "Javascript",
+    "explanation": "JavaScript and Java are two different programming languages. They have different syntax, purpose, and execution environments. The similarity is only in their names."
+  },
+  {
+    "id": 15,
+    "question": "Angular JS is entirely based on HTML and JavaScript.",
+    "options": ["True", "False", "Only on CSS", "Only on TypeScript"],
+    "answer": "True",
+    "topic": "Angular",
+    "explanation": "AngularJS extends HTML with new attributes and uses JavaScript to add dynamic behavior, making it entirely based on HTML and JavaScript."
+  },
+  {
+    "id": 16,
+    "question": "TELNET protocol is working on port 24.",
+    "options": ["True", "False", "Only in LAN", "Only in HTTPS"],
+    "answer": "False",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "TELNET works on port 23, not 24. Port numbers are fixed standards for network services."
+  },
+  {
+    "id": 17,
+    "question": "JavaScript is case-sensitive.",
+    "options": ["True", "False", "Only in functions", "Only in variables"],
+    "answer": "True",
+    "topic": "Javascript",
+    "explanation": "JavaScript treats uppercase and lowercase letters as different. For example, `name` and `Name` are considered two different identifiers."
+  },
+  {
+    "id": 18,
+    "question": "We can create custom directive in Angular JS.",
+    "options": ["True", "False", "Only in HTML", "Only in CSS"],
+    "answer": "True",
+    "topic": "Angular",
+    "explanation": "AngularJS allows developers to create custom directives to extend HTML with new behavior and reusable components."
+  },
+  {
+    "id": 19,
+    "question": "We can use SVG tags directly in HTML5 without any plugin.",
+    "options": ["True", "False", "Only in Chrome", "Only with Flash"],
+    "answer": "True",
+    "topic": "HTML",
+    "explanation": "HTML5 has built-in support for SVG, so SVG graphics can be embedded directly in HTML without requiring any external plugin."
+  },
+  {
+    "id": 20,
+    "question": "In HTML5 six new semantic attributes were introduced.",
+    "options": [
+      "True",
+      "False",
+      "Only three were added",
+      "No new attributes added"
+    ],
+    "answer": "True",
+    "topic": "HTML",
+    "explanation": "HTML5 introduced new semantic elements such as <header>, <footer>, <section>, <article>, <nav>, and <aside> to provide better structure and meaning to web pages."
+  },
+
+  {
+    "id": 21,
+    "question": "A web search engine that collects information about many web pages is called ________.",
+    "options": ["Web browser", "Web crawler", "Web server", "Web editor"],
+    "answer": "Web crawler",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "A web crawler (also called a spider or bot) automatically browses the internet and collects information about web pages for search engines like Google."
+  },
+  {
+    "id": 22,
+    "question": "Which HTML tag is used to provide a section in an HTML document?",
+    "options": ["<div>", "<span>", "<section>", "<p>"],
+    "answer": "<div>",
+    "topic": "HTML",
+    "explanation": "<div> is a block-level element used to divide an HTML page into sections or containers for layout and styling."
+  },
+  {
+    "id": 23,
+    "question": "The attribute related to the <marquee> tag is ________.",
+    "options": ["Scroll", "Style", "Display", "Align"],
+    "answer": "Scroll",
+    "topic": "HTML",
+    "explanation": "The <marquee> tag is used for scrolling text, and attributes like scrollamount and scrolldelay control the scrolling behavior."
+  },
+  {
+    "id": 24,
+    "question": "Which syntax is used to open a link in a new browser window?",
+    "options": [
+      "<a href=\"url\">",
+      "<a target=\"new\">",
+      "<a href=\"url\" target=\"_blank\">",
+      "<link href=\"url\">"
+    ],
+    "answer": "<a href=\"url\" target=\"_blank\">",
+    "topic": "HTML",
+    "explanation": "The target=\"_blank\" attribute tells the browser to open the link in a new tab or window."
+  },
+  {
+    "id": 25,
+    "question": "Which HTML attribute is used to define inline styles?",
+    "options": ["Class", "Style", "Format", "Design"],
+    "answer": "Style",
+    "topic": "HTML",
+    "explanation": "The style attribute is used to apply CSS directly to an HTML element, such as setting color, font, or margin inline."
+  },
+  {
+    "id": 26,
+    "question": "Which CSS property is used to control the layout of elements?",
+    "options": ["Color", "Font", "Display", "Border"],
+    "answer": "Display",
+    "topic": "CSS",
+    "explanation": "The display property controls how an element is shown on the page, such as block, inline, inline-block, flex, or grid."
+  },
+  {
+    "id": 27,
+    "question": "What is the full form of HTML?",
+    "options": [
+      "High Text Markup Language",
+      "Hyper Tool Markup Language",
+      "HyperText Markup Language",
+      "Home Tool Markup Language"
+    ],
+    "answer": "HyperText Markup Language",
+    "topic": "HTML",
+    "explanation": "HTML stands for HyperText Markup Language. It is used to structure and display content on the web."
+  },
+  {
+    "id": 28,
+    "question": "Which application is commonly used to create and edit files?",
+    "options": ["MS Word", "Notepad++", "Paint", "Calculator"],
+    "answer": "Notepad++",
+    "topic": "Editors",
+    "explanation": "Notepad++ is a popular text editor used by programmers to create and edit code files such as HTML, CSS, and JavaScript."
+  },
+  {
+    "id": 29,
+    "question": "JavaScript is a ________ language.",
+    "options": ["Compiled", "Interpreted", "Machine", "Assembly"],
+    "answer": "Interpreted",
+    "topic": "Javascript",
+    "explanation": "JavaScript is generally an interpreted language, meaning it is executed line by line by the browser or runtime environment."
+  },
+  {
+    "id": 30,
+    "question": "The machine that requests data is generally called ________.",
+    "options": ["Server", "Router", "Client", "Host"],
+    "answer": "Client",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "In a client-server model, the client is the machine or program that sends requests for data, and the server responds with the required information."
+  },
+
+  {
+    "id": 31,
+    "question": "IDE for __________.",
+    "options": [
+      "Web Development",
+      "Image Editing",
+      "Video Editing",
+      "Music Mixing"
+    ],
+    "answer": "Web Development",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "An IDE (Integrated Development Environment) is mainly used for writing, testing, and debugging code in software or web development."
+  },
+  {
+    "id": 32,
+    "question": "JavaScript is a __________ scripting language.",
+    "options": ["Compiled", "Interpreted", "Machine", "Assembly"],
+    "answer": "Interpreted",
+    "topic": "Javascript",
+    "explanation": "JavaScript is executed line by line by the browser or runtime, so it is considered an interpreted language."
+  },
+  {
+    "id": 33,
+    "question": "From __________ tag descriptive list starts.",
+    "options": ["<ul>", "<ol>", "<dl>", "<li>"],
+    "answer": "<dl>",
+    "topic": "HTML",
+    "explanation": "A descriptive (definition) list in HTML starts with the <dl> tag, followed by <dt> and <dd>."
+  },
+  {
+    "id": 34,
+    "question": "ISP stands for __________.",
+    "options": [
+      "Internet Service Provider",
+      "Internal System Protocol",
+      "Internet Security Program",
+      "Integrated Service Platform"
+    ],
+    "answer": "Internet Service Provider",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "An ISP (Internet Service Provider) is a company that provides internet access to users."
+  },
+  {
+    "id": 35,
+    "question": "__________ class is used to color any HTML element in W3.CSS framework.",
+    "options": ["w3-text-color", "w3-color", "w3-text", "w3-font"],
+    "answer": "w3-text-color",
+    "topic": "CSS",
+    "explanation": "In W3.CSS, classes like w3-text-red, w3-text-blue, etc., are used to apply text color to HTML elements."
+  },
+  {
+    "id": 36,
+    "question": "A TCP connection normally consists of three phases: connection establishment, __________, and connection termination.",
+    "options": ["Data transfer", "Encryption", "Compression", "Authentication"],
+    "answer": "Data transfer",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "After establishing a connection, TCP transfers data between sender and receiver before terminating the connection."
+  },
+  {
+    "id": 37,
+    "question": "WWW is based on __________ model.",
+    "options": ["Peer-to-Peer", "Client-Server", "Ring", "Star"],
+    "answer": "Client-Server",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "The World Wide Web follows the client-server model where the browser (client) requests data from a web server."
+  },
+  {
+    "id": 38,
+    "question": "__________ selects a normal, or small-caps face from a font family in CSS.",
+    "options": ["font-style", "font-weight", "font-variant", "font-size"],
+    "answer": "font-variant",
+    "topic": "CSS",
+    "explanation": "The font-variant property is used to display text in normal or small-caps style."
+  },
+  {
+    "id": 39,
+    "question": "The domain xxxx@yyyy.com is a(n) __________ domain.",
+    "options": ["Generic", "Country", "Local", "Private"],
+    "answer": "Generic",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "Domains like .com, .org, and .net are generic top-level domains, not country-specific."
+  },
+  {
+    "id": 40,
+    "question": "We get a list of sites after typing a word in the search bar called __________.",
+    "options": ["Search result", "Web page", "Bookmark", "Cache"],
+    "answer": "Search result",
+    "topic": "Web Publishing and Browsing",
+    "explanation": "When a keyword is entered in a search engine, it displays a list of related websites known as search results."
+  }
+]

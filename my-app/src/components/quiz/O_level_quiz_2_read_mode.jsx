@@ -2,6 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import M2_R5_Jan2023_Set1 from "../M2_R5_Jan2023_Set1.json";
 import M2_R5_Jul2022_Set1 from "../M2_R5_July_2022_Set1.json";
+import M2_R5_Jan2022_Set1 from "../M2_R5_Jan2022_Set1.json"
 
 const O_level_quiz_2_read_mode = () => {
   const { slug } = useParams();
@@ -26,6 +27,11 @@ const O_level_quiz_2_read_mode = () => {
     {
       head: "M2_R5_Jul2022_Set1_read_mode",
       d: M2_R5_Jul2022_Set1,
+      heading: "O Level M2-R5 (July 2022) - Read Mode",
+    },
+    {
+      head: "M2_R5_Jan2022_Set1_read_mode",
+      d: M2_R5_Jan2022_Set1,
       heading: "O Level M2-R5 (July 2022) - Read Mode",
     },
   ];

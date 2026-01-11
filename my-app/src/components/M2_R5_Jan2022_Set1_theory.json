@@ -1,0 +1,77 @@
+[
+  {
+    "id": 1,
+    "question": "Discuss various Photo Editing Tools commonly used in application development.",
+    "answer": "Common photo editing tools used in application development include Adobe Photoshop, GIMP, Canva, Figma, and Adobe Illustrator. Photoshop and GIMP are used for advanced image manipulation such as cropping, resizing, retouching, and color correction. Canva is useful for quick UI graphics and banners. Figma is widely used by developers and designers for UI/UX design and exporting assets. Illustrator is mainly used for vector graphics like logos and icons. These tools help create optimized images for better performance and visual appeal in applications."
+  },
+  {
+    "id": 2,
+    "question": "Explain the CSS box properties in detail.",
+    "answer": "The CSS box model consists of four parts: content, padding, border, and margin. Content is the actual area where text or images appear. Padding adds space between content and border. Border surrounds the padding and content. Margin creates space outside the border, separating elements. Properties include width, height, padding, border, and margin. Understanding the box model helps in controlling layout and spacing of elements on a webpage."
+  },
+  {
+    "id": 3,
+    "question": "Explain W3.CSS responsive fluid grid to specify different columns on small, medium and large screens.",
+    "answer": "W3.CSS provides a responsive fluid grid using classes like w3-col s4 m6 l3. Here, 's' is for small screens, 'm' for medium, and 'l' for large screens. The numbers define how many parts of 12 columns an element will take. For example, w3-col s12 m6 l4 means full width on small screens, half width on medium screens, and one-third width on large screens. This helps in creating responsive layouts easily."
+  },
+  {
+    "id": 4,
+    "question": "Write a HTML code to create a page which accepts Name, Male/Female (Radio Button), Address, City (drop down), Hobby (Check box), and having Submit and Reset buttons.",
+    "answer": "<!DOCTYPE html>\n<html>\n<head>\n  <title>Form</title>\n</head>\n<body>\n  <form>\n    Name: <input type=\"text\" name=\"name\"><br><br>\n    Gender:\n    <input type=\"radio\" name=\"gender\" value=\"Male\"> Male\n    <input type=\"radio\" name=\"gender\" value=\"Female\"> Female<br><br>\n    Address:<br>\n    <textarea name=\"address\"></textarea><br><br>\n    City:\n    <select name=\"city\">\n      <option>Delhi</option>\n      <option>Mumbai</option>\n      <option>Lucknow</option>\n    </select><br><br>\n    Hobby:\n    <input type=\"checkbox\" value=\"Reading\"> Reading\n    <input type=\"checkbox\" value=\"Sports\"> Sports\n    <input type=\"checkbox\" value=\"Music\"> Music<br><br>\n    <input type=\"submit\" value=\"Submit\">\n    <input type=\"reset\" value=\"Reset\">\n  </form>\n</body>\n</html>"
+  },
+  {
+    "id": 5,
+    "question": "Explain HTML5 form validation in detail.",
+    "answer": "HTML5 provides built-in form validation without JavaScript. Attributes like required, type, pattern, minlength, maxlength, min, and max validate user input. For example, type=\"email\" ensures a valid email format, and required prevents empty submission. The browser automatically shows error messages. This improves user experience and reduces the need for custom validation scripts."
+  },
+  {
+    "id": 6,
+    "question": "Explain what is Angular Expression?",
+    "answer": "Angular expressions are used in AngularJS to bind data between the view and the model. They are written inside {{ }} in HTML. For example, {{name}} displays the value of name. They support arithmetic operations, variables, and functions. Angular expressions are evaluated in the context of the scope."
+  },
+  {
+    "id": 7,
+    "question": "Explain what is key difference between Angular expressions and JavaScript expressions?",
+    "answer": "Angular expressions are evaluated by AngularJS and can be written inside HTML using {{ }}. They do not support loops or conditionals like JavaScript. They are safe and do not throw errors if undefined. JavaScript expressions are written in script blocks and support full programming features like loops, conditions, and exception handling."
+  },
+  {
+    "id": 8,
+    "question": "What is JavaScript? Write a JavaScript program to find the factorial of a number entered by user in HTML textbox.",
+    "answer": "JavaScript is a client-side scripting language used to create dynamic and interactive web pages.\n\n<!DOCTYPE html>\n<html>\n<body>\n  <input type=\"number\" id=\"num\" placeholder=\"Enter number\">\n  <button onclick=\"fact()\">Find Factorial</button>\n  <p id=\"result\"></p>\n\n  <script>\n    function fact() {\n      let n = document.getElementById('num').value;\n      let f = 1;\n      for (let i = 1; i <= n; i++) {\n        f *= i;\n      }\n      document.getElementById('result').innerText = \"Factorial = \" + f;\n    }\n  </script>\n</body>\n</html>"
+  },
+  {
+    "id": 9,
+    "question": "Explain the URL with its structure in detail.",
+    "answer": "URL stands for Uniform Resource Locator. It specifies the address of a resource on the internet. Structure: protocol://domain:port/path?query#fragment. Example: https://www.example.com:80/page?id=1. Protocol defines communication method, domain identifies the server, path shows resource location, query sends data, and fragment points to a section of the page."
+  },
+  {
+    "id": 10,
+    "question": "What is the difference between a meta search engine and a web search engine?",
+    "answer": "A web search engine like Google or Bing maintains its own database of web pages using crawlers. A meta search engine does not have its own database; it collects results from multiple search engines and displays them together, such as Dogpile."
+  },
+  {
+    "id": 11,
+    "question": "Explain principles of good web page design.",
+    "answer": "Good web page design follows principles such as simplicity, consistency, readability, fast loading, responsive layout, proper navigation, and accessibility. Use clear fonts, proper colors, balanced layout, and meaningful content. A good design improves user experience and usability."
+  },
+  {
+    "id": 12,
+    "question": "What is web hosting and web publishing?",
+    "answer": "Web hosting is a service that stores website files on a server and makes them accessible on the internet. Web publishing is the process of uploading website files to a server using tools like FTP so that users can access the site online."
+  },
+  {
+    "id": 13,
+    "question": "What is the Internet? How it differs from the World Wide Web?",
+    "answer": "The Internet is a global network of computers connected together. The World Wide Web is a service that runs on the Internet and allows access to web pages using browsers. The Internet includes email, FTP, and other services, while WWW is only one part of it."
+  },
+  {
+    "id": 14,
+    "question": "Differentiate between static and dynamic web site.",
+    "answer": "A static website shows the same content to all users and is made using only HTML and CSS. A dynamic website changes content based on user input and uses server-side scripting and databases, such as PHP, Node.js, and MySQL."
+  },
+  {
+    "id": 15,
+    "question": "Explain HTML table tag with its any five attributes.",
+    "answer": "The <table> tag is used to create tables in HTML. Common attributes include border (sets border size), cellpadding (space inside cells), cellspacing (space between cells), width (table width), and align (table alignment). Tables organize data in rows and columns using <tr>, <td>, and <th> tags."
+  }
+]
