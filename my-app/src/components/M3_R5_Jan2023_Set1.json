@@ -1,0 +1,1009 @@
+[
+  {
+    "id": 1,
+    "question": "What does readlines() method return?",
+    "options": ["Dictionary", "String", "Tuple", "List"],
+    "answer": "List",
+    "topic":"python",
+    "explanation": "readlines() reads all lines from a file and returns them as a list of strings, where each string represents one line."
+  },
+  {
+    "id": 2,
+    "question": "f.read(5) will read __________ from a file (file object 'f').",
+    "options": ["5 characters", "5 words", "5 lines", "None of the above"],
+    "answer": "5 characters",
+    "topic":"python",
+    "explanation": "The read(n) method reads exactly n characters from the file, not words or lines."
+  },
+  {
+    "id": 3,
+    "question": "Python is written in __________.",
+    "options": ["Java", "C", "PHP", "All of the above"],
+    "answer": "C",
+    "topic":"python",
+    "explanation": "The standard implementation of Python (CPython) is written in the C programming language."
+  },
+  {
+    "id": 4,
+    "question": "What will be the output of the following Python code?\nexample = \"helle\"\nexample.rfind(\"e\")",
+    "options": ["1", "2", "4", "5"],
+    "answer": "4",
+    "topic":"python",
+    "explanation": "rfind() returns the index of the last occurrence of the given substring. In 'helle', the last 'e' is at index 4."
+  },
+  {
+    "id": 5,
+    "question": "What is the value of the following Python code?\nprint(36 / 4)",
+    "options": ["9", "4", "9.0", "4.0"],
+    "answer": "9.0",
+    "topic":"python",
+    "explanation": "In Python 3, the / operator always performs floating-point division, so the result is 9.0."
+  },
+  {
+    "id": 6,
+    "question": "To use a module in another module, you must import it using an ________ statement.",
+    "options": ["import", "include", "both (A) and (B)", "none of the above"],
+    "answer": "import",
+    "topic":"python",
+    "explanation": "Python uses the import statement to include and use modules. There is no include keyword in Python."
+  },
+  {
+    "id": 7,
+    "question": "For performing the addition of two numbers, which of the following symbol in a flow chart are used?",
+    "options": ["Control flow", "Terminal", "Processing", "Decision"],
+    "answer": "Processing",
+    "topic":"python",
+    "explanation": "Addition is a calculation, and all calculations are represented using the Processing symbol in a flowchart."
+  },
+  {
+    "id": 8,
+    "question": "The brain of computer system is __________.",
+    "options": ["RAM", "CPU", "ROM", "Control Unit"],
+    "answer": "CPU",
+    "topic":"python",
+    "explanation": "CPU (Central Processing Unit) controls all operations and performs calculations, so it is called the brain of the computer."
+  },
+  {
+    "id": 9,
+    "question": "Which of the following will read entire content of file (file object 'f')?",
+    "options": ["f.reads()", "f.read()", "f.read(all)", "f.read(*)"],
+    "answer": "f.read()",
+    "topic":"python",
+    "explanation": "Calling f.read() without arguments reads the complete content of the file."
+  },
+  {
+    "id": 10,
+    "question": "What will be the output of the following Python code?\ndef func(a, b=5, c=10):\n    print('a is', a, 'and b is', b, 'and c is', c)\n\nfunc(13, 17)\nfunc(a=2, c=4)\nfunc(5, 7, 9)",
+    "options": [
+      "a is 13 and b is 15 and c is 10\na is 2 and b is 5 and c is 4\na is 5 and b is 7 and c is 9",
+      "a is 13 and b is 17 and c is 10\na is 2 and b is 4 and c is 4\na is 5 and b is 9 and c is 7",
+      "a is 13 and b is 17 and c is 10\na is 2 and b is 5 and c is 4\na is 5 and b is 7 and c is 9",
+      "None of the above"
+    ],
+    "answer": "a is 13 and b is 17 and c is 10\na is 2 and b is 5 and c is 4\na is 5 and b is 7 and c is 9",
+    "topic":"python",
+    "explanation": "Default values are used when arguments are not passed. Keyword arguments override defaults, and positional arguments replace defaults in order."
+  },
+  {
+    "id": 11,
+    "question": "In python language, which of the following operators is the correct option for raising k to the power l?",
+    "options": ["k ^ l", "k**l", "k ^ ^ l", "k ^ * l"],
+    "answer": "k**l",
+    "topic":"python",
+    "explanation": "The ** operator is used for exponentiation in Python. The ^ operator is bitwise XOR, not power."
+  },
+  {
+    "id": 12,
+    "question": "A _______ statement is used when a statement is required syntactically but you do not want any code to execute.",
+    "options": ["break", "pass", "continue", "none of these"],
+    "answer": "pass",
+    "topic":"python",
+    "explanation": "The pass statement is a null statement used as a placeholder when no action is required."
+  },
+  {
+    "id": 13,
+    "question": "In which software development phase quality of software is documented?",
+    "options": ["Testing", "Delivery", "Idea", "Development"],
+    "answer": "Testing",
+    "topic":"python",
+    "explanation": "During the testing phase, software quality, defects, and performance are evaluated and documented."
+  },
+  {
+    "id": 14,
+    "question": "What is the use of the zeros() function in Numpy array in python?",
+    "options": [
+      "To make a matrix with all elements 0",
+      "To make a matrix with all diagonal elements 0",
+      "To make a matrix with first row 0",
+      "None of the above"
+    ],
+    "answer": "To make a matrix with all elements 0",
+    "topic":"python",
+    "explanation": "numpy.zeros() creates an array or matrix of the given shape filled entirely with zeros."
+  },
+  {
+    "id": 15,
+    "question": "What is the output of the following code?\ndef s(n1):\n    print(n1)\n    n1 = n1 + 2\n\nn2 = 4\ns(n2)\nprint(n2)",
+    "options": ["6 4", "4 6", "4 4", "6 6"],
+    "answer": "4 4",
+    "topic":"python",
+    "explanation": "n1 is a local copy of n2. Changes to n1 inside the function do not affect n2 outside the function."
+  },
+  {
+    "id": 16,
+    "question": "What will be the output of the following algorithm for a = 5, b = 8, c = 6?",
+    "options": [
+      "a is the smallest number",
+      "b is the smallest number",
+      "c is the smallest number",
+      "stop"
+    ],
+    "answer": "a is the smallest number",
+    "topic":"python",
+    "explanation": "The algorithm compares values step by step and finds that a = 5 is smaller than b = 8 and c = 6."
+  },
+  {
+    "id": 17,
+    "question": "What will be the output of the following?\nprint(sum(1, 2, 3))",
+    "options": ["Error", "6", "1", "3"],
+    "answer": "Error",
+    "topic":"python",
+    "explanation": "sum() expects an iterable as its first argument. Passing multiple arguments causes a TypeError."
+  },
+  {
+    "id": 18,
+    "question": "In which of the following, data is stored permanently?",
+    "options": ["Variable", "File", "Both of the above", "None of the above"],
+    "answer": "File",
+    "topic":"python",
+    "explanation": "Variables store data temporarily in memory, while files store data permanently on storage devices."
+  },
+  {
+    "id": 19,
+    "question": "The connector symbol for flow chart is __________.",
+    "options": ["Circle", "Parallelogram", "Diamond", "All the above"],
+    "answer": "Circle",
+    "topic":"python",    
+    "explanation": "A circle is used as a connector symbol to join different parts of a flowchart."
+  },
+  {
+    "id": 20,
+    "question": "Which symbol is used as a flowline to connect two blocks in a flow chart?",
+    "options": ["arrow", "circle", "box", "parallelogram"],
+    "answer": "arrow",
+    "topic":"python",
+    "explanation": "Arrows (flowlines) show the direction of flow and connect different blocks in a flowchart."
+  },
+  
+  {
+    "id": 21,
+    "question": "What is the output of the following code?",
+     "code": ["import numpy as np","a = np.array([1,2,3,5,8])","b = np.array([0,3,4,2,1])","c = a + b","c = c * a","print(c[2])"],
+    "options": [10, 21, 12, 28],
+    "answer": 21,
+    "topic":"python",
+    "explanation": "First a+b = [1,5,7,7,9]. Then element-wise multiplication with a gives [1,10,21,35,72]. Index 2 value is 21."
+  },
+  {
+    "id": 22,
+    "question": "Which of the following is not an advantage of using modules?",
+    "options": [
+      "Provides a means of reuse of program code",
+      "Provides a means of dividing up tasks",
+      "Provides a means of reducing the size of the program",
+      "Provides a means of testing individual parts of the program"
+    ],
+    "answer": "Provides a means of reducing the size of the program",
+    "topic":"python",
+    "explanation": "Modules help in reuse, task division, and testing. They do not actually reduce program size; they organize code."
+  },
+  {
+    "id": 23,
+    "question": "What will be the output of the following Python code?",
+    "code": ["tuple1=(5,1,7,6,2)","tuple1.pop(2)","print(tuple1)"],
+    "options": ["(5,1,6,2)", "(5,1,7,6)", "(5,1,7,6,2)", "Error"],
+    "answer": "Error",
+    "topic":"python",
+    "explanation": "Tuples are immutable in Python, so pop() cannot be used on a tuple."
+  },
+  {
+    "id": 24,
+    "question": "NumPy stands for:",
+    "options": ["Numbering Python", "Number In Python", "Numerical Python", "None of the above"],
+    "answer": "Numerical Python",
+    "topic":"python",
+    "explanation": "NumPy is short for Numerical Python, used for numerical and array-based computations."
+  },
+  {
+    "id": 25,
+    "question": "Which function returns the current position of file pointer?",
+    "options": ["get()", "tell()", "seek()", "cur()"],
+    "answer": "tell()",
+    "topic":"python",
+    "explanation": "tell() returns the current position of the file pointer in a file."
+  },
+  {
+    "id": 26,
+    "question": "Recursive function is __________.",
+    "options": [
+      "A function that calls itself",
+      "A function that calls other functions",
+      "Both (A) and (B)",
+      "None of the above"
+    ],
+    "answer": "A function that calls itself",
+    "topic":"python",
+    "explanation": "A recursive function is defined as a function that calls itself directly or indirectly."
+  },
+  {
+    "id": 27,
+    "question": "Which of the following declarations is incorrect?",
+    "options": ["_x = 2", "x = 3", "__xyz__ = 5", "None of these"],
+    "answer": "None of these",
+    "topic":"python",
+    "explanation": "All given variable declarations are valid in Python."
+  },
+  {
+    "id": 28,
+    "question": "What is the output of the following code snippet?",
+    "code": ["print([i.lower() for i in \"HELLO\"])"],
+    "options": ["hello", "['h','e','l','l','o']", "hel", "HELLO"],
+    "answer": "['h','e','l','l','o']",
+    "topic":"python",
+    "explanation": "The list comprehension converts each character of the string to lowercase and stores them in a list."
+  },
+  {
+    "id": 29,
+    "question": "What is the output of the following code?",
+    "code": ["n=5","while n>0:", "n-=1","if n==2:",  "continue\n print(n)"],
+    "options": ["5 4 3 1 0", "4 3 1 0", "4 3 2", "None of these"],
+    "answer": "4 3 1 0",
+    "topic":"python",
+    "explanation": "The loop skips printing when n becomes 2 due to continue statement."
+  },
+  {
+    "id": 30,
+    "question": "Which mode creates a new file if the file does not exist?",
+    "options": ["write mode", "read mode", "append mode", "Both write and append mode"],
+    "answer": "Both write and append mode",
+    "topic":"python",
+    "explanation": "Both 'w' and 'a' modes create a new file if it does not already exist."
+  },
+  {
+    "id": 31,
+    "question": "What is the output of following code?",
+    "code": ["import numpy as np","a = np.array([[1,2,3],[4,5,6]])","print(a.shape)"],
+    "options": ["(2,3)", "(3,2)", "(1,1)", "None of these"],
+    "answer": "(2,3)",
+    "topic":"python",
+    "explanation": "The array has 2 rows and 3 columns, so shape is (2,3)."
+  },
+  {
+    "id": 32,
+    "question": "What is the output of following Python code?",
+    "code": ["print(5*(2//3))"],
+    "options": [3, 3.3, 0, "error"],
+    "answer": 0,
+    "topic":"python",
+    "explanation": "2//3 gives 0 due to integer division, and 5*0 = 0."
+  },
+  {
+    "id": 33,
+    "question": "What will be the output of the following Python code?",
+    "code": ["d1={'abc':5,'def':6,'ghi':7}","print(d1[0])"],
+    "options": ["abc", 5, "{'abc':5}", "Error"],
+    "answer": "Error",
+    "topic":"python",
+    "explanation": "Dictionary keys are strings, not integer indices. Accessing d1[0] raises KeyError."
+  },
+  {
+    "id": 34,
+    "question": "What will be output for the following code?",
+    "code": ["import numpy as np","ary = np.array([1,2,3,5,8])","ary = ary + 1","print(ary[1])"],
+    "options": [0, 1, 2, 3],
+    "answer": 3,
+    "topic":"python",
+    "explanation": "After adding 1, array becomes [2,3,4,6,9]. Index 1 value is 3."
+  },
+  {
+    "id": 35,
+    "question": "Which of the following will delete key-value pair for key='tiger' in dictionary?",
+    "options": ["del dic['tiger']", "dic['tiger'].delete()", "delete(dic['tiger'])", "del(dic['tiger'])"],
+    "answer": "del dic['tiger']",
+    "topic":"python",
+    "explanation": "The del keyword is used to remove a key-value pair from a dictionary."
+  },
+  {
+    "id": 36,
+    "question": "What will be the output of the following code snippet?",
+    "code": ["d = {3,4,5}","for k in d:","print(k)"],
+    "options": ["{3,4,5} repeated", "3 4 5", "Syntax Error", "None of the above"],
+    "answer": "3 4 5",
+    "topic":"python",
+    "explanation": "A set is iterable and prints each element (order may vary)."
+  },
+  {
+    "id": 37,
+    "question": "What is the datatype of x?",
+    "code": ["import numpy as np","a=np.array([1,2,3,4])","x=a.tolist()"],
+    "options": ["int", "array", "tuple", "list"],
+    "answer": "list",
+    "topic":"python",
+    "explanation": "tolist() converts a NumPy array into a Python list."
+  },
+  {
+    "id": 38,
+    "question": "What will be the output of the following Python code?",
+    "code": ["def display(b,n):", "while n>0:",  "print(b,end='') ","n=n-1\ndisplay('z',3)"],
+    "options": ["zzz", "zz", "Infinite loop", "Exception"],
+    "answer": "zzz",
+    "topic":"python",
+    "explanation": "The loop runs 3 times and prints 'z' each time without newline."
+  },
+  {
+    "id": 39,
+    "question": "What is 'f' in the following statement?",
+    "code": ["f=open('Data.txt','r')"],
+    "options": ["File Name", "File Handle", "Mode of file", "File Handling"],
+    "answer": "File Handle",
+    "topic":"python",
+    "explanation": "The variable f stores the file handle returned by open()."
+  },
+  {
+    "id": 40,
+    "question": "Which function is used to add an element (5) in the list1?",
+    "options": ["list1.sum(5)", "list1.add(5)", "list1.append(5)", "list1.addelement(5)"],
+    "answer": "list1.append(5)",
+    "topic":"python",
+    "explanation": "append() adds a single element to the end of a list."
+  },
+  {
+    "id": 41,
+    "question": "What will be the output of the following Python code?",
+    "code": ["Y = [2, 5j, 6]","Y.sort()"],
+    "options": ["[2, 6, 5j]", "[5j, 2, 6]", "Error", "[6, 5j, 2]"],
+    "answer": "Error",
+    "topic":"python",
+    "explanation": "Python cannot compare complex numbers with integers while sorting, so a TypeError occurs."
+  },
+  {
+    "id": 42,
+    "question": "What will be the output of the following Python code?",
+    "code": ["len(['hello', 2, 4, 6])"],
+    "options": ["Error", "6", "4", "3"],
+    "answer": "4",
+    "topic":"python",
+    "explanation": "The list has four elements, so len() returns 4."
+  },
+  {
+    "id": 43,
+    "question": "The contents inside the for loop are separated by:",
+    "options": ["colon", "comma", "semicolon", "hyphen"],
+    "answer": "colon",
+    "topic":"python",
+    "explanation": "In Python, a colon (:) is used after for, while, if statements to start a block."
+  },
+  {
+    "id": 44,
+    "question": "Kite/diamond symbol in flow chart is used for:",
+    "options": ["Execution", "Decision", "Statement", "All of the above"],
+    "answer": "Decision",
+    "topic":"python",
+    "explanation": "The diamond symbol represents a decision or condition in a flowchart."
+  },
+  {
+    "id": 45,
+    "question": "Flow charts and Algorithms are used for:",
+    "options": ["Better Programming", "Optimized Coding", "Systematic testing", "All the above"],
+    "answer": "All the above",
+    "topic":"python",
+    "explanation": "Flowcharts and algorithms help in better planning, optimized coding, and systematic testing."
+  },
+  {
+    "id": 46,
+    "question": "Choose the correct option with respect to Python.",
+    "options": ["Both tuples and lists are immutable", "Tuples are immutable while lists are mutable", "Both tuples and lists are mutable", "Tuples are mutable while lists are immutable"],
+    "answer": "Tuples are immutable while lists are mutable",
+    "topic":"python",
+    "explanation": "Tuples cannot be changed after creation, whereas lists can be modified."
+  },
+  {
+    "id": 47,
+    "question": "What type of data is: arr = [(1, 1), (2, 2), (3, 3)] ?",
+    "options": ["List of tuples", "Tuples of lists", "Array of tuples", "Invalid type"],
+    "answer": "List of tuples",
+    "topic":"python",
+    "explanation": "The outer structure is a list, and each element inside it is a tuple."
+  },
+  {
+    "id": 48,
+    "question": "Which of the following is not a control structure?",
+    "options": ["Loop", "Process", "Decision", "None of these"],
+    "answer": "Process",
+    "topic":"python",
+    "explanation": "Control structures include loops and decisions; process is not a control structure."
+  },
+  {
+    "id": 49,
+    "question": "A __________ stores information in the form of a stream of ASCII or Unicode characters.",
+    "options": ["Text file", "Binary file", "Both (A) and (B)", "None of these"],
+    "answer": "Text file",
+    "topic":"python",
+    "explanation": "Text files store data in human-readable ASCII or Unicode format."
+  },
+  {
+    "id": 50,
+    "question": "Which statement is correct to import all modules from the package?",
+    "options": ["from package import all", "from package import *", "from package include all", "from package include *"],
+    "answer": "from package import *",
+    "topic":"python",
+    "explanation": "The asterisk (*) imports all public modules from a package."
+  },
+  {
+    "id": 51,
+    "question": "What will be output for the following code?",
+    "code": ["import numpy as np","a = np.array([[1,2,3],[0,1,4]])","print(a.size)"],
+    "options": ["1", "5", "6", "4"],
+    "answer": "6",
+    "topic":"python",
+    "explanation": "The array has 2 rows and 3 columns, so total elements = 6."
+  },
+  {
+    "id": 52,
+    "question": "What will be the output of the following statement?",
+    "code": ["'m' + 'nl'"],
+    "options": ["m+nl", "mnl", "m nl", "m"],
+    "answer": "mnl",
+    "topic":"python",
+    "explanation": "The + operator concatenates strings in Python."
+  },
+  {
+    "id": 53,
+    "question": "Which of the following symbols is used to represent output in a flow chart?",
+    "options": ["Square", "Circle", "Parallelogram", "Triangle"],
+    "answer": "Parallelogram",
+    "topic":"python",
+    "explanation": "A parallelogram represents input/output operations in a flowchart."
+  },
+  {
+    "id": 54,
+    "question": "What will be the output of the following expression?",
+    "code": ["x = 14","print(x >> 2)"],
+    "options": ["14", "1", "3", "2"],
+    "answer": "3",
+    "topic":"python",
+    "explanation": "Right shift by 2 divides the number by 4: 14 // 4 = 3."
+  },
+  {
+    "id": 55,
+    "question": "Which of the following words is not a keyword of Python language?",
+    "options": ["val", "raise", "try", "with"],
+    "answer": "val",
+    "topic":"python",
+    "explanation": "'val' is not a Python keyword, while others are valid keywords."
+  },
+  {
+    "id": 56,
+    "question": "What is the output of the following code?",
+    "code": ["import numpy as np","a = np.array([1,2,3])","print(a.ndim)"],
+    "options": ["1", "2", "3", "0"],
+    "answer": "1",
+    "topic":"python",
+    "explanation": "The array is one-dimensional, so ndim is 1."
+  },
+  {
+    "id": 57,
+    "question": "What will be the output of the following Python code?",
+    "code":[ "list1 = [1, 3]","list2 = list1","list1[0] = 4","print(list2)"],
+    "options": ["[1, 4]", "[1, 3, 4]", "[4, 3]", "[1, 3]"],
+    "answer": "[4, 3]",
+    "topic":"python",
+    "explanation": "Both variables refer to the same list object, so changes affect both."
+  },
+  {
+    "id": 58,
+    "question": "Which statement will move file pointer 10 bytes backward from current position?",
+    "options": ["f.seek(-10, 0)", "f.seek(10, 0)", "f.seek(-10, 1)", "none of the above"],
+    "answer": "f.seek(-10, 1)",
+    "topic":"python",
+    "explanation": "seek(offset, 1) moves relative to the current position."
+  },
+  {
+    "id": 59,
+    "question": "Which statement will return one line from a file (file object is 'f')?",
+    "options": ["f.readlines()", "f.readline()", "f.read()", "f.line()"],
+    "answer": "f.readline()",
+    "topic":"python",
+    "explanation": "readline() reads exactly one line from the file."
+  },
+  {
+    "id": 60,
+    "question": "Which of the following is a valid arithmetic operator in Python?",
+    "options": ["//", "?", "<", "and"],
+    "answer": "//",
+    "topic":"python",
+    "explanation": "// is the floor division arithmetic operator in Python."
+  }
+
+,
+  {
+    "id": 61,
+    "question": "What is the output of the following ",
+    "code":["a = set('abc')","b = set('cdef')","print(a & b)"],
+    "options": ["{'c'}", "{'a','b','c','d','e','f'}", "{c}", "None of these"],
+    "answer": "{'c'}",
+    "topic":"python",
+    "explanation": "The & operator performs set intersection. The common element between the two sets is 'c'."
+  },
+  {
+    "id": 62,
+    "question": "What will following code segment print?\n",
+    "code":["if True or True:"," if False and True or False:","        print('A')","    elif False and False or True and True:","        print('B')","    else:","        print('C')\nelse:","    print('D')"],
+    "options": ["A", "B", "C", "D"],
+    "answer": "B",
+    "topic":"python",
+    "explanation": "Outer condition is True. First inner condition is False. Second condition evaluates to True, so 'B' is printed."
+  },
+  {
+    "id": 63,
+    "question": "What is the output of the following?",
+    "code":["print(max([1, 2, 3, 4], [4, 5, 6], [7]))"],
+    "options": ["[4, 5, 6]", "[7]", "[1, 2, 3, 4]", "7"],
+    "answer": "[7]",
+    "topic":"python",
+    "explanation": "max() compares lists lexicographically. [7] has the highest first element."
+  },
+  {
+    "id": 64,
+    "question": "In which format Binary file contains information?",
+    "options": [
+      "Quick response code",
+      "Same format in which the data is held in memory",
+      "ASCII format",
+      "Unicode format"
+    ],
+    "answer": "Same format in which the data is held in memory",
+    "topic":"python",
+    "explanation": "Binary files store data exactly as it is represented in memory."
+  },
+  {
+    "id": 65,
+    "question": "What will be the output of the following Python code?",
+    "code":["from math import *","floor(11.7)"],
+    "options": ["12", "11", "11.0", "None of these"],
+    "answer": "11",
+    "topic":"python",
+    "explanation": "floor() returns the greatest integer less than or equal to the given value."
+  },
+  {
+    "id": 66,
+    "question": "The sequence logic will not be used while __________.",
+    "options": [
+      "Subtracting two numbers",
+      "Comparing two data values",
+      "Providing output to the user",
+      "Adding two numbers"
+    ],
+    "answer": "Comparing two data values",
+    "topic":"python",
+    "explanation": "Comparison requires decision logic, not sequence logic."
+  },
+  {
+    "id": 67,
+    "question": "Which function is used to write data in binary mode?",
+    "options": ["write", "writelines", "dump", "pickle"],
+    "answer": "write",
+    "topic":"python",
+    "explanation": "write() is used to write binary data when the file is opened in binary mode."
+  },
+  {
+    "id": 68,
+    "question": "Which of the following error is returned when we try to open a file in write mode which does not exist?",
+    "options": [
+      "File Found Error",
+      "File Not Exist Error",
+      "File Not Found Error",
+      "None of the above"
+    ],
+    "answer": "None of the above",
+    "topic":"python",
+    "explanation": "Opening a file in write mode creates the file if it does not exist."
+  },
+  {
+    "id": 69,
+    "question": "What will be the output of the following pseudo code?",
+    "code":["Integer a, b","Set a = 10, b = 5","a = a mod (a - 6)","b = b mod (b - 2)","Print a - b"],
+    "options": ["4", "0", "1", "8"],
+    "answer": "0",
+    "topic":"python",
+    "explanation": "a = 10 mod 4 = 2, b = 5 mod 3 = 2, so a - b = 0."
+  },
+  {
+    "id": 70,
+    "question": "What will be the output of the following pseudo code, where & represents AND operation?",
+    "code":["Integer a, b, c","Set b = 5, a = 1","c = a & b","Print c"],
+    "options": ["1", "3", "5", "7"],
+    "answer": "1",
+    "topic":"python",
+    "explanation": "1 & 5 → 001 & 101 = 001, which equals 1."
+  },
+  {
+    "id": 71,
+    "question": "What is the output of the following?",
+    "code":["x = 123","for i in x:","print(i)"],
+    "options": ["1 2 3", "123", "Error", "None of these"],
+    "answer": "Error",
+    "topic":"python",
+    "explanation": "Integers are not iterable in Python."
+  },
+  {
+    "id": 72,
+    "question": "Which of the following functions is a built-in function in python?",
+    "options": ["factorial()", "print()", "seed()", "sqrt()"],
+    "answer": "print()",
+    "topic":"python",
+    "explanation": "print() is a built-in Python function."
+  },
+  {
+    "id": 73,
+    "question": "What will be the output of the following code snippet?",
+    "code":["numbers = (4, 7, 19, 2, 89, 45, 72, 22)","sorted_numbers = sorted(numbers)","odd_numbers = [x for x in sorted_numbers if x % 2 != 0]","print(odd_numbers)"],
+    "options": [
+      "[7, 19, 45, 89]",
+      "[2, 4, 22, 72]",
+      "[4, 7, 19, 2, 89, 45, 72, 22]",
+      "[2, 4, 7, 19, 22, 45, 72, 89]"
+    ],
+    "answer": "[7, 19, 45, 89]",
+    "topic":"python",
+    "explanation": "The tuple is sorted first, then only odd numbers are selected."
+  },
+  {
+    "id": 74,
+    "question": "Structured program can be broken into __________ to assign to more than one developer.",
+    "options": ["Segments", "Modules", "Units", "All the above"],
+    "answer": "All the above",
+    "topic":"python",
+    "explanation": "Structured programs can be divided into segments, units, or modules."
+  },
+  {
+    "id": 75,
+    "question": "Which of the following software is required to run the hardware?",
+    "options": ["Task Manager", "Task Bar", "Program Manager", "Device Driver"],
+    "answer": "Device Driver",
+    "topic":"python",
+    "explanation": "Device drivers allow the operating system to communicate with hardware."
+  },
+  {
+    "id": 76,
+    "question": "Python supports the creation of anonymous functions at runtime, using a construct called __________.",
+    "options": ["pi", "anonymous", "lambda", "none of the above"],
+    "answer": "lambda",
+    "topic":"python",
+    "explanation": "lambda is used to create anonymous functions in Python."
+  },
+  {
+    "id": 77,
+    "question": "What is a variable defined outside a function referred to as?",
+    "options": [
+      "A static variable",
+      "A global variable",
+      "A local variable",
+      "An automatic variable"
+    ],
+    "answer": "A global variable",
+    "topic":"python",
+    "explanation": "Variables defined outside functions are global variables."
+  },
+  {
+    "id": 78,
+    "question": "When we open file in append mode the file pointer is at the _________ of the file.",
+    "options": ["anywhere in between the file", "end", "beginning", "second line of the file"],
+    "answer": "end",
+    "topic":"python",
+    "explanation": "Append mode always moves the file pointer to the end of the file."
+  },
+  {
+    "id": 79,
+    "question": "What is the output of the following code?",
+    "code":["M = ['b' * x for x in range(4)]\nprint(M)"],
+    "options": [
+      "['', 'b', 'bb', 'bbb']",
+      "['b', 'bb', 'bbb', 'bbbb']",
+      "['b', 'bb', 'bbb']",
+      "None of these"
+    ],
+    "answer": "['', 'b', 'bb', 'bbb']",
+    "topic":"python",
+    "explanation": "range(4) produces 0-3, multiplying 'b' accordingly."
+  },
+  {
+    "id": 80,
+    "question": "What will be the output of the following ) code",
+    "code": ["snippet?","from math import *","a = 2.19\nb = 3.999999","c = -3.30","print(int(a), floor(b), ceil(c), fabs(c)"],
+    "options": [
+      "2 3 -3 3.3",
+      "3 4 -3 3",
+      "2 3 -3 3",
+      "2 3 -3 -3.3"
+    ],
+    "answer": "2 3 -3 3.3",
+    "topic":"python",
+    "explanation": "int truncates decimals, floor rounds down, ceil rounds up, and fabs returns absolute value."
+  },
+
+  {
+    "id": 81,
+    "question": "In Python language, which of the following cannot be defined as a variable?",
+    "options": [
+      "_val",
+      "val",
+      "try",
+      "_try_"
+    ],
+    "answer": "try",
+    "topic": "python",
+    "explanation": "try is a reserved keyword in Python and cannot be used as a variable name"
+  },
+  {
+    "id": 82,
+    "question": "Choose the correct function declaration of fun1() so that the following calls work:",
+    "code": [
+      "fun1(25, 75, 55)",
+      "fun1(10, 20)"
+    ],
+    "options": [
+      "def fun1(**kwargs)",
+      "def fun1(args*)",
+      "No, it is not possible in Python",
+      "def fun1(*data)"
+    ],
+    "answer": "def fun1(*data)",
+    "topic": "python",
+    "explanation": "*data allows a function to accept any number of positional arguments"
+  },
+  {
+    "id": 83,
+    "question": "What will be the output of the following Python code?",
+    "code": [
+      "x = 'abcd'",
+      "for i in x:",
+      "    print(i.upper())"
+    ],
+    "options": [
+      "a B C D",
+      "a b c d",
+      "error",
+      "A B C D"
+    ],
+    "answer": "A B C D",
+    "topic": "python",
+    "explanation": "Each character is converted to uppercase and printed on a new line"
+  },
+  {
+    "id": 84,
+    "question": "Hierarchy in a pseudo-code can be shown by:",
+    "options": [
+      "Curly Braces",
+      "Round Brackets",
+      "Indentation",
+      "Semicolon"
+    ],
+    "answer": "Indentation",
+    "topic": "python",
+    "explanation": "Indentation shows hierarchy and logical structure in pseudocode"
+  },
+  {
+    "id": 85,
+    "question": "What is the output of the following code?",
+    "code": [
+      "y = 'klmn'",
+      "for i in range(len(y)):",
+      "    print(y)"
+    ],
+    "options": [
+      "klmn printed 4 times",
+      "k",
+      "k k k",
+      "None of these"
+    ],
+    "answer": "klmn printed 4 times",
+    "topic": "python",
+    "explanation": "The loop runs 4 times and prints the string each time"
+  },
+  {
+    "id": 86,
+    "question": "What will be the output of the following Python code?",
+    "code": [
+      "from math import factorial",
+      "print(math.factorial(5))"
+    ],
+    "options": [
+      "120",
+      "Nothing is printed",
+      "Error, factorial doesn't exist",
+      "Error, should be print(factorial(5))"
+    ],
+    "answer": "Error, should be print(factorial(5))",
+    "topic": "python",
+    "explanation": "math is not imported, only factorial is imported"
+  },
+  {
+    "id": 87,
+    "question": "A detailed flow chart is called:",
+    "options": [
+      "Stack",
+      "Macro",
+      "Micro",
+      "Union"
+    ],
+    "answer": "Micro",
+    "topic": "python",
+    "explanation": "A micro flowchart shows detailed steps"
+  },
+  {
+    "id": 88,
+    "question": "Given a string x = 'hello', what is the output of x.count('l')?",
+    "options": [
+      "2",
+      "1",
+      "0",
+      "None"
+    ],
+    "answer": "2",
+    "topic": "python",
+    "explanation": "The letter 'l' appears twice in 'hello'"
+  },
+  {
+    "id": 89,
+    "question": "What will be the output of the following code?",
+    "code": [
+      "def power(x, y=2):",
+      "    r = 1",
+      "    for i in range(y):",
+      "        r = r * x",
+      "    return r",
+      "print(power(3))",
+      "print(power(3,3))"
+    ],
+    "options": [
+      "212 32",
+      "9 27",
+      "567 98",
+      "None of the above"
+    ],
+    "answer": "9 27",
+    "topic": "python",
+    "explanation": "Default y=2 gives 3^2=9 and 3^3=27"
+  },
+  {
+    "id": 90,
+    "question": "The correct extension of the Python file is:",
+    "options": [
+      ".py",
+      ".pyth",
+      ".python",
+      "None of these"
+    ],
+    "answer": ".py",
+    "topic": "python",
+    "explanation": "Python source files use the .py extension"
+  }
+
+,
+
+  {
+    "id": 91,
+    "question": "Pictorial representation of an algorithm is called:",
+    "options": ["Statement", "Program", "Flow chart", "All of the above"],
+    "answer": "Flow chart",
+    "topic": "python",
+    "explanation": "Flowcharts visually represent algorithm steps"
+  },
+  {
+    "id": 92,
+    "question": "What will be the output of the following code?",
+    "code": [
+      "import numpy as np",
+      "a = np.array([1,2,3,5,8])",
+      "print(a.ndim)"
+    ],
+    "options": ["0", "1", "2", "3"],
+    "answer": "1",
+    "topic": "python",
+    "explanation": "The array is one-dimensional"
+  },
+  {
+    "id": 93,
+    "question": "Debugging is the process of fixing a ________ in software.",
+    "options": ["Procedure", "Function", "Bug", "None of these"],
+    "answer": "Bug",
+    "topic": "python",
+    "explanation": "Debugging removes errors called bugs"
+  },
+  {
+    "id": 94,
+    "question": "What is the output of the following code?",
+    "code": [
+      "m = 0",
+      "while m < 5:",
+      "    print(m)",
+      "    m += 1",
+      "    if m == 3:",
+      "        break",
+      "else:",
+      "    print(0)"
+    ],
+    "options": ["0 1 2 0", "0 1 2", "0 0 1 0 2", "error"],
+    "answer": "0 1 2",
+    "topic": "python",
+    "explanation": "Loop breaks when m becomes 3, so else block does not execute"
+  },
+  {
+    "id": 95,
+    "question": "What will be the output of the following code?",
+    "code": [
+      "import numpy as np",
+      "a = np.array([2,3,4,5])",
+      "print(a.dtype)"
+    ],
+    "options": ["int32", "int", "float", "None of these"],
+    "answer": "int",
+    "topic": "python",
+    "explanation": "Default integer data type is int"
+  },
+  {
+    "id": 96,
+    "question": "Which translator converts assembly language into machine language?",
+    "options": ["Compiler", "Interpreter", "Assembler", "None of these"],
+    "answer": "Assembler",
+    "topic": "python",
+    "explanation": "Assembler converts assembly code to machine code"
+  },
+  {
+    "id": 97,
+    "question": "Which one of the following is an immutable data type?",
+    "options": ["List", "Set", "Tuple", "Dict"],
+    "answer": "Tuple",
+    "topic": "python",
+    "explanation": "Tuples cannot be modified after creation"
+  },
+  {
+    "id": 98,
+    "question": "Which error is returned by the following code?",
+    "code": [
+      "f = open('test.txt','w')",
+      "f.write(345)"
+    ],
+    "options": ["Syntax Error", "Type Error", "String Error", "Run Time Error"],
+    "answer": "Type Error",
+    "topic": "python",
+    "explanation": "write() expects a string, not an integer"
+  },
+  {
+    "id": 99,
+    "question": "Which of the following are valid string manipulation functions in Python?",
+    "options": ["count()", "upper()", "strip()", "All of the above"],
+    "answer": "All of the above",
+    "topic": "python",
+    "explanation": "All listed functions are valid string methods"
+  },
+  {
+    "id": 100,
+    "question": "Which of the following is used to define a block of code in Python?",
+    "options": ["try", "Brackets", "Indentation", "Catch"],
+    "answer": "Indentation",
+    "topic": "python",
+    "explanation": "Python uses indentation to define code blocks"
+  }
+
+
+
+
+
+
+
+]
+
+
+  
