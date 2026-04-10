@@ -50,8 +50,14 @@ const Practice_test = () => {
 
   ];
 
-  const o_level_data_python = [
+  const o_level_data_python_1 = [
     { id: 25, link: "/practice-test-o-level_python/M3_R5_Jan2023_Set1", name: "O Level python", subname: "English Part-1 " },
+    
+
+  ];
+
+  const o_level_data_python_2 = [
+    { id: 26, link: "/practice-test-o-level_python-2/M3_R5_July2022_Set1", name: "O Level python 2", subname: "English Part-1 " },
     
 
   ];
@@ -135,15 +141,30 @@ const Practice_test = () => {
       {/* O level python section */}
       <div className="md:w-8/12 w-11/12  mx-auto mt-8 py-6 space-y-3 rounded shadow-lg bg-white">
         <h1 className="text-3xl font-bold text-center text-slate-700 text-shadow-lg">
-          O Level Python Practice test
+          O Level Python-1 Practice test
         </h1>
 
-        {o_level_data_python.map((item) => (
+        {o_level_data_python_1.map((item) => (
           <div key={item.id}>
             <Card link={item.link} name={item.name} subname={item.subname} />
           </div>
         ))}
-      </div>      
+      </div>   
+
+      {/* O level python 2 section */}
+      <div className="md:w-8/12 w-11/12  mx-auto mt-8 py-6 space-y-3 rounded shadow-lg bg-white">
+        <h1 className="text-3xl font-bold text-center text-slate-700 text-shadow-lg">
+          O Level Python-2 Practice test
+        </h1>
+
+        {o_level_data_python_2.map((item) => (
+          <div key={item.id}>
+            <Card link={item.link} name={item.name} subname={item.subname} />
+          </div>
+        ))}
+      </div>   
+
+
     </div>
   );
 };

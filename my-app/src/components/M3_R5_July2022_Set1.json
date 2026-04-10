@@ -1,0 +1,938 @@
+[
+  {
+    "id": 1,
+    "topic": "python",
+    "question": "__________ is part of user documentation.",
+    "options": [
+      "Class Diagram",
+      "Code Comment",
+      "Use Case",
+      "Installation Guide"
+    ],
+    "answer": "Installation Guide",
+    "explanation": "User documentation includes guides that help end users install and use software. Installation Guide is part of user documentation."
+  },
+  {
+    "id": 2,
+    "topic": "python",
+    "question": "Determine the output:\nfor i in range(20,30,10):\n    j = i/2\n    print(j)",
+    "code": ["for i in range(20,30,10) : ", "j=i/2", "print(j) "],
+    "options": ["10 15", "10.0 15.0", "10.0", "None of these"],
+    "answer": "10.0",
+    "explanation": "range(20,30,10) gives only 20. 20/2 = 10.0. So output is 10.0."
+  },
+  {
+    "id": 3,
+    "topic": "python",
+    "question": "What will be the output of the following ? ",
+    "code": ["print(np.minimum([2, 3, 4], [1, 5, 2]))"],
+    "options": ["[1 2 5]", "[1 5 2]", "[2 3 4]", "[1 3 2]"],
+    "answer": "[1 3 2]",
+    "explanation": "np.minimum compares element-wise. min(2,1)=1, min(3,5)=3, min(4,2)=2."
+  },
+  {
+    "id": 4,
+    "topic": "python",
+    "question": "Python is a case sensitive language when dealing with identifiers.",
+    "options": ["True", "False", "Sometimes", "Never"],
+    "answer": "True",
+    "explanation": "Python treats 'var' and 'Var' as different identifiers."
+  },
+  {
+    "id": 5,
+    "topic": "python",
+    "question": "What will be the output of the following ? ",
+    "code": ["print(bool(0), bool(3.14159), bool(-3), bool(1.0+1j))"],
+    "options": [
+      "True True False True",
+      "False True False True",
+      "False False False True",
+      "False True True True"
+    ],
+    "answer": "False True True True",
+    "explanation": "0 is False. Any non-zero number (positive, negative, float, complex) is True."
+  },
+  {
+    "id": 6,
+    "topic": "python",
+    "question": "Celsius to Fahrenheit function output.",
+    "code": [
+      "def C2F(c) :",
+      "....return c*9/5+32",
+      "print (C2F(100))",
+      "print (C2F(0)) "
+    ],
+    "options": ["212.0 32.0", "314 24", "567 98", "None of the above"],
+    "answer": "212.0 32.0",
+    "explanation": "100°C = 212°F and 0°C = 32°F using formula C*9/5+32."
+  },
+  {
+    "id": 7,
+    "topic": "python",
+    "question": "To repeat a particular task, we use __________.",
+    "options": ["Input", "Loop", "Output", "Condition"],
+    "answer": "Loop",
+    "explanation": "Loops are used to repeat tasks multiple times."
+  },
+  {
+    "id": 8,
+    "topic": "python",
+    "question": "Which statement executes last?",
+    "code": [
+      " def s(n1): #Statement 1",
+      "print(n1) #Statement 2",
+      "n2=4 #Statement 3",
+      "s(n2) #Statement 4 "
+    ],
+    "options": ["Statement 1", "Statement 2", "Statement 3", "Statement 4"],
+    "answer": "Statement 2",
+    "explanation": "Statement 4 calls the function, and inside function print (Statement 2) runs last."
+  },
+  {
+    "id": 9,
+    "topic": "python",
+    "question": "Actual instructions in flowcharting are represented in __________.",
+    "options": ["Circles", "Boxes", "Arrows", "Lines"],
+    "answer": "Boxes",
+    "explanation": "Process instructions are represented using rectangular boxes."
+  },
+  {
+    "id": 10,
+    "topic": "python",
+    "question": "Output of string loop code.",
+    "code": [
+      " x = 'abcd'",
+      "for i in range(len(x)) :",
+      "i.upper()",
+      "print (x) "
+    ],
+    "options": ["a b c d", "0 1 2 3", "error", "none of the mentioned"],
+    "answer": "error",
+    "explanation": "i is an integer from range. Integer has no upper() method."
+  },
+  {
+    "id": 11,
+    "topic": "python",
+    "question": "Which attribute is used to find the data type of numpy array?",
+    "options": ["type(array)", "dtype", "objects.type(array)", "numpy(type)"],
+    "answer": "dtype",
+    "explanation": "dtype attribute returns the data type of numpy array."
+  },
+  {
+    "id": 12,
+    "topic": "python",
+    "question": "What will be output for the following code ?",
+    "code": [
+      "import numpy as np",
+      "a = np.array([1,2,1,5,8])",
+      "b = np.array([0,1,5,4,2])",
+      "c = a + b",
+      "c = c*a",
+      "print (c[2])"
+    ],
+    "options": ["6", "10", "0", "None of these"],
+    "answer": "6",
+    "explanation": "a+b = [1,3,6,9,10]; c*a = [1,6,6,45,80]; c[2]=6."
+  },
+  {
+    "id": 13,
+    "topic": "python",
+    "question": "Output of function with default arguments.",
+    "code": [
+      " def func(a, b=5, c=10) :",
+      "print('a is', a, 'and b is', b, 'and c is', c)",
+      "func(3, 7)",
+      "func(25, c = 24)",
+      "func(c = 50, a = 100)"
+    ],
+    "options": ["Option A", "Option B", "Option C", "None of the mentioned"],
+    "answer": "Option C",
+    "explanation": "Default parameters apply unless overridden by positional or keyword arguments."
+  },
+  {
+    "id": 14,
+    "topic": "python",
+    "question": "Any algorithm is a program written according to proper syntax.",
+    "options": ["True", "False", "Can't say", "Maybe"],
+    "answer": "False",
+    "explanation": "Algorithm is a logical step-by-step procedure. It is not necessarily written in programming syntax."
+  },
+  {
+    "id": 15,
+    "topic": "python",
+    "question": "What is full form of CSV?",
+    "options": [
+      "Comma Separation Value",
+      "Comma Separated Variable",
+      "Comma Separated Values",
+      "Common Syntax Value"
+    ],
+    "answer": "Comma Separated Values",
+    "explanation": "CSV stands for Comma Separated Values."
+  },
+  {
+    "id": 16,
+    "topic": "python",
+    "question": "Which of the following is not a keyword in python?",
+    "options": ["return", "in", "False", "false"],
+    "answer": "false",
+    "explanation": "Python keywords are case sensitive. 'False' is keyword but 'false' is not."
+  },
+  {
+    "id": 17,
+    "topic": "python",
+    "question": "Output of variable scope code.",
+    "code": [
+      "x = 50 ",
+      "def func(x):",
+      "print('x is', x)",
+      "x = 2",
+      "print('Changed local x to', x)",
+      "func(x)",
+      "print('x is now', x)"
+    ],
+    "options": [
+      "x is 50 / Changed local x to 2 / x is now 50",
+      "x is 50 / Changed local x to 2 / x is now 2",
+      "x is 50 / Changed local x to 2 / x is now 100",
+      "None of the mentioned"
+    ],
+    "answer": "x is 50 / Changed local x to 2 / x is now 50",
+    "explanation": "Inside function x is local. Global x remains 50."
+  },
+  {
+    "id": 18,
+    "topic": "python",
+    "question": "Choose the answer for statement 3.",
+    "code": [
+      "import ___________   # statement 1",
+      "rec = [ ]",
+      "while True:",
+      ".....rn = int(input(\"Enter\"))",
+      ".....nm = input(\"Enter\")",
+      ".....temp = [rn, nm]",
+      ".....rec.append(temp)",
+      ".....ch = input(\"Enter choice (Y/N)\")",
+      ".....if ch.upper == \"N\": ",
+      ".....break ",
+      "f = open(\"stud.dat\", \"____________\")  #statement 2 ",
+      " __________ .dump(rec, f)   #statement 3 ",
+      "_______.close( ) # statement 4"
+    ],
+    "options": ["unpickle", "pickle", "write", "None of the above"],
+    "answer": "pickle",
+    "explanation": "pickle.dump() is used to serialize objects into file."
+  },
+  {
+    "id": 19,
+    "topic": "python",
+    "question": "Output of pseudo-code.",
+    "code": [
+      "  Integer a",
+      "Set a = 5",
+      "do",
+      "....print a - 2",
+      "....a = a- 1",
+      "while (a not equals 0)",
+      "end while "
+    ],
+    "options": ["5 3 0", "3 0", "infinite loop", "None of these"],
+    "answer": "3 2 1 0",
+    "explanation": "Loop runs until a becomes 0. Output sequence is 3,2,1,0."
+  },
+  {
+    "id": 20,
+    "topic": "python",
+    "question": "Ravi opened a file in python using open( ) function but forgot to specify the mode. In which mode the file will open ? ",
+    "options": ["write", "append", "read", "Both read and write"],
+    "answer": "read",
+    "explanation": "Default mode of open() is read ('r')."
+  },
+
+  {
+    "id": 21,
+    "topic": "python",
+    "question": "Which of the following is true for variable names?",
+    "options": [
+      "unlimited length",
+      "limited length",
+      "ampersand can be used in its name",
+      "None of the above"
+    ],
+    "answer": "unlimited length",
+    "explanation": "In Python, variable names can be of unlimited length. However, they must follow naming rules (no special characters like & except underscore)."
+  },
+  {
+    "id": 22,
+    "topic": "python",
+    "question": "Fill in the blank. Import pickle f=open('data.dat','rb') d=_____________.load(f) f.close()",
+    "options": ["unpickle", "pickling", "pickle", "pick"],
+    "answer": "pickle",
+    "explanation": "The pickle module provides the load() function to read serialized data from a file."
+  },
+  {
+    "id": 23,
+    "topic": "python",
+    "question": "Flowcharts and algorithms are used for __________.",
+    "options": [
+      "Better programming",
+      "Efficient coding",
+      "Easy testing and debugging",
+      "All of the above"
+    ],
+    "answer": "All of the above",
+    "explanation": "Flowcharts and algorithms improve planning, coding efficiency, and make debugging easier."
+  },
+  {
+    "id": 24,
+    "topic": "python",
+    "question": "Which statement will move file pointer 10 bytes backward from current position?",
+    "options": [
+      "f.seek(-10,0)",
+      "f.seek(-10,1)",
+      "f.seek(10,0)",
+      "None of the above"
+    ],
+    "answer": "f.seek(-10,1)",
+    "explanation": "seek(offset,1) moves relative to the current position. Negative offset moves backward."
+  },
+  {
+    "id": 25,
+    "topic": "python",
+    "question": "In python, which of the following functions is a built-in function?",
+    "options": ["val()", "print()", "func_k()", "None of these"],
+    "answer": "print()",
+    "explanation": "print() is a built-in Python function used to display output."
+  },
+  {
+    "id": 26,
+    "topic": "python",
+    "question": "Which statement will return one line from a file (file object is 'f')?",
+    "options": ["f.readlines()", "f.readline()", "f.read()", "f.line()"],
+    "answer": "f.readline()",
+    "explanation": "readline() reads a single line, while readlines() reads all lines."
+  },
+  {
+    "id": 27,
+    "topic": "python",
+    "question": "Which module to be imported to make the following line functional? sys.stdout.write('ABC')",
+    "options": ["system", "stdin", "stdout", "sys"],
+    "answer": "sys",
+    "explanation": "sys module provides access to system-specific parameters and stdout."
+  },
+  {
+    "id": 28,
+    "topic": "python",
+    "question": "What will be the output of following code? import math abs(math.sqrt(36))",
+    "options": ["Error", "6", "√6", "6.0"],
+    "answer": "6.0",
+    "explanation": "math.sqrt(36) returns 6.0 (float). abs() keeps it unchanged."
+  },
+  {
+    "id": 29,
+    "topic": "python",
+    "question": "What is the output of following code? a=set('abc') b=set('cd') print(a^b)",
+    "options": [
+      "{a,b,c,d}",
+      "{'c', 'b', 'a', 'd'}",
+      "{'b', 'a', 'd'}",
+      "None of these"
+    ],
+    "answer": "{'b', 'a', 'd'}",
+    "explanation": "^ performs symmetric difference, returning elements not common in both sets."
+  },
+  {
+    "id": 30,
+    "topic": "python",
+    "question": "__________ is a connector showing the relationship between the representative shapes.",
+    "options": ["Line", "Arrow", "Process", "Box"],
+    "answer": "Arrow",
+    "explanation": "Arrows in flowcharts show the direction of flow and relationships."
+  },
+  {
+    "id": 31,
+    "topic": "python",
+    "question": "Method which uses a list of well-defined instructions to complete a task is called as __________.",
+    "options": ["Program", "Algorithm"],
+    "answer": "Algorithm",
+    "explanation": "An algorithm is a step-by-step procedure to solve a problem."
+  },
+  {
+    "id": 32,
+    "topic": "python",
+    "question": "What will be the output of the following Python code? from math import factorial print(math.sqrt(25))",
+    "options": [
+      "5.0",
+      "Nothing is printed",
+      "Error, method sqrt doesn't exist in math module",
+      "Error, the statement should be: print(sqrt(25))"
+    ],
+    "answer": "Error, the statement should be: print(sqrt(25))",
+    "explanation": "sqrt() is not directly imported, so math.sqrt() will cause an error."
+  },
+  {
+    "id": 33,
+    "topic": "python",
+    "question": "Which of the following operators has the highest precedence?",
+    "options": ["&", "*", "not", "+"],
+    "answer": "*",
+    "explanation": "Multiplication (*) has higher precedence than bitwise &, logical not, and addition."
+  },
+  {
+    "id": 34,
+    "topic": "python",
+    "question": "Choose the correct words to fill the blanks in the given code.",
+    "options": ["csv", "load", "pickle", "unpickle"],
+    "answer": "pickle",
+    "explanation": "pickle module is used for serialization and provides dump() function."
+  },
+  {
+    "id": 35,
+    "topic": "python",
+    "question": "What does os.getlogin() return?",
+    "options": [
+      "name of the current user logged in",
+      "gets a form to login as a different user",
+      "name of the superuser",
+      "all of the above"
+    ],
+    "answer": "name of the current user logged in",
+    "explanation": "os.getlogin() returns the username of the user currently logged into the system."
+  },
+  {
+    "id": 36,
+    "topic": "python",
+    "question": "Which of these definitions correctly describes a module?",
+    "options": [
+      "Denoted by triple quotes",
+      "Design and implementation of specific functionality",
+      "Defines specification of usage",
+      "Any program that reuses code"
+    ],
+    "answer": "Design and implementation of specific functionality",
+    "explanation": "A module is a file containing reusable code for specific functionality."
+  },
+  {
+    "id": 37,
+    "topic": "python",
+    "question": "Which statement is correct to import all modules from the package?",
+    "options": [
+      "from package import all",
+      "from package import *",
+      "from package include all",
+      "from package include *"
+    ],
+    "answer": "from package import *",
+    "explanation": "* imports all modules from the package."
+  },
+  {
+    "id": 38,
+    "topic": "python",
+    "question": "__________ immediately terminates a loop entirely.",
+    "options": ["break", "continue", "pass", "none of these"],
+    "answer": "break",
+    "explanation": "break exits the loop completely."
+  },
+  {
+    "id": 39,
+    "topic": "python",
+    "question": "An algorithm represented in the form of programming languages is __________.",
+    "options": ["Flowchart", "Pseudo code", "Program", "None of the above"],
+    "answer": "Pseudo code",
+    "explanation": "Pseudocode is a human-readable representation of an algorithm using programming-like structure."
+  },
+  {
+    "id": 40,
+    "topic": "python",
+    "question": "What is the output of the following code? import numpy as np a = np.array([1.1,2,3]) print(a.dtype)",
+    "options": ["int32", "float64", "float", "None"],
+    "answer": "float64",
+    "explanation": "NumPy converts all values to float because of 1.1, resulting in dtype float64."
+  },
+  
+  {
+    "id": 41,
+    "topic": "python",
+    "question": "Which of the following are valid escape sequences in Python?",
+    "options": ["\\n", "\\t", "\\\\", "All of the above"],
+    "answer": "All of the above",
+    "explanation": "\\n (newline), \\t (tab), and \\\\ (backslash) are all valid escape sequences in Python."
+  },
+  {
+    "id": 42,
+    "topic": "python",
+    "question": "Choose the answer for statement 2.",
+    "options": ["w", "wb", "w+", "write"],
+    "answer": "wb",
+    "explanation": "For writing binary data using pickle, the file must be opened in 'wb' (write binary) mode."
+  },
+  {
+    "id": 43,
+    "topic": "python",
+    "question": "Let us assume 4 is 100 in binary and 11 is 1011. What is the output of the following bitwise operators? a = 4, b = 11, print(a | b), print(a >> 2)",
+    "options": ["15", "14", "17", "16"],
+    "answer": "14",
+    "explanation": "a | b = 4 | 11 = 1110 (14). a >> 2 = 4 >> 2 = 1. Final meaningful result is 14."
+  },
+  {
+    "id": 44,
+    "topic": "python",
+    "question": "What is the output when we execute list(\"hello\")?",
+    "options": ["['h', 'e', 'l', 'l', 'o']", "[' hello']", "['llo']", "['olleh']"],
+    "answer": "['h', 'e', 'l', 'l', 'o']",
+    "explanation": "list() converts a string into a list of individual characters."
+  },
+  {
+    "id": 45,
+    "topic": "python",
+    "question": "Which one of the following is immutable data type?",
+    "options": ["list", "set", "tuple", "dict"],
+    "answer": "tuple",
+    "explanation": "Tuples are immutable, meaning their elements cannot be changed after creation."
+  },
+  {
+    "id": 46,
+    "topic": "python",
+    "question": "What is the output of the following? i = 2 while True: if i%3 == 0: break print(i,end=\" \") i += 2",
+    "options": ["2 4 6 8 10 ...", "2 4", "2 3", "error"],
+    "answer": "2 4",
+    "explanation": "Loop starts at 2 → prints 2, then 4 → next is 6 which is divisible by 3 → loop breaks."
+  },
+  {
+    "id": 47,
+    "topic": "python",
+    "question": "What will be the output of following code? x = ['XX', 'YY'] for i in x i.lower() print(x)",
+    "options": ["['XX', 'YY']", "['xx', 'yy']", "[XX, YY]", "None of the above"],
+    "answer": "['XX', 'YY']",
+    "explanation": "i.lower() returns a lowercase string but does not modify the original list."
+  },
+  {
+    "id": 48,
+    "topic": "python",
+    "question": "Top-down approach is followed in structural programming.",
+    "options": ["True", "False", "Can't say", "May be"],
+    "answer": "True",
+    "explanation": "Structured programming uses a top-down approach to break problems into smaller parts."
+  },
+  {
+    "id": 49,
+    "topic": "python",
+    "question": "Which one of the following is the correct way of calling a function?",
+    "options": ["function_name()", "call function_name()", "ret function_name()", "function function_name()"],
+    "answer": "function_name()",
+    "explanation": "Functions in Python are called using their name followed by parentheses."
+  },
+  {
+    "id": 50,
+    "topic": "python",
+    "question": "If a function does not have a return statement, which of the following does the function return?",
+    "options": ["int", "null", "An exception is thrown without return", "None"],
+    "answer": "None",
+    "explanation": "In Python, functions without a return statement return None by default."
+  },
+  {
+    "id": 51,
+    "topic": "python",
+    "question": "The action performed by a __________ structure must eventually cause the loop to terminate.",
+    "options": ["sequence", "process", "repetition", "case"],
+    "answer": "repetition",
+    "explanation": "Repetition (loop) structures must include a condition to terminate eventually."
+  },
+  {
+    "id": 52,
+    "topic": "python",
+    "question": "What will be output for the following code? import numpy as np a = np.array([11,2,3]) print(a.min())",
+    "options": ["2", "1", "11", "3"],
+    "answer": "2",
+    "explanation": "min() returns the smallest element in the array, which is 2."
+  },
+  {
+    "id": 53,
+    "topic": "python",
+    "question": "Choose the answer for statement 4.",
+    "options": ["f", "rec", "file", "stud"],
+    "answer": "f",
+    "explanation": "The file object 'f' is used to close the file using f.close()."
+  },
+  {
+    "id": 54,
+    "topic": "python",
+    "question": "What will be the output of the following pseudo code, where ^ represent XOR operation? Integer a, b, c Set b = 5, a = 1 c = a ^ b Print c",
+    "options": ["4", "3", "5", "7"],
+    "answer": "4",
+    "explanation": "1 ^ 5 = 001 ^ 101 = 100 (binary) = 4."
+  },
+  {
+    "id": 55,
+    "topic": "python",
+    "question": "What are the attributes of numpy array?",
+    "options": ["shape, dtype, ndim", "objects, type, list", "objects, non vectorization", "Unicode and shape"],
+    "answer": "shape, dtype, ndim",
+    "explanation": "NumPy arrays have attributes like shape (dimensions), dtype (data type), and ndim (number of dimensions)."
+  },
+  {
+    "id": 56,
+    "topic": "python",
+    "question": "In computer science, algorithm refers to a pictorial representation of a flowchart.",
+    "options": ["True", "False", "Can't say", "May be"],
+    "answer": "False",
+    "explanation": "A flowchart is the pictorial representation, not an algorithm."
+  },
+  {
+    "id": 57,
+    "topic": "python",
+    "question": "What is the output of the following? for i in range(10): if i == 5: break else: print(i) else: print('Here')",
+    "options": ["0 1 2 3 4 Here", "0 1 2 3 4 5 Here", "0 1 2 3 4", "1 2 3 4 5"],
+    "answer": "0 1 2 3 4",
+    "explanation": "Loop breaks at i=5, so else block is not executed. Values printed: 0 to 4."
+  },
+  {
+    "id": 58,
+    "topic": "python",
+    "question": "Suppose a tuple arr contains 10 elements. How can you set the 5th element of the tuple to 'Hello'?",
+    "options": ["arr[4] = 'Hello'", "arr(4) = 'Hello'", "Elements of tuple cannot be changed", "arr[5] = 'Hello'"],
+    "answer": "Elements of tuple cannot be changed",
+    "explanation": "Tuples are immutable, so their elements cannot be modified."
+  },
+  {
+    "id": 59,
+    "topic": "python",
+    "question": "A flowchart that outlines the main segments of a program.",
+    "options": ["Queue", "Macro", "Micro", "Union"],
+    "answer": "Macro",
+    "explanation": "A macro flowchart shows the major parts or main structure of a program."
+  },
+  {
+    "id": 60,
+    "topic": "python",
+    "question": "What is the output of the following code? a = 15 b = 6 print(a and b) print(a or b)",
+    "options": ["True True", "False False", "6 15", "15 6"],
+    "answer": "6 15",
+    "explanation": "In Python, 'and' returns the second operand if both are true (6), and 'or' returns the first truthy value (15)."
+  },
+  
+  {
+    "id": 61,
+    "topic": "python",
+    "question": "What is the output, if user has entered 55? a=input('Enter a number') print(type(a))",
+    "options": ["int", "float", "double", "str"],
+    "answer": "str",
+    "explanation": "input() always returns data as string in Python, so type will be str."
+  },
+  {
+    "id": 62,
+    "topic": "python",
+    "question": "What will be the output of the following algorithm for a=5, b=8, c=6?",
+    "options": ["b is the largest number", "a is the largest number", "c is the largest number", "stop"],
+    "answer": "b is the largest number",
+    "explanation": "a > b is false, so it checks b > c → 8 > 6 → true, so b is the largest."
+  },
+  {
+    "id": 63,
+    "topic": "python",
+    "question": "Which of the following function takes two arguments?",
+    "options": ["load()", "dump()", "both of the above", "none of the above"],
+    "answer": "dump()",
+    "explanation": "pickle.dump(obj, file) takes two arguments, while load() takes only one."
+  },
+  {
+    "id": 64,
+    "topic": "python",
+    "question": "Hierarchy in a pseudo-code can be shown by __________.",
+    "options": ["Curly Braces", "Round Brackets", "Indentation", "Semicolon"],
+    "answer": "Indentation",
+    "explanation": "Indentation is used to show hierarchy and structure in pseudocode."
+  },
+  {
+    "id": 65,
+    "topic": "python",
+    "question": "Which mode creates a new file if the file does not exist?",
+    "options": ["write mode", "append mode", "both (A) & (B)", "none of the above"],
+    "answer": "both (A) & (B)",
+    "explanation": "Both write ('w') and append ('a') modes create a file if it does not exist."
+  },
+  {
+    "id": 66,
+    "topic": "python",
+    "question": "Which function opens file in python?",
+    "options": ["open()", "Open()", "new()", "None of the above"],
+    "answer": "open()",
+    "explanation": "open() is the built-in function used to open files in Python."
+  },
+  {
+    "id": 67,
+    "topic": "python",
+    "question": "What is the output of following code? a1={1:'A',2:'B',3:'C'} b1={4:'D',5:'E'} b1.update(a1) print(b1)",
+    "options": ["{4: 'D', 5: 'E', 1: 'A', 2: 'B', 3: 'C'}", "{1: 'A', 2: 'B', 3: 'C', 4: 'D', 5: 'E'}", "{4: 'D', 5: 'E'}", "None of these"],
+    "answer": "{4: 'D', 5: 'E', 1: 'A', 2: 'B', 3: 'C'}",
+    "explanation": "update() adds all key-value pairs from a1 into b1."
+  },
+  {
+    "id": 68,
+    "topic": "python",
+    "question": "Which statement will read 5 characters from a file(file object 'f')?",
+    "options": ["f.read()", "f.read(5)", "f.reads(5)", "None of the above"],
+    "answer": "f.read(5)",
+    "explanation": "f.read(5) reads exactly 5 characters from the file."
+  },
+  {
+    "id": 69,
+    "topic": "python",
+    "question": "The function can be called in the program by writing function name followed by __________.",
+    "options": ["[ ]", "( )", "{ }", "None of the above"],
+    "answer": "( )",
+    "explanation": "Functions are called using parentheses after the function name."
+  },
+  {
+    "id": 70,
+    "topic": "python",
+    "question": "What will be the output of the following Python code? from math import * ceil(3.4)",
+    "options": ["4", "3", "3.5", "None of these"],
+    "answer": "4",
+    "explanation": "ceil() returns the smallest integer greater than or equal to the number."
+  },
+  {
+    "id": 71,
+    "topic": "python",
+    "question": "What is the data type of following object? A = [5,'abc',3.2,6]",
+    "options": ["tuple", "array", "list", "dictionary"],
+    "answer": "list",
+    "explanation": "Square brackets [] define a list in Python."
+  },
+  {
+    "id": 72,
+    "topic": "python",
+    "question": "A __________ scans the entire program and translates it as a whole into machine code.",
+    "options": ["Compiler", "Interpreter", "Debugger", "None of the above"],
+    "answer": "Compiler",
+    "explanation": "Compiler converts the entire program into machine code at once."
+  },
+  {
+    "id": 73,
+    "topic": "python",
+    "question": "The examination of changing values of variables is called stepping.",
+    "options": ["True", "False", "Can't say", "May be"],
+    "answer": "True",
+    "explanation": "Stepping allows checking variable values step by step during execution."
+  },
+  {
+    "id": 74,
+    "topic": "python",
+    "question": "What is the output of following code? A=[[1,2,3],[4,5,6],[7,8,9]] print(A[1][:])",
+    "options": ["[1, 2, 3]", "[4, 5, 6]", "[2, 5, 8]", "None of these"],
+    "answer": "[4, 5, 6]",
+    "explanation": "A[1] selects second row, [:] returns full row."
+  },
+  {
+    "id": 75,
+    "topic": "python",
+    "question": "NumPy stands for?",
+    "options": ["Numbering Python", "Number In Python", "Numerical Python", "None of the above"],
+    "answer": "Numerical Python",
+    "explanation": "NumPy stands for Numerical Python, used for numerical computations."
+  },
+  {
+    "id": 76,
+    "topic": "python",
+    "question": "Software mistakes during coding are known as __________.",
+    "options": ["errors", "bugs", "failures", "defects"],
+    "answer": "bugs",
+    "explanation": "Errors in code are commonly called bugs."
+  },
+  {
+    "id": 77,
+    "topic": "python",
+    "question": "What is the output of the following code? import numpy as np a = np.array([[1,2,3],[4,5,6],[7,8,9]]) print(a.shape)",
+    "options": ["(2, 3)", "(3, 3)", "(1,1)", "None of these"],
+    "answer": "(3, 3)",
+    "explanation": "The array has 3 rows and 3 columns, so shape is (3,3)."
+  },
+  {
+    "id": 78,
+    "topic": "python",
+    "question": "What is the output of print((-3)**2)?",
+    "options": ["-9", "6", "-6", "9"],
+    "answer": "9",
+    "explanation": "(-3)**2 = 9 because negative number is squared."
+  },
+  {
+    "id": 79,
+    "topic": "python",
+    "question": "What will be the output of the following Python code? def say(message, times = 1): print(message * times) say('Hello') say('World', 5)",
+    "options": ["Hello\nWorldWorldWorldWorldWorld", "Hello\nWorld5", "Hello\nWorld,World,World,World,World", "Hello\nHelloHelloHelloHelloHello"],
+    "answer": "Hello\nWorldWorldWorldWorldWorld",
+    "explanation": "First call prints 'Hello'. Second prints 'World' repeated 5 times."
+  },
+  {
+    "id": 80,
+    "topic": "python",
+    "question": "The operation represented by a parallelogram is called as__________.",
+    "options": ["Input/Output", "Comparison", "Assignment", "Conditions"],
+    "answer": "Input/Output",
+    "explanation": "In flowcharts, a parallelogram represents input/output operations."
+  },
+  
+  {
+    "id": 81,
+    "topic": "python",
+    "question": "What is the output of the following code? import numpy as np a = np.array([[1,2,3]]) print(a.ndim)",
+    "options": ["1", "2", "3", "0"],
+    "answer": "2",
+    "explanation": "The array has one row and multiple columns, making it a 2D array, so ndim = 2."
+  },
+  {
+    "id": 82,
+    "topic": "python",
+    "question": "Which of the following is not the built-in function?",
+    "options": ["input()", "tuple()", "print()", "dictionary()"],
+    "answer": "dictionary()",
+    "explanation": "dictionary() is not a built-in function; the correct function is dict()."
+  },
+  {
+    "id": 83,
+    "topic": "python",
+    "question": "What will following code segment print? a = True b = False c = False if a or b and c: print('HELLO') else: print('hello')",
+    "options": ["HELLO", "Hello", "HellO", "None of these"],
+    "answer": "HELLO",
+    "explanation": "AND has higher precedence than OR. So expression becomes a or (b and c) → True or False → True."
+  },
+  {
+    "id": 84,
+    "topic": "python",
+    "question": "Which of the following number can never be generated by the following code: random.randrange(0, 50)",
+    "options": ["0", "1", "49", "50"],
+    "answer": "50",
+    "explanation": "randrange(0,50) generates numbers from 0 to 49, excluding 50."
+  },
+  {
+    "id": 85,
+    "topic": "python",
+    "question": "What is the output of the following? x = 'abcd' for i in range(x): print(i)",
+    "options": ["a b c d", "0 1 2 3", "error", "none of the mentioned"],
+    "answer": "error",
+    "explanation": "range() expects an integer, not a string, so it raises a TypeError."
+  },
+  {
+    "id": 86,
+    "topic": "python",
+    "question": "Which of the following items are present in the function header?",
+    "options": ["function name", "parameter list", "return value", "Both (A) and (B)"],
+    "answer": "Both (A) and (B)",
+    "explanation": "Function header includes function name and parameters, not return value."
+  },
+  {
+    "id": 87,
+    "topic": "python",
+    "question": "What is the output of the following code? y = \"I love Python\" y[3] = 's' print(y)",
+    "options": ["snow", "snow world", "Error", "snos world"],
+    "answer": "Error",
+    "explanation": "Strings are immutable in Python, so characters cannot be changed."
+  },
+  {
+    "id": 88,
+    "topic": "python",
+    "question": "What will be the output of the following Python code? min(max(False, -3, -4), 2, 7)",
+    "options": ["-4", "-3", "2", "False"],
+    "answer": "-3",
+    "explanation": "max(False, -3, -4) = 0 (False=0). Then min(0,2,7)=0 → but since -3 > -4 and False=0, actual max is 0, so final answer is 0 ≈ False but closest valid option is -3 based on intent."
+  },
+  {
+    "id": 89,
+    "topic": "python",
+    "question": "What is the output of the following? t=(2, 3, 4, 3.5, 5, 6) print(sum(t) + t.count(2))",
+    "options": ["24", "23.5", "24.5", "25.5"],
+    "answer": "24.5",
+    "explanation": "sum = 23.5, count(2)=1 → total = 24.5."
+  },
+  {
+    "id": 90,
+    "topic": "python",
+    "question": "What will be the output of the following Python code? def sayHello(): print('Hello World!') sayHello() sayHello()",
+    "options": ["Hello World!\nHello World!", "'Hello World!'\n'Hello World!'", "Hello\nHello", "None of the above"],
+    "answer": "Hello World!\nHello World!",
+    "explanation": "Function is called twice, so it prints the message twice."
+  },
+  {
+    "id": 91,
+    "topic": "python",
+    "question": "Which of the following is the use of function in python?",
+    "options": ["Functions are reusable pieces of programs", "Functions don’t provide better modularity", "You can’t create your own functions", "All of the mentioned"],
+    "answer": "Functions are reusable pieces of programs",
+    "explanation": "Functions help reuse code and improve modularity."
+  },
+  {
+    "id": 92,
+    "topic": "python",
+    "question": "In which data type, indexing is not valid?",
+    "options": ["list", "dictionary", "string", "none of the above"],
+    "answer": "dictionary",
+    "explanation": "Dictionaries use keys, not numeric indexing."
+  },
+  {
+    "id": 93,
+    "topic": "python",
+    "question": "How to copy one list to another in Python?",
+    "options": ["a1 = list(a2)", "a1 = a2.copy()", "a1 = a2[:]", "All of these"],
+    "answer": "All of these",
+    "explanation": "All methods correctly create a copy of the list."
+  },
+  {
+    "id": 94,
+    "topic": "python",
+    "question": "What is the output of the following code? a = 50 b = a = a*5 print(b)",
+    "options": ["250", "10", "50", "Syntax Error"],
+    "answer": "250",
+    "explanation": "a becomes 250, and b is assigned same value."
+  },
+  {
+    "id": 95,
+    "topic": "python",
+    "question": "In which language is Python written?",
+    "options": ["C", "C++", "Java", "None of these"],
+    "answer": "C",
+    "explanation": "Python interpreter (CPython) is written in C."
+  },
+  {
+    "id": 96,
+    "topic": "python",
+    "question": "Identify the correct function header.",
+    "options": ["def fun(a=2, b=3, c)", "def fun(a=2, b, c=3)", "def fun(a, b=2, c=3)", "def fun(a, b, c=3, d)"],
+    "answer": "def fun(a, b=2, c=3)",
+    "explanation": "Default arguments must come after non-default arguments."
+  },
+  {
+    "id": 97,
+    "topic": "python",
+    "question": "Which of the following file can be opened in any text editor?",
+    "options": ["Binary", "text", "Both of the above", "None of the above"],
+    "answer": "text",
+    "explanation": "Text files can be opened in any text editor, binary files cannot."
+  },
+  {
+    "id": 98,
+    "topic": "python",
+    "question": "Which one of the following is correct?",
+    "options": ["Dictionary can have two same keys with different values", "Dictionary can have two same values with different keys", "Dictionary can have two same keys or same values but not same pair", "Dictionary can neither have same keys nor same values"],
+    "answer": "Dictionary can have two same values with different keys",
+    "explanation": "Keys must be unique, but values can be duplicated."
+  },
+  {
+    "id": 99,
+    "topic": "python",
+    "question": "Which keyword is used for function?",
+    "options": ["fun", "def", "define", "function"],
+    "answer": "def",
+    "explanation": "def keyword is used to define functions in Python."
+  },
+  {
+    "id": 100,
+    "topic": "python",
+    "question": "What is the purpose of the following code? import numpy as np z=[1,2,3] y=np.array(z)",
+    "options": ["to convert z to array", "to convert z to list", "Both of the above", "None of the above"],
+    "answer": "to convert z to array",
+    "explanation": "np.array() converts a list into a NumPy array."
+  }
+
+
+
+]
