@@ -200,10 +200,10 @@ const questions = selected_1.d.filter(q => topics.includes(q.topic));
                 className={`mt-4 px-6 py-2 rounded-lg text-white ${
                   Object.keys(answers).length === questions.length
                     ? "bg-blue-600 hover:bg-blue-700"
-                    : "bg-gray-400 cursor-not-allowed"
+                    : "bg-gray-400 "
                 }`}
                 onClick={handleSubmit}
-                disabled={Object.keys(answers).length !== questions.length}
+                // disabled={Object.keys(answers).length !== questions.length}
               >
                 Submit Test
               </button>
