@@ -19,6 +19,8 @@ import O_level_quiz_2_read_mode from "./components/quiz/O_level_quiz_2_read_mode
 import O_level_quiz_2_theory from "./components/quiz/O_level_quiz_2_theory";
 import O_level_quiz_python from "./components/quiz/O_level_quiz_python";
 import O_level_quiz_python_2 from "./components/quiz/O_level_quiz_python_2";
+import O_level_quiz_iot from "./components/quiz/O_level_quiz_iot";
+
 
 
 function App() {
@@ -47,6 +49,7 @@ function App() {
           <Route path="/practice-test-o-level_2_read_mode/:slug" element={<O_level_quiz_2_read_mode/>} />
           <Route path="/practice-test-o-level_2_read_mode_theory/:slug" element={<O_level_quiz_2_theory/>} />
           <Route path="/practice-test-uppsc/:slug" element={<UPPSC_quiz/>} />
+          <Route path="/practice-test-o-level_iot_1/:slug" element={<O_level_quiz_iot/>} />
         </Routes>
       </div>
       <Footer />

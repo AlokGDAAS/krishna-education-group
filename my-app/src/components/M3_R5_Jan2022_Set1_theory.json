@@ -1,0 +1,52 @@
+[
+  {
+    "question": "There is no default return value for a function that does not return any value explicitly.",
+    "answer": "FALSE",
+    "explanation": "In Python, if a function does not explicitly return a value, it automatically returns None. So, there IS a default return value."
+  },
+  {
+    "question": "Function name and parameter list are part of function header.",
+    "answer": "TRUE",
+    "explanation": "A function header in Python includes the function name and its parameters, for example: def add(a, b):"
+  },
+  {
+    "question": "Brackets enclose the input parameters or arguments of a function.",
+    "answer": "TRUE",
+    "explanation": "Parentheses () are used to enclose parameters in function definitions and arguments in function calls."
+  },
+  {
+    "question": "Define keyword marks the beginning of the function block.",
+    "answer": "FALSE",
+    "explanation": "The correct keyword is 'def', not 'define'. 'def' is used to start a function definition."
+  },
+  {
+    "question": "Python is case sensitive when dealing with identifiers.",
+    "answer": "TRUE",
+    "explanation": "Python treats variables like 'name' and 'Name' as different identifiers because it is case sensitive."
+  },
+  {
+    "question": "There is no maximum possible length of an identifier in Python.",
+    "answer": "TRUE",
+    "explanation": "Python does not impose a strict limit on identifier length, but it is recommended to keep them readable."
+  },
+  {
+    "question": "1st_string is a valid identifier name.",
+    "answer": "FALSE",
+    "explanation": "Identifiers cannot start with a digit. '1st_string' is invalid because it starts with '1'."
+  },
+  {
+    "question": "Python has no concept of private variables.",
+    "answer": "FALSE",
+    "explanation": "Python uses naming conventions like __variable (double underscore) to indicate private variables, though it is not strict enforcement."
+  },
+  {
+    "question": "eval is a keyword in Python.",
+    "answer": "FALSE",
+    "explanation": "eval is a built-in function in Python, not a keyword."
+  },
+  {
+    "question": "All keywords in Python are in lower case.",
+    "answer": "TRUE",
+    "explanation": "Python keywords such as if, else, while, def, class are all written in lowercase."
+  }
+]

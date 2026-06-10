@@ -1,11 +1,9 @@
 import React, { useState } from "react";
-import M2_R5_Jan2023_Set1 from '../M2_R5_Jan2023_Set1.json'
-import M2_R5_Jul2022_Set1 from '../M2_R5_July_2022_Set1.json'
-import M2_R5_Jan2022_Set1 from '../M2_R5_Jan2022_Set1.json'
+import M4_R5_Jan2023_Set1 from '../M4_R5_Jan2023_Set1.json'
 import { useNavigate, useParams } from "react-router-dom";
 import UPPSC_quiz_solved from "./quiz-cards/UPPSC_quiz_solved";
 
-const O_level_quiz_2 = () => {
+const O_level_quiz_iot = () => {
   const [answers, setAnswers] = useState({});
   const [score, setScore] = useState(null);
   const [inputs, setInputs] = useState({});
@@ -13,23 +11,16 @@ const O_level_quiz_2 = () => {
   const {slug} = useParams()
   const navigate = useNavigate();  
   const topics = [
-     "HTML", 
-     "CSS",
-     "CSS Framework",
-    "Javascript",
-     "Angular",
-     "Editors",
-     "Web Publishing and Browsing",
-     "Photo Editor",
+    "python", 
+
     
   ];
 
 
 
   const questions_data = [
-    { head:"M2_R5_Jan2023_Set1" , d:M2_R5_Jan2023_Set1, heading:"O Level 2 Practice Test" },
-    { head:"M2_R5_Jul2022_Set1" , d:M2_R5_Jul2022_Set1, heading:"O Level 2 Practice Test" },
-    { head:"M2_R5_Jan2022_Set1" , d:M2_R5_Jan2022_Set1, heading:"O Level 2 Practice Test" },
+    { head:"M4_R5_Jan2023_Set1" , d:M4_R5_Jan2023_Set1, heading:"O Level IoT Practice Test 1" },
+
 
   ]
 
@@ -53,7 +44,8 @@ if (!selected_1) {
 }
 
 // Filter questions only for HTML and CSS topics
-const questions = selected_1.d.filter(q => topics.includes(q.topic));
+// const questions = selected_1.d.filter(q => topics.includes(q.topic));
+const questions = selected_1.d;
 
 
 
@@ -173,6 +165,17 @@ const questions = selected_1.d.filter(q => topics.includes(q.topic));
                     <p className="font-bold mt-2">{q.statement_q}</p>
                   )}
 
+                  {q.code &&
+                    q.code.map((stat, j) => (
+                      <ol
+                        key={j}
+                        className="pb-1 font-medium pl-8 list-decimal"
+                      >
+                        {stat}
+                      </ol>
+                    ))}
+
+
                   <div className="mt-2 space-y-1">
                     {q.options.map((opt, i) => (
                       <label
@@ -198,10 +201,10 @@ const questions = selected_1.d.filter(q => topics.includes(q.topic));
                 className={`mt-4 px-6 py-2 rounded-lg text-white ${
                   Object.keys(answers).length === questions.length
                     ? "bg-blue-600 hover:bg-blue-700"
-                    : "bg-gray-400 cursor-not-allowed"
+                    : "bg-gray-400 "
                 }`}
                 onClick={handleSubmit}
-                disabled={Object.keys(answers).length !== questions.length}
+                // disabled={Object.keys(answers).length !== questions.length}
               >
                 Submit Test
               </button>
@@ -242,4 +245,4 @@ const questions = selected_1.d.filter(q => topics.includes(q.topic));
   );
 };
 
-export default O_level_quiz_2;
+export default O_level_quiz_iot;

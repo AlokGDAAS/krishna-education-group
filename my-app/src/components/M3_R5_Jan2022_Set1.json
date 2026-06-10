@@ -1,0 +1,90 @@
+[
+  {
+    "id": "1.3",
+    "question": "Which of the following functions converts a string to a float in Python?",
+    "options": [
+      "int(x [,base])",
+      "long(x [,base])",
+      "float(x)",
+      "str(x)"
+    ],
+    "answer": "float(x)"
+  },
+  {
+    "id": "1.4",
+    "question": "What is the output of the following program?\n\ndef myfunc(a):\n    a = a 2\n    a = a * 2\n    return a\n\nprint myfunc(2)",
+    "options": [
+      "8",
+      "16",
+      "Indentation Error",
+      "Runtime Error"
+    ],
+    "answer": "Runtime Error"
+  },
+  {
+    "id": "1.5",
+    "question": "What is the output of the expression: 3*1**3?",
+    "options": [
+      "27",
+      "9",
+      "3",
+      "1"
+    ],
+    "answer": "3"
+  },
+  {
+    "id": "1.6",
+    "question": "What is the output of the following program?\n\ni = 0\nwhile i < 3:\n    print i\n    i = 1\nelse:\n    print 0",
+    "options": [
+      "0 1 2 3 0",
+      "0 1 2 0",
+      "0 1 2",
+      "Error"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": "1.7",
+    "question": "What is the output of the following program?\n\nprint \"Hello World\"[::-1]",
+    "options": [
+      "dlroWolleH",
+      "Hello Worl",
+      "d",
+      "Error"
+    ],
+    "answer": "dlroWolleH"
+  },
+  {
+    "id": "1.8",
+    "question": "Given a function that does not return any value, what value is shown when executed at the shell?",
+    "options": [
+      "int",
+      "bool",
+      "void",
+      "None"
+    ],
+    "answer": "None"
+  },
+  {
+    "id": "1.9",
+    "question": "What is the output of the following program?\n\nprint 0.1 + 0.2 == 0.3",
+    "options": [
+      "True",
+      "False",
+      "Machine dependent",
+      "Error"
+    ],
+    "answer": "False"
+  },
+  {
+    "id": "1.10",
+    "question": "Given a string s = \"Welcome\", which of the following code is incorrect?",
+    "options": [
+      "print s[0]",
+      "print s.lower()",
+      "s[1] = 'r'",
+      "print s.strip()"
+    ],
+    "answer": "s[1] = 'r'"
+  }
+]

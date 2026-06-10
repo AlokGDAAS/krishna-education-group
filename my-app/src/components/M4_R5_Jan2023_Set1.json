@@ -1,0 +1,824 @@
+[
+  {
+    "id": 1,
+    "question": "TCP stands for:",
+    "options": [
+      "Transmission Control Protocol",
+      "Telecommunication Control Protocol",
+      "Temperature Control Protocol",
+      "Transmission and Communication Protocol"
+    ],
+    "answer": "Transmission Control Protocol"
+  },
+  {
+    "id": 2,
+    "question": "Which type of variables are retained for use throughout the program in RAM and not reallocated during program execution?",
+    "options": ["Automatic", "Static", "Dynamic", "All of these"],
+    "answer": "Static"
+  },
+  {
+    "id": 3,
+    "question": "During embedded design, which design considers both hardware and software?",
+    "options": [
+      "Memory Design",
+      "Software / Hardware Design",
+      "Platform-based Design",
+      "Peripheral Design"
+    ],
+    "answer": "Platform-based Design"
+  },
+  {
+    "id": 4,
+    "question": "What are the functions of preprocessor directives in Embedded C programming?",
+    "options": [
+      "Tell compiler where to find symbols that are not present in program",
+      "Give compiler instructions to compile the program",
+      "Define variables",
+      "Define functions"
+    ],
+    "answer": "Give compiler instructions to compile the program"
+  },
+  {
+    "id": 5,
+    "question": "Mr. Rahul is seeking feedback after completing and implementing his project. This act represents:",
+    "options": ["Time-Management", "Self-Awareness", "Gratitude", "Self-Love"],
+    "answer": "Self-Awareness"
+  },
+  {
+    "id": 6,
+    "question": "What are Arduino codes referred to as?",
+    "options": ["Sketches", "Drawings", "Links", "Notes"],
+    "answer": "Sketches"
+  },
+  {
+    "id": 7,
+    "question": "Which of the following is a basic function of a timer?",
+    "options": [
+      "Control the compare/capture mode",
+      "Act as a counter",
+      "Provide a time delay",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "id": 8,
+    "question": "Which of the following prevents someone from denying the accessed resource?",
+    "options": ["Accounting", "Non-repudiation", "Sniffing", "Authorization"],
+    "answer": "Non-repudiation"
+  },
+  {
+    "id": 9,
+    "question": "Identify the polite method of beginning a business letter.",
+    "options": [
+      "We are forced to refuse",
+      "We demand to know from you",
+      "We find it difficult to believe",
+      "We appreciate your prompt reply"
+    ],
+    "answer": "We appreciate your prompt reply"
+  },
+  {
+    "id": 10,
+    "question": "How to research and enquire about the company?",
+    "options": [
+      "Website",
+      "Company Directories",
+      "Annual Report",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "id": 11,
+    "question": "Which of the following is a property of Embedded C language?",
+    "options": [
+      "Hardware independent",
+      "Used for web applications",
+      "Used with limited resources",
+      "Used for native development"
+    ],
+    "answer": "Used with limited resources"
+  },
+  {
+    "id": 12,
+    "question": "What is the number of elements in Open IoT Architecture?",
+    "options": ["Four", "Five", "Six", "Seven"],
+    "answer": "Seven"
+  },
+  {
+    "id": 13,
+    "question": "Which of the following is used to capture data from the physical world in IoT devices?",
+    "options": ["Sensors", "Actuators", "Microprocessors", "Microcontrollers"],
+    "answer": "Sensors"
+  },
+  {
+    "id": 14,
+    "question": "Which of the following must be present in a microcontroller?",
+    "options": [
+      "CPU, ROM, I/O ports and timers",
+      "RAM, ROM, I/O ports and timers",
+      "CPU, RAM, I/O ports and timers",
+      "CPU, RAM, ROM, I/O ports and timers"
+    ],
+    "answer": "CPU, RAM, ROM, I/O ports and timers"
+  },
+  {
+    "id": 15,
+    "question": "If 1 means an object is detected and 0 means no object is detected, then considering the sensor stationary, what can be the possible movement of object if the output by the sensor is observed as 111000?",
+    "options": [
+      "Object is stationary",
+      "Object is oscillating side by side",
+      "Object is moving away",
+      "Object is moving closer"
+    ],
+    "answer": "Object is moving away"
+  },
+  {
+    "id": 16,
+    "question": "Which memory storage is widely used in Embedded Systems?",
+    "options": ["EEPROM", "DRAM", "Flash Memory", "SRAM"],
+    "answer": "Flash Memory"
+  },
+  {
+    "id": 17,
+    "question": "The IoT network that has a very short range is:",
+    "options": ["WAN", "LAN", "Fox", "Short-range Wireless Network"],
+    "answer": "Short-range Wireless Network"
+  },
+  {
+    "id": 18,
+    "question": "What is the size of RAM memory in 8051?",
+    "options": ["32 bytes", "64 bytes", "128 bytes", "256 bytes"],
+    "answer": "128 bytes"
+  },
+  {
+    "id": 19,
+    "question": "The stress management technique based on mental exercises which produces the relaxation response is:",
+    "options": ["Autogenic Technique", "Eating", "Sleeping", "Medicine intake"],
+    "answer": "Autogenic Technique"
+  },
+  {
+    "id": 20,
+    "question": "The purpose of communication is to help officials to _________ the employees.",
+    "options": ["Eliminate", "Motivate", "Threaten", "Apprise"],
+    "answer": "Motivate"
+  },
+  {
+    "id": 21,
+    "question": "What is the process to check whether previous stages of reading have been followed properly?",
+    "options": ["Survey", "Question", "Reading", "Review"],
+    "answer": "Review"
+  },
+  {
+    "id": 22,
+    "question": "What is the use of the IR Sensor?",
+    "options": [
+      "Humidity Detection",
+      "Image Processing",
+      "Object Detection",
+      "GPS"
+    ],
+    "answer": "Object Detection"
+  },
+  {
+    "id": 23,
+    "question": "Most sensors have what type of transfer function?",
+    "options": ["Zero", "Infinity", "Linear", "Non-linear"],
+    "answer": "Linear"
+  },
+  {
+    "id": 24,
+    "question": "Functions can pass information in which of the following ways?",
+    "options": ["Value", "Reference", "Stack", "Both (A) and (B)"],
+    "answer": "Both (A) and (B)"
+  },
+  {
+    "id": 25,
+    "question": "How can you throw an error with preprocessor directives to Arduino Compiler, forcing it to stop compilation?",
+    "options": ["#warning", "#stop", "#cut", "#error"],
+    "answer": "#error"
+  },
+  {
+    "id": 26,
+    "question": "LDR sensor works on the principle of:",
+    "options": [
+      "Resistivity",
+      "Photoconductivity",
+      "Conductivity",
+      "Both (A) and (C)"
+    ],
+    "answer": "Photoconductivity"
+  },
+  {
+    "id": 27,
+    "question": "What is the feeling of competence to cope with life's challenges and of being worthy of happiness called?",
+    "options": [
+      "Arrogance",
+      "Self-esteem",
+      "Self-efficacy",
+      "Wishful thinking"
+    ],
+    "answer": "Self-esteem"
+  },
+  {
+    "id": 28,
+    "question": "What is the efficiency of the DC motor at maximum power?",
+    "options": ["90%", "100%", "Around 80%", "Less than 50%"],
+    "answer": "Less than 50%"
+  },
+  {
+    "id": 29,
+    "question": "Which of the following devices are specifically used for converting serial to parallel and parallel to serial respectively?",
+    "options": ["Microcontroller", "Timers", "Counters", "Registers"],
+    "answer": "Registers"
+  },
+  {
+    "id": 30,
+    "question": "How should the tone of a speaker be?",
+    "options": ["Loud", "Clear", "Low", "Soft"],
+    "answer": "Clear"
+  },
+  {
+    "id": 31,
+    "question": "What will be the output of the given C code?",
+    "options": ["5", "20", "40", "10"],
+    "answer": "10"
+  },
+  {
+    "id": 32,
+    "question": "Which of the following helps to collaborate in IoT development?",
+    "options": [
+      "Physical Computing",
+      "Chemical Computing",
+      "Mechanism",
+      "Cloud Computing"
+    ],
+    "answer": "Cloud Computing"
+  },
+  {
+    "id": 33,
+    "question": "The actuators used in IoT applications are:",
+    "options": ["Relay", "Servo Motors", "DC Motors", "All of these"],
+    "answer": "All of these"
+  },
+  {
+    "id": 34,
+    "question": "Which processor helps in carrying out floating point calculations?",
+    "options": [
+      "Microprocessor",
+      "Coprocessor",
+      "Microcontroller",
+      "Controller"
+    ],
+    "answer": "Coprocessor"
+  },
+
+  {
+    "id": 35,
+    "question": "The process of assessment of the speaker’s content while listening is called __________.",
+    "options": [
+      "Critical listening",
+      "Dialogic listening",
+      "Comprehensive listening",
+      "Systematic listening"
+    ],
+    "answer": "Critical listening"
+  },
+  {
+    "id": 36,
+    "question": "What is the outcome of the following Arduino code?\nvoid setup() {\n  Serial.begin(9600);\n}\nvoid setup() {\n  Serial.write(20);\n}",
+    "options": [
+      "Send a signal to pin 20 on the Arduino board",
+      "Send an octal number of 20 through the Serial pins",
+      "Send a byte with value 20 through the Serial pins",
+      "Send a hexadecimal number of 20 through the Serial pins"
+    ],
+    "answer": "Send a byte with value 20 through the Serial pins"
+  },
+  {
+    "id": 37,
+    "question": "What language is the Arduino IDE built on?",
+    "options": ["Java", "HTML", "C/C++", "Python"],
+    "answer": "Java"
+  },
+  {
+    "id": 38,
+    "question": "In the IoT network, Secure Shell (SSH) is:",
+    "options": ["Gateway", "Secure network protocol", "Router", "Firewall"],
+    "answer": "Secure network protocol"
+  },
+  {
+    "id": 39,
+    "question": "What are the major categories of communications?",
+    "options": [
+      "Speech, writing",
+      "Printing",
+      "Electronic communication",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 40,
+    "question": "Which of the following challenge arises when we use many devices on the same network?",
+    "options": [
+      "Signaling",
+      "Security",
+      "Power Detection",
+      "Power Consumption"
+    ],
+    "answer": "Security"
+  },
+  {
+    "id": 41,
+    "question": "What is the use of the Interrupt Service Routine in an Arduino?",
+    "options": [
+      "To boot up the Arduino",
+      "To exit any code that is running",
+      "To automate functions",
+      "To make more memory"
+    ],
+    "answer": "To exit any code that is running"
+  },
+  {
+    "id": 42,
+    "question": "How are multiline comments denoted in Embedded C?",
+    "options": ["##", "/* */", "%%", "//"],
+    "answer": "/* */"
+  },
+  {
+    "id": 43,
+    "question": "Which one is the most discussed challenge in IoT?",
+    "options": ["Standard", "Security", "Regulation", "Internet"],
+    "answer": "Security"
+  },
+  {
+    "id": 44,
+    "question": "Reports are usually utilized to present the outcome of:",
+    "options": ["Experiment", "Inquiry", "Investigation", "All of these"],
+    "answer": "All of these"
+  },
+  {
+    "id": 45,
+    "question": "In IoT, Transport layer set up connections without handshakes/acknowledgements using:",
+    "options": ["UDP", "TCP", "FTP", "HTTP"],
+    "answer": "UDP"
+  },
+  {
+    "id": 46,
+    "question": "__________ is heart of Computer system.",
+    "options": ["Memory", "I/O", "Counter", "Processor"],
+    "answer": "Processor"
+  },
+  {
+    "id": 47,
+    "question": "What is the resolution of the micros() function on the Arduino Nano?",
+    "options": [
+      "7 Microseconds",
+      "4 Microseconds",
+      "6 Microseconds",
+      "2 Microseconds"
+    ],
+    "answer": "4 Microseconds"
+  },
+  {
+    "id": 48,
+    "question": "These applications take data or input from various devices and convert it into viable actions or clear patterns for human analysis __________.",
+    "options": [
+      "Real Time Analytics",
+      "Data Collection",
+      "Device Integration",
+      "Real Time Collection"
+    ],
+    "answer": "Real Time Analytics"
+  },
+  {
+    "id": 49,
+    "question": "Sensor effectiveness depends on which of the following parameters?",
+    "options": ["Radiation", "Resistivity", "Sensitivity", "All of the above"],
+    "answer": "Sensitivity"
+  },
+  {
+    "id": 50,
+    "question": "How many analog pins are used in Arduino Mega board?",
+    "options": ["12", "16", "8", "14"],
+    "answer": "16"
+  },
+  {
+    "id": 51,
+    "question": "What is the real example of a smart grid device in IoT?",
+    "options": ["Mobile phone", "Television", "Smart Speaker", "Smart Meters"],
+    "answer": "Smart Meters"
+  },
+  {
+    "id": 52,
+    "question": "Which of the following is NOT a data type?",
+    "options": ["sbit", "dbit", "bit", "unsigned int"],
+    "answer": "dbit"
+  },
+  {
+    "id": 53,
+    "question": "Major Component of IoT is/are __________.",
+    "options": [
+      "Sensors",
+      "Actuators",
+      "Smart Applications",
+      "All of the Above"
+    ],
+    "answer": "All of the Above"
+  },
+  {
+    "id": 54,
+    "question": "What is the effect of performing AND operation of R with 0xFE?",
+    "options": [
+      "Setting a selected bit of R",
+      "Clearing a selected bit of R",
+      "Complement selected bit of R",
+      "None of these"
+    ],
+    "answer": "Clearing a selected bit of R"
+  },
+  {
+    "id": 55,
+    "question": "__________ is meant for a specific group of people while __________ may be aimed for the general public.",
+    "options": [
+      "Circular, Notice",
+      "Notice, Memo",
+      "Notice, Circular",
+      "Memo, Circular"
+    ],
+    "answer": "Notice, Circular"
+  },
+  {
+    "id": 56,
+    "question": "Which of the following is the key to an effective presentation?",
+    "options": ["Image", "Styles", "Limited words and key phrases", "Layouts"],
+    "answer": "Limited words and key phrases"
+  },
+  {
+    "id": 57,
+    "question": "What is the correct execution process of an Arduino code?",
+    "options": [
+      "Preprocessor -> Editor -> Compiler",
+      "Editor -> Preprocessor -> Compiler",
+      "Compiler -> Preprocessor -> Editor",
+      "Editor -> Compiler -> Preprocessor"
+    ],
+    "answer": "Editor -> Preprocessor -> Compiler"
+  },
+  {
+    "id": 58,
+    "question": "The scope that hacker can use to break into a system is called as:",
+    "options": [
+      "Attack surface",
+      "Defense",
+      "Principle of least privilege",
+      "Risk mitigation"
+    ],
+    "answer": "Attack surface"
+  },
+  {
+    "id": 59,
+    "question": "How many times does the setup() function run on every startup of the Arduino System?",
+    "options": ["4", "5", "2", "1"],
+    "answer": "1"
+  },
+  {
+    "id": 60,
+    "question": "Which of these does not enhance listening skills?",
+    "options": ["Attention", "Clear perception", "Frankness", "Ignoring"],
+    "answer": "Ignoring"
+  },
+  {
+    "id": 61,
+    "question": "While presenting using projectors, information line can be revealed by using an __________ sheet over the __________.",
+    "options": [
+      "Transparent, slide",
+      "Translucent, transparency",
+      "Opaque, flip chart",
+      "Opaque, transparency"
+    ],
+    "answer": "Opaque, transparency"
+  },
+  {
+    "id": 62,
+    "question": "MQ-135 is a type of __________.",
+    "options": [
+      "Humidity sensor",
+      "Gas sensor",
+      "Light sensor",
+      "Temperature sensor"
+    ],
+    "answer": "Gas sensor"
+  },
+  {
+    "id": 63,
+    "question": "__________ allow data processing close to device.",
+    "options": [
+      "Edge Computing",
+      "Cloud Computing",
+      "Fog Computing",
+      "Grid Computing"
+    ],
+    "answer": "Edge Computing"
+  },
+  {
+    "id": 64,
+    "question": "Which of the following process is used to keep track of user’s activity?",
+    "options": ["Authentication", "Authoring", "Authorization", "Accounting"],
+    "answer": "Accounting"
+  },
+  {
+    "id": 65,
+    "question": "The main objective of WoT (Web of Things) is __________.",
+    "options": [
+      "Improve usability and interoperability",
+      "Reduce the security",
+      "Complicate the development",
+      "Increase the cost"
+    ],
+    "answer": "Improve usability and interoperability"
+  },
+  {
+    "id": 66,
+    "question": "Which of the following method is better for task swapping in embedded systems?",
+    "options": ["Time slice", "RMS", "Cooperative multitasking", "Pre-emptive"],
+    "answer": "Pre-emptive"
+  },
+  {
+    "id": 67,
+    "question": "IoT and cloud computing has what kind of relationship?",
+    "options": ["Physical", "Complementary", "Graphical", "Coding"],
+    "answer": "Complementary"
+  },
+  {
+    "id": 68,
+    "question": "How are comments denoted in Embedded C?",
+    "options": ["#", "%", ";", "//"],
+    "answer": "//"
+  },
+  {
+    "id": 69,
+    "question": "What is Arduino?",
+    "options": [
+      "Programming language",
+      "Image editing software",
+      "Open-source electronics platform",
+      "Text editor"
+    ],
+    "answer": "Open-source electronics platform"
+  },
+  {
+    "id": 70,
+    "question": "Which rule is used to decide the direction of rotation of DC motor?",
+    "options": [
+      "Coulomb’s Law",
+      "Lenz’s Law",
+      "Fleming’s Right-hand Rule",
+      "Fleming’s Left-hand Rule"
+    ],
+    "answer": "Fleming’s Left-hand Rule"
+  },
+
+  {
+    "id": 71,
+    "question": "A good presenter and communicator should:",
+    "options": [
+      "Follow good sequencing of ideas",
+      "Manage time properly",
+      "Clear doubts",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "id": 72,
+    "question": "Which of the following is an established set of rules that determines how data is transmitted between different devices in the same network?",
+    "options": [
+      "Network connection",
+      "TCP/IP protocol",
+      "Network protocol",
+      "TCP protocol"
+    ],
+    "answer": "Network protocol"
+  },
+  {
+    "id": 73,
+    "question": "Predict the output of the following code if the object is moving away from the sensor.",
+    "options": [
+      "clear+clear+1+1",
+      "1+1+clear+clear",
+      "clear+clear+clear+clear",
+      "1+1+clear+1"
+    ],
+    "answer": "clear+clear+clear+clear"
+  },
+  {
+    "id": 74,
+    "question": "What type of speaker looks into the eyes of the audience?",
+    "options": ["Confident", "Impatient", "Rude", "Impolite"],
+    "answer": "Confident"
+  },
+  {
+    "id": 75,
+    "question": "What will be the output of the following Arduino code?\nint k = 0;\ndouble d = 10.21;\nprintf(\"%lu\", sizeof(k + d));",
+    "options": ["10.21", "8", "null", "23"],
+    "answer": "8"
+  },
+  {
+    "id": 76,
+    "question": "HC-05 is a Bluetooth module that can communicate in which mode?",
+    "options": ["Simplex", "Duplex", "Full-Duplex", "None of these"],
+    "answer": "Full-Duplex"
+  },
+  {
+    "id": 77,
+    "question": "Embedded C is:",
+    "options": [
+      "A subset of traditional C",
+      "An extension of traditional C",
+      "A superset of traditional C",
+      "Same as traditional C"
+    ],
+    "answer": "An extension of traditional C"
+  },
+  {
+    "id": 78,
+    "question": "Which of these may convey arrogance?",
+    "options": [
+      "Shoulder shrug",
+      "Jointed fingertips",
+      "Hands swinging loosely",
+      "Pointed finger"
+    ],
+    "answer": "Pointed finger"
+  },
+  {
+    "id": 79,
+    "question": "How power supply is done to Raspberry Pi?",
+    "options": ["USB connection", "Internal battery", "Charger", "Adapter"],
+    "answer": "USB connection"
+  },
+  {
+    "id": 80,
+    "question": "The process of removing certain band of frequencies from a signal while permitting others is called:",
+    "options": ["Attenuation", "Distortion", "Filtering", "None of the above"],
+    "answer": "Filtering"
+  },
+  {
+    "id": 81,
+    "question": "Using lecturers and handouts, information is acquired via ______ whereas by using tutorials and conversations, information is acquired through ______.",
+    "options": [
+      "Students, tutors",
+      "Other sources, tutors",
+      "Tutors, fellow learners",
+      "None of the above"
+    ],
+    "answer": "Tutors, fellow learners"
+  },
+  {
+    "id": 82,
+    "question": "Which one is not a leading cloud service for IoT deployments?",
+    "options": ["AWS", "IBM Watson", "Microsoft Azure", "Google Drive"],
+    "answer": "Google Drive"
+  },
+  {
+    "id": 83,
+    "question": "A set of homogeneous data stored in consecutive memory locations is called:",
+    "options": ["List", "Structure", "Array", "Union"],
+    "answer": "Array"
+  },
+  {
+    "id": 84,
+    "question": "What type of signal does the analogWrite() function output?",
+    "options": [
+      "Pulse Code Modulated Signal",
+      "Frequency Modulated Signal",
+      "Pulse Width Modulated Signal",
+      "Pulse Amplitude Modulated Signal"
+    ],
+    "answer": "Pulse Width Modulated Signal"
+  },
+  {
+    "id": 85,
+    "question": "What is the bit size used in 8051?",
+    "options": ["4-bit", "8-bit", "16-bit", "32-bit"],
+    "answer": "8-bit"
+  },
+  {
+    "id": 86,
+    "question": "Which one is not a control structure?",
+    "options": ["While", "If..else", "#define", "Case"],
+    "answer": "#define"
+  },
+  {
+    "id": 87,
+    "question": "Which of the following is used to upload the Arduino Sketches to the board?",
+    "options": ["avrgcc", "g++", "cpython", "avrdude"],
+    "answer": "avrdude"
+  },
+  {
+    "id": 88,
+    "question": "What will be the output of the following code?\nint b = 4;\nint res = b++ + ++b + ++b;",
+    "options": ["12", "15", "17", "20"],
+    "answer": "17"
+  },
+  {
+    "id": 89,
+    "question": "Spring Boot Actuator exposes operational information about running applications using ______ endpoints.",
+    "options": ["TCP", "HTTP", "IP", "FTP"],
+    "answer": "HTTP"
+  },
+  {
+    "id": 90,
+    "question": "IoT devices can easily lead to catastrophe without ______.",
+    "options": ["Software", "Devices", "Cloud", "Management system"],
+    "answer": "Management system"
+  },
+  {
+    "id": 91,
+    "question": "______ is a combination of hardware and software to perform a specific task.",
+    "options": ["IoT System", "Embedded System", "Grid System", "Cloud System"],
+    "answer": "Embedded System"
+  },
+  {
+    "id": 92,
+    "question": "Which one of these is not a threat modelling methodology?",
+    "options": ["NANO", "STRIDE", "OCTAVE", "PASTA"],
+    "answer": "NANO"
+  },
+  {
+    "id": 93,
+    "question": "An IoT network is a collection of ______ devices.",
+    "options": ["Signal", "Machine to machine", "Interconnected", "Network"],
+    "answer": "Interconnected"
+  },
+  {
+    "id": 94,
+    "question": "The Atmega 168 is an ______ bit chip.",
+    "options": ["32", "64", "8", "16"],
+    "answer": "8"
+  },
+  {
+    "id": 95,
+    "question": "What is the output of the following program?\nfor(;;) { Statements }",
+    "options": [
+      "Error",
+      "Statements will run forever",
+      "This is an infinite loop",
+      "Both (B) and (C)"
+    ],
+    "answer": "Both (B) and (C)"
+  },
+  {
+    "id": 96,
+    "question": "What is the objective of the code given below if it is executed on the Arduino Uno?",
+    "options": [
+      "Clear EEPROM",
+      "Fill EEPROM with 1's",
+      "Export EEPROM data",
+      "Fill EEPROM with 0's"
+    ],
+    "answer": "Fill EEPROM with 1's"
+  },
+  {
+    "id": 97,
+    "question": "What indicates to the reader the purpose of a letter?",
+    "options": ["Subject", "Body", "Address", "Salutation"],
+    "answer": "Subject"
+  },
+  {
+    "id": 98,
+    "question": "Predict the output of the following code if the object is moving towards the sensor.",
+    "options": [
+      "clear+clear+1+1",
+      "1+1+clear+1",
+      "1+1+clear+clear",
+      "clear+clear+clear+clear"
+    ],
+    "answer": "clear+clear+1+1"
+  },
+  {
+    "id": 99,
+    "question": "Which of the following is false about IoT devices?",
+    "options": [
+      "Use internet for collecting and sharing data",
+      "Need microcontrollers",
+      "Use wireless technology",
+      "Are completely safe"
+    ],
+    "answer": "Are completely safe"
+  },
+  {
+    "id": 100,
+    "question": "The advantages of using functions is ______.",
+    "options": [
+      "Partition larger task into smaller tasks",
+      "Code reusability",
+      "Manage complexity",
+      "All of these"
+    ],
+    "answer": "All of these"
+  }
+]

@@ -62,6 +62,12 @@ const Practice_test = () => {
 
   ];
 
+  const o_level_data_iot_1 = [
+    { id: 27, link: "/practice-test-o-level_iot_1/M4_R5_Jan2023_Set1", name: "O Level IoT", subname: "English Part-1 " },
+    
+
+  ];
+
   const uppsc_data = [
     { id: 13, link: "/practice-test-uppsc/uppsc-hi-part-1", name: "UPPSC", subname: "Hindi - Part-1" },
     { id: 14, link: "/practice-test-uppsc/uppsc-hi-part-2", name: "UPPSC", subname: "Hindi - Part-2" },
@@ -163,6 +169,19 @@ const Practice_test = () => {
           </div>
         ))}
       </div>   
+
+            {/* O level iot section */}
+      <div className="md:w-8/12 w-11/12  mx-auto mt-8 py-6 space-y-3 rounded shadow-lg bg-white">
+        <h1 className="text-3xl font-bold text-center text-slate-700 text-shadow-lg">
+          O Level iot Practice test
+        </h1>
+
+        {o_level_data_iot_1.map((item) => (
+          <div key={item.id}>
+            <Card link={item.link} name={item.name} subname={item.subname} />
+          </div>
+        ))}
+      </div>
 
 
     </div>
