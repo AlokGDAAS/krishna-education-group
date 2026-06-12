@@ -1,0 +1,1328 @@
+[
+  {
+    "id": 1,
+    "question": "Which parameter is taken through pulseIn() in ultrasonic sensor?",
+    "options": [
+      "Voltage",
+      "Frequency",
+      "Time duration",
+      "Distance"
+    ],
+    "answer": "Time duration"
+  },
+  {
+    "id": 2,
+    "question": "Which of the following is NOT a hard skill?",
+    "options": [
+      "Typing Speed",
+      "Machine Operation",
+      "Time Management",
+      "Coding"
+    ],
+    "answer": "Time Management"
+  },
+  {
+    "id": 3,
+    "question": "Which of the following is an example of an LDR sensor application?",
+    "options": [
+      "Lights",
+      "Clock",
+      "Voltage Divider",
+      "All of above"
+    ],
+    "answer": "Lights"
+  },
+  {
+    "id": 4,
+    "question": "What are/is essential concept(s) for M2M Communication success?",
+    "options": [
+      "Continuous connectivity",
+      "Message Delivery for sleeping devices",
+      "Message communication path selection",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 5,
+    "question": "Which one is not the feature of M2M?",
+    "options": [
+      "Low Mobility",
+      "Time Controlled",
+      "Circuit Switched",
+      "Low Power Consumption"
+    ],
+    "answer": "Circuit Switched"
+  },
+  {
+    "id": 6,
+    "question": "The smallest difference that a sensor can detect is:",
+    "options": [
+      "Scale",
+      "Accuracy",
+      "Resolution",
+      "Precision"
+    ],
+    "answer": "Resolution"
+  },
+  {
+    "id": 7,
+    "question": "Which one cannot be suitable communication technology for IoT?",
+    "options": [
+      "Zigbee",
+      "NFC",
+      "Bluetooth",
+      "Wired network"
+    ],
+    "answer": "Wired network"
+  },
+  {
+    "id": 8,
+    "question": "In i2c connection, which pin on the Arduino Uno is utilized for SCL (serial clock)?",
+    "options": [
+      "D2",
+      "D4",
+      "A2",
+      "A4"
+    ],
+    "answer": "A4"
+  },
+  {
+    "id": 9,
+    "question": "What will be the output of the following code?\nint main(){ int i = 25; int k = i % 4; printf(\"%d\\n\", k); }",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "1"
+  },
+  {
+    "id": 10,
+    "question": "Which of the following is used for risk analysis?",
+    "options": [
+      "DREAD",
+      "OWASP",
+      "STRIDE",
+      "DAR"
+    ],
+    "answer": "DREAD"
+  },
+  {
+    "id": 11,
+    "question": "Which of the Arduino pins is connected to the Data5 (D5) pin on the 16x2 character LCD?\nLiquidCrystal lcd(12, 11, 5, 4, 3, 2);",
+    "options": [
+      "Pin No. 3",
+      "Pin No. 2",
+      "Pin No. 5",
+      "Pin No. 4"
+    ],
+    "answer": "Pin No. 5"
+  },
+  {
+    "id": 12,
+    "question": "The process of building IoT hardware and devices enhanced with smart sensors and embedded systems using many off-the-shelf components like sensors, circuits and microcontrollers is called?",
+    "options": [
+      "Prototyping",
+      "Casting",
+      "Protocasting",
+      "Protocol typing"
+    ],
+    "answer": "Prototyping"
+  },
+  {
+    "id": 13,
+    "question": "In a capacitive type humidity sensor, how many different types of failures have you seen?",
+    "options": [
+      "2",
+      "4",
+      "6",
+      "3"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": 14,
+    "question": "Which command sets the 9th pin on Arduino as output?",
+    "options": [
+      "int sensorPin = 9;",
+      "int sensorValue = 9;",
+      "pinMode(9, OUTPUT);",
+      "digitalWrite(9, HIGH);"
+    ],
+    "answer": "pinMode(9, OUTPUT);"
+  },
+  {
+    "id": 15,
+    "question": "When the microcontroller executes some arithmetic operations, then the flag bits of which register are affected?",
+    "options": [
+      "DPTR",
+      "PSW",
+      "PC",
+      "SP"
+    ],
+    "answer": "PSW"
+  },
+  {
+    "id": 16,
+    "question": "Which of the following depicts your social behavior?",
+    "options": [
+      "Tradition",
+      "Culture",
+      "Manners",
+      "Greetings"
+    ],
+    "answer": "Manners"
+  },
+  {
+    "id": 17,
+    "question": "Having conscious knowledge of your own self, capabilities, feelings and one’s own character is called as __________.",
+    "options": [
+      "Self-Regulation",
+      "Self-Motivation",
+      "Self-Awareness",
+      "None of the above"
+    ],
+    "answer": "Self-Awareness"
+  },
+  {
+    "id": 18,
+    "question": "Which one from the following is not compulsory technology for establishment of IoT Setup?",
+    "options": [
+      "RFID",
+      "Nanotechnology",
+      "Cloud Computing",
+      "None of the above"
+    ],
+    "answer": "Nanotechnology"
+  },
+  {
+    "id": 19,
+    "question": "What will be the output of the following code?\nvoid main(){ int x = 5*6/2 + 8; printf(\"%d\", x); }",
+    "options": [
+      "20",
+      "21",
+      "23",
+      "19"
+    ],
+    "answer": "23"
+  },
+  {
+    "id": 20,
+    "question": "Which of the following is not an element of threat modelling?",
+    "options": [
+      "Asset",
+      "Vulnerability",
+      "Threat",
+      "Time"
+    ],
+    "answer": "Time"
+  },
+  {
+    "id": 21,
+    "question": "Which of following is/are suggested time management technique(s)?",
+    "options": [
+      "Make good use of technology",
+      "Clean up and get organized",
+      "Concentrate on one key task at a time",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 22,
+    "question": "What will be the output of the following Arduino code?\n#define X 10;\nvoid setup(){ X=0; Serial.begin(9600); Serial.print(X); }",
+    "options": [
+      "0xAB",
+      "0xa",
+      "0",
+      "Error"
+    ],
+    "answer": "Error"
+  },
+  {
+    "id": 23,
+    "question": "What will be the output of the following code?\nint a=5; while(a=123){ printf(\"RABBIT\\n\"); }",
+    "options": [
+      "RABBIT is printed unlimited number of times",
+      "RABBIT GREEN",
+      "Compiler error",
+      "GREEN"
+    ],
+    "answer": "RABBIT is printed unlimited number of times"
+  },
+  {
+    "id": 24,
+    "question": "What is the output of pin1 if pin2 is sent 1011 where 1 is 5V and 0 is 0V?",
+    "options": [
+      "1110",
+      "0100",
+      "1111",
+      "1011"
+    ],
+    "answer": "0100"
+  },
+  {
+    "id": 25,
+    "question": "Mainly Real Time Systems are used for __________.",
+    "options": [
+      "Used for monitoring events as they occur",
+      "Used for real time interactive users",
+      "Used by user any time offline",
+      "Used for real time coding"
+    ],
+    "answer": "Used for monitoring events as they occur"
+  },
+  {
+    "id": 26,
+    "question": "The sequence required for the preparation of an interview is:",
+    "options": [
+      "Job-searching, Self-Analyzing and Identifying skills",
+      "Identifying skills, Job-searching and Self-Analyzing",
+      "Self-Analyzing, Identifying skills and Job-searching",
+      "Self-Analyzing, Job-searching and Identifying skills"
+    ],
+    "answer": "Self-Analyzing, Identifying skills and Job-searching"
+  },
+  {
+    "id": 27,
+    "question": "What will be the output of the following piece of code?\nfor(i = 0; i < 8; i++); printf(\"%d\", i);",
+    "options": [
+      "0",
+      "1234567",
+      "8",
+      "Infinite loop"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 28,
+    "question": "How many flags are there in 8085 Microprocessor?",
+    "options": [
+      "05",
+      "09",
+      "12",
+      "15"
+    ],
+    "answer": "05"
+  },
+  {
+    "id": 29,
+    "question": "What is temperature in Celsius LM35 for corresponding 270mV as an output voltage?",
+    "options": [
+      "50",
+      "25",
+      "27",
+      "54"
+    ],
+    "answer": "27"
+  },
+  {
+    "id": 30,
+    "question": "Determine the benefits of writing.",
+    "options": [
+      "The speaker himself did not have to be present in order to communicate",
+      "The knowledge of one generation could be accumulated and passed on to the next",
+      "Both (A) & (B)",
+      "We can represent what we want"
+    ],
+    "answer": "Both (A) & (B)"
+  },
+  {
+    "id": 31,
+    "question": "What is role of Execution Unit?",
+    "options": [
+      "Encoding",
+      "Decoding",
+      "Calculation",
+      "Processing"
+    ],
+    "answer": "Processing"
+  },
+  {
+    "id": 32,
+    "question": "Which of the following concept is not similar to IoT?",
+    "options": [
+      "Ubiquitous Sensor Networks",
+      "Web of Things",
+      "Cloud of Things",
+      "Virtual Things"
+    ],
+    "answer": "Virtual Things"
+  },
+  {
+    "id": 33,
+    "question": "In which form is data transferred in Network Layer?",
+    "options": [
+      "Packets",
+      "Datagram",
+      "Bytes",
+      "Bits"
+    ],
+    "answer": "Packets"
+  },
+  {
+    "id": 34,
+    "question": "In C, how do you set up an array?",
+    "options": [
+      "int k={3,4}",
+      "int k=new int[2]",
+      "int k[2]={3,4};",
+      "int k(2)={3,4};"
+    ],
+    "answer": "int k[2]={3,4};"
+  },
+  {
+    "id": 35,
+    "question": "How many terminals does the MQ2 Gas Sensor have?",
+    "options": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ],
+    "answer": "4"
+  },
+  
+  {
+    "id": 36,
+    "question": "Which one is incorrect for the Arduino UNO's analog pin group?",
+    "options": [
+      "Logic (1/0) not used for input/output",
+      "Used for the digital conversion of analog values taken from external environment",
+      "There are 6 analog input pins",
+      "The resolution of each input is 10 bits"
+    ],
+    "answer": "Logic (1/0) not used for input/output"
+  },
+  {
+    "id": 37,
+    "question": "ZigBee is most suitable communication standard for IoT.",
+    "options": [
+      "Low data rate",
+      "Low power consumption",
+      "Both (A) and (B)",
+      "Easy to setup"
+    ],
+    "answer": "Both (A) and (B)"
+  },
+  {
+    "id": 38,
+    "question": "An individual's actions are most likely to be strongly controlled by conscience if they have a(n) __________ type of personality?",
+    "options": [
+      "Inner-directed personality",
+      "Other-directed personality",
+      "Partial-directed",
+      "None of the above"
+    ],
+    "answer": "Inner-directed personality"
+  },
+  {
+    "id": 39,
+    "question": "What is the output of C program with functions?",
+    "options": [
+      "AJAY VIJAY",
+      "AJAY",
+      "VIJAY",
+      "Compiler error"
+    ],
+    "answer": "AJAY"
+  },
+  {
+    "id": 40,
+    "question": "Fading technique used for __________ pin in Arduino.",
+    "options": [
+      "A2",
+      "D2",
+      "PWM",
+      "5V"
+    ],
+    "answer": "PWM"
+  },
+  {
+    "id": 41,
+    "question": "Which one is not the type of Memory?",
+    "options": [
+      "NVRAM",
+      "EPROM",
+      "MASKED ROM",
+      "DPROM"
+    ],
+    "answer": "DPROM"
+  },
+  {
+    "id": 42,
+    "question": "int a:16; what does 16 indicate here?",
+    "options": [
+      "Value",
+      "Size",
+      "Address",
+      "None"
+    ],
+    "answer": "Size"
+  },
+  {
+    "id": 43,
+    "question": "Good manners do not include:",
+    "options": [
+      "Treating people nicely",
+      "Good body language",
+      "Actions",
+      "Abusing"
+    ],
+    "answer": "Abusing"
+  },
+  {
+    "id": 44,
+    "question": "MQTT stands for:",
+    "options": [
+      "Message Queue Telegram Transport",
+      "Message Queue Telemetry Transport",
+      "Message Queuing Telemetry Transport",
+      "Message Queuing Telegram Transport"
+    ],
+    "answer": "Message Queuing Telemetry Transport"
+  },
+  {
+    "id": 45,
+    "question": "Which of the following cannot be the communication barrier?",
+    "options": [
+      "Language",
+      "Culture",
+      "Physical",
+      "Habits"
+    ],
+    "answer": "Habits"
+  },
+  {
+    "id": 46,
+    "question": "The LPWAN:",
+    "options": [
+      "Low Power Wide Area Network",
+      "Low bit rate",
+      "Both (A) and (B)",
+      "Short range wireless communication"
+    ],
+    "answer": "Both (A) and (B)"
+  },
+  {
+    "id": 47,
+    "question": "After the formal event is over, to whom should you write a thank you note?",
+    "options": [
+      "The event host",
+      "Sponsoring organizations",
+      "Special guests or dignitaries",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 48,
+    "question": "What is switching time for relay to operate with Arduino?",
+    "options": [
+      "5-10 s",
+      "5-10 ms",
+      "10-15 ms",
+      "10-12 ms"
+    ],
+    "answer": "5-10 ms"
+  },
+  {
+    "id": 49,
+    "question": "What does GPIO stand for?",
+    "options": [
+      "General-Purpose Input/Output",
+      "General-Purpose Inner/Outer",
+      "Both (A) & (B)",
+      "None of the Above"
+    ],
+    "answer": "General-Purpose Input/Output"
+  },
+  {
+    "id": 50,
+    "question": "Which statement is true in concern with Request-response IoT communication model?",
+    "options": [
+      "Each Request-response pair is dependent of others",
+      "Request-response is a stateless communication model",
+      "Client server architecture of Request-response uses queues",
+      "In Request-response publisher is a client and broker are server"
+    ],
+    "answer": "Request-response is a stateless communication model"
+  },
+  {
+    "id": 51,
+    "question": "Which of the following environmental factors affects the personality?",
+    "options": [
+      "Social factors",
+      "Cultural factors",
+      "Emotional factors",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 52,
+    "question": "Arduino Uno has ___ size of program memory.",
+    "options": [
+      "10 KB",
+      "4 KB",
+      "64 KB",
+      "32 KB"
+    ],
+    "answer": "32 KB"
+  },
+  {
+    "id": 53,
+    "question": "All communication events have a __________.",
+    "options": [
+      "Resource",
+      "Source",
+      "Start",
+      "End"
+    ],
+    "answer": "Source"
+  },
+  {
+    "id": 54,
+    "question": "Clock Speed of Arduino UNO is:",
+    "options": [
+      "16 MHz",
+      "12 MHz",
+      "18 MHz",
+      "14 MHz"
+    ],
+    "answer": "16 MHz"
+  },
+  {
+    "id": 55,
+    "question": "What will happen if we supply a voltage of 25V to the Vcc of the IR sensor?",
+    "options": [
+      "Damage is caused",
+      "Sensor will work fine",
+      "Sensor will not respond for the time the voltage is applied",
+      "Sensor will function normally"
+    ],
+    "answer": "Damage is caused"
+  },
+  {
+    "id": 56,
+    "question": "What is the output of C Program?",
+    "options": [
+      "10 10 10",
+      "12 12 12",
+      "10 11 12",
+      "12 11 10"
+    ],
+    "answer": "10 11 12"
+  },
+  {
+    "id": 57,
+    "question": "DHT11 is _______.",
+    "options": [
+      "Microprocessor",
+      "Motion sensor",
+      "Switching Device",
+      "Humidity sensor"
+    ],
+    "answer": "Humidity sensor"
+  },
+  {
+    "id": 58,
+    "question": "Which of the following is not an actuator?",
+    "options": [
+      "DC Motor",
+      "Stepper Motor",
+      "Relay",
+      "Shutter doors"
+    ],
+    "answer": "Shutter doors"
+  },
+  {
+    "id": 59,
+    "question": "What programming language is the Arduino IDE written in?",
+    "options": [
+      "Java",
+      "C/C++",
+      "Python",
+      "Assembly"
+    ],
+    "answer": "Java"
+  },
+  {
+    "id": 60,
+    "question": "The following are the characteristics of Negative Stress:",
+    "options": [
+      "It causes anxiety",
+      "It feels unpleasant",
+      "It decreases performance",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 61,
+    "question": "Which function is used for PWM pin in Arduino?",
+    "options": [
+      "digitalWrite()",
+      "serial.print()",
+      "analogWrite()",
+      "pinMode()"
+    ],
+    "answer": "analogWrite()"
+  },
+  {
+    "id": 62,
+    "question": "ISM stands for:",
+    "options": [
+      "Industrial, Scientific and Medical",
+      "Information, Scientific and Medical",
+      "Industrial, Science and Medical",
+      "Industrial, Scientific and Medicine"
+    ],
+    "answer": "Industrial, Scientific and Medical"
+  },
+  {
+    "id": 63,
+    "question": "Which one cannot be an element of an IoT System?",
+    "options": [
+      "People",
+      "Application",
+      "Nanotechnology",
+      "Privacy"
+    ],
+    "answer": "Privacy"
+  },
+  {
+    "id": 64,
+    "question": "coap://localhost:4589/Temperature/temp1, here the 4589 is:",
+    "options": [
+      "Port address",
+      "MAC address of device",
+      "Unique identifier of the parameter",
+      "Unique identifier of the device"
+    ],
+    "answer": "Port address"
+  },
+  {
+    "id": 65,
+    "question": "Identify the challenge coming under securing the information.",
+    "options": [
+      "Security",
+      "Signaling",
+      "Power Consumption",
+      "Presence Detection"
+    ],
+    "answer": "Security"
+  },
+  {
+    "id": 66,
+    "question": "Which of the following is a function of a sensor?",
+    "options": [
+      "Separate physical parameters",
+      "Activate a response",
+      "Track & transfer data to processor",
+      "Move a robotic arm"
+    ],
+    "answer": "Track & transfer data to processor"
+  },
+  {
+    "id": 67,
+    "question": "Which one is known as network provider?",
+    "options": [
+      "Arduino Uno",
+      "ESP8266",
+      "LM35",
+      "PIC1825G62"
+    ],
+    "answer": "ESP8266"
+  },
+  {
+    "id": 68,
+    "question": "There is the prospect of immediate __________ in oral communication.",
+    "options": [
+      "Reaction",
+      "Reflection",
+      "Response",
+      "Reset"
+    ],
+    "answer": "Response"
+  },
+  {
+    "id": 69,
+    "question": "__________ microcontroller used in Arduino UNO.",
+    "options": [
+      "AT91SAM3x8E",
+      "AT90S2313",
+      "ATmega328P",
+      "AT90S/LS8535"
+    ],
+    "answer": "ATmega328P"
+  },
+  {
+    "id": 70,
+    "question": "A digital value is converted to an analogue signal using which of the following methods?",
+    "options": [
+      "analogRead()",
+      "ADC",
+      "DAC",
+      "pinMode()"
+    ],
+    "answer": "DAC"
+  },
+  
+  {
+    "id": 71,
+    "question": "The Lilypad Arduino is concerned with:",
+    "options": [
+      "e-textiles and wearables projects",
+      "sewn to fabric",
+      "ATmega168V/ATmega328V",
+      "All of these"
+    ],
+    "answer": "All of these"
+  },
+  {
+    "id": 72,
+    "question": "When a = 4, what is the value of b in the statement b = (a > 6 ? 4 : 6);?",
+    "options": [
+      "0",
+      "Error",
+      "4",
+      "6"
+    ],
+    "answer": "6"
+  },
+  {
+    "id": 73,
+    "question": "API stands for:",
+    "options": [
+      "Application Programming Interface",
+      "Address Programming Interface",
+      "Accessing peripheral through the interface",
+      "None of the above"
+    ],
+    "answer": "Application Programming Interface"
+  },
+  {
+    "id": 74,
+    "question": "Type of circuit board which can be used for extension of capabilities of Arduino board:",
+    "options": [
+      "Bread Board",
+      "Shield",
+      "Actuator",
+      "Microprocessor"
+    ],
+    "answer": "Shield"
+  },
+  {
+    "id": 75,
+    "question": "Stress related to _________ strain/tension.",
+    "options": [
+      "Mental",
+      "Emotional",
+      "Physical",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 76,
+    "question": "Which command is used to print message on second line in LCD?",
+    "options": [
+      "lcd.getcursor(0,0);",
+      "lcd.setcursor(0,0);",
+      "lcd.getcursor(0,1);",
+      "lcd.setcursor(0,1);"
+    ],
+    "answer": "lcd.setcursor(0,1);"
+  },
+  {
+    "id": 77,
+    "question": "Sensor generates an output signal based on __________.",
+    "options": [
+      "Input",
+      "Data",
+      "Physical Quantity",
+      "None"
+    ],
+    "answer": "Physical Quantity"
+  },
+  {
+    "id": 78,
+    "question": "How many analog pins are used in Arduino Nano board?",
+    "options": [
+      "12",
+      "16",
+      "8",
+      "14"
+    ],
+    "answer": "8"
+  },
+  {
+    "id": 79,
+    "question": "Which is not the measure for personality assessment?",
+    "options": [
+      "Communication",
+      "Body Language",
+      "Color",
+      "Dressing"
+    ],
+    "answer": "Color"
+  },
+  {
+    "id": 80,
+    "question": "Which of the following is not an application of IoT?",
+    "options": [
+      "Wearables",
+      "Smart Grid",
+      "Arduino",
+      "Smart City"
+    ],
+    "answer": "Arduino"
+  },
+  {
+    "id": 81,
+    "question": "Likes and dislikes of learner depends on state of mind, which is __________.",
+    "options": [
+      "Attitude",
+      "Aptitude",
+      "Motivation",
+      "Intelligence"
+    ],
+    "answer": "Attitude"
+  },
+  {
+    "id": 82,
+    "question": "__________ is an example of 16-bit microcontroller.",
+    "options": [
+      "8031 Microcontroller",
+      "8051 Microcontroller",
+      "8096 Microcontroller",
+      "None of the above"
+    ],
+    "answer": "8096 Microcontroller"
+  },
+  {
+    "id": 83,
+    "question": "A real or perceived threat or challenge that causes the body to produce a response is a(n) _______.",
+    "options": [
+      "Frustration",
+      "Phobia",
+      "Injury",
+      "Stressor"
+    ],
+    "answer": "Stressor"
+  },
+  {
+    "id": 84,
+    "question": "Which of the following is not a passive transducer?",
+    "options": [
+      "Thermistor",
+      "Transformer",
+      "Thermocouple",
+      "Robot"
+    ],
+    "answer": "Robot"
+  },
+  {
+    "id": 85,
+    "question": "What is the standard length of MAC and IPv6 addresses?",
+    "options": [
+      "48 and 128",
+      "48 and 32",
+      "48 and 64",
+      "52 and 128"
+    ],
+    "answer": "48 and 128"
+  },
+  {
+    "id": 86,
+    "question": "What is the function name for turning on an LED in Arduino?",
+    "options": [
+      "digitalwrite()",
+      "digitalread()",
+      "digitalWrite()",
+      "digitalRead()"
+    ],
+    "answer": "digitalWrite()"
+  },
+  {
+    "id": 87,
+    "question": "If a voltage of 5V is applied to the A0 pin on an Arduino UNO, what is the output of the program?",
+    "options": [
+      "0",
+      "5",
+      "1024",
+      "100"
+    ],
+    "answer": "1024"
+  },
+  {
+    "id": 88,
+    "question": "How many pins are there in 8085 Microprocessor?",
+    "options": [
+      "30",
+      "35",
+      "40",
+      "45"
+    ],
+    "answer": "40"
+  },
+  {
+    "id": 89,
+    "question": "Find the correct boilerplate Arduino code.",
+    "options": [
+      "dataType const PROGMEM variableName[] = {};",
+      "dataType PROGMEM const variableName[] = {};",
+      "const dataType variableName[] PROGMEM = {};",
+      "const dataType PROGMEM variableName[] = {};"
+    ],
+    "answer": "const dataType variableName[] PROGMEM = {};"
+  },
+  {
+    "id": 90,
+    "question": "Datagram Transport Layer Security provides:",
+    "options": [
+      "Security features on UDP",
+      "Security features on TCP",
+      "Security features on UDP and TCP",
+      "None of the Above"
+    ],
+    "answer": "Security features on UDP"
+  },
+  {
+    "id": 91,
+    "question": "Which kind of word should be avoided in verbal communication?",
+    "options": [
+      "Simple",
+      "Technical",
+      "Easy",
+      "Local language"
+    ],
+    "answer": "Technical"
+  },
+  {
+    "id": 92,
+    "question": "Which compiler is used to translate C/C++ code into binary for AVR microcontrollers?",
+    "options": [
+      "G++",
+      "AVR-GCC",
+      "Python",
+      "Both (A) and (B)"
+    ],
+    "answer": "AVR-GCC"
+  },
+  {
+    "id": 93,
+    "question": "We can deploy IoT features in a refrigerator to make it a smart device, but _________.",
+    "options": [
+      "Firstly extend connectivity feature",
+      "Make it smaller in size",
+      "First train the people to operate",
+      "No prerequisites required"
+    ],
+    "answer": "Firstly extend connectivity feature"
+  },
+  {
+    "id": 94,
+    "question": "Which command is used to create a delay in the Arduino program?",
+    "options": [
+      "digitalRead()",
+      "for()",
+      "pinMode()",
+      "delay()"
+    ],
+    "answer": "delay()"
+  },
+  {
+    "id": 95,
+    "question": "How many layers are there in OSI?",
+    "options": [
+      "5",
+      "4",
+      "7",
+      "6"
+    ],
+    "answer": "7"
+  },
+  {
+    "id": 96,
+    "question": "What types of instructions have the most impact on the program counter?",
+    "options": [
+      "Call & Jump",
+      "getchar & putchar",
+      "Call & Return",
+      "Return & Jump"
+    ],
+    "answer": "Call & Jump"
+  },
+  {
+    "id": 97,
+    "question": "In the concept of Internet of Things, Things include:",
+    "options": [
+      "Computer-like Device",
+      "Non-Computer Device",
+      "Any electric Device",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 98,
+    "question": "Which type of negotiation necessitates the presence of an observer?",
+    "options": [
+      "Formal",
+      "Informal",
+      "Both",
+      "Friendly"
+    ],
+    "answer": "Formal"
+  },
+  {
+    "id": 99,
+    "question": "A huge amount of data is generated in IoT systems that must be:",
+    "options": [
+      "Analyzed",
+      "Visualized",
+      "Stored",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 100,
+    "question": "In Arduino programming _______ indicates going forever.",
+    "options": [
+      "void loop",
+      "void setup",
+      "while",
+      "OUTPUT"
+    ],
+    "answer": "void loop"
+  },
+  
+  {
+    "id": 101 ,
+    "question": "Which protocol is lightweight? (From Jan 2022 question paper)",
+    "options": [
+      "MQTT",
+      "HTTP",
+      "CoAP",
+      "SPI"
+    ],
+    "answer": "MQTT"
+  },
+  {
+    "id": 102,
+    "question": "Which device measures gases or liquid?",
+    "options": [
+      "Proximity sensor",
+      "Pressure sensor",
+      "Temperature sensor",
+      "Touch sensor"
+    ],
+    "answer": "Pressure sensor"
+  },
+  {
+    "id": 103,
+    "question": "What is ESP8266?",
+    "options": [
+      "WIFI module",
+      "Sensor",
+      "Board",
+      "USB cable"
+    ],
+    "answer": "WIFI module"
+  },
+  {
+    "id": 104,
+    "question": "_________ consists of two different metals connected at two points.",
+    "options": [
+      "Thermistor",
+      "Resistance Thermometer",
+      "Thermocouple",
+      "Semiconductor based sensor"
+    ],
+    "answer": "Thermocouple"
+  },
+  {
+    "id": 105,
+    "question": "Smart phones can be used in IoT setup with __________ application categories.",
+    "options": [
+      "2",
+      "3",
+      "4",
+      "5"
+    ],
+    "answer": "4"
+  },
+  {
+    "id": 106,
+    "question": "Which of the following is threat to IoT Device?",
+    "options": [
+      "Virus",
+      "Natural Disaster",
+      "Spoofing",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 107,
+    "question": "Which characteristic involves the facility for a thing to respond in an intelligent way to a particular situation?",
+    "options": [
+      "Intelligence",
+      "Connectivity",
+      "Dynamic Nature",
+      "Enormous Scale"
+    ],
+    "answer": "Intelligence"
+  },
+  {
+    "id": 108,
+    "question": "Which of the following is not an asset in a typical IoT System?",
+    "options": [
+      "IoT Device",
+      "Gateway",
+      "Application",
+      "None of the above"
+    ],
+    "answer": "None of the above"
+  },
+  {
+    "id": 109,
+    "question": "Communication is a non-stop:",
+    "options": [
+      "Paper",
+      "Process",
+      "Programme",
+      "Plan"
+    ],
+    "answer": "Process"
+  },
+  {
+    "id": 110,
+    "question": "The core element is operated by:",
+    "options": [
+      "PaaS",
+      "IoT Service Provider",
+      "SaaS",
+      "IaaS"
+    ],
+    "answer": "IoT Service Provider"
+  },
+  
+  {
+    "id": 201,
+    "question": "AMQP stands for: (From July 2022 question paper)",
+    "options": [
+      "Advanced Mass Query Protocol",
+      "Advanced Message Queuing Protocol",
+      "Add-on Message Query Protocol",
+      "Add-on Message Queuing Protocol"
+    ],
+    "answer": "Advanced Message Queuing Protocol"
+  },
+  {
+    "id": 202,
+    "question": "What does IDE stand for?",
+    "options": [
+      "In Deep Environment",
+      "Integrated Development Environment",
+      "Internal Deep Escape",
+      "IDLE"
+    ],
+    "answer": "Integrated Development Environment"
+  },
+  {
+    "id": 203,
+    "question": "Which is not a characteristic of TCP/IP Model?",
+    "options": [
+      "Connection-oriented protocol",
+      "Implements flow control",
+      "Support for a flexible architecture",
+      "Unreliable"
+    ],
+    "answer": "Unreliable"
+  },
+  {
+    "id": 204,
+    "question": "Which of the following things can have an effect on the development of an individual’s personality?",
+    "options": [
+      "Physical and mental capabilities",
+      "Health and physical appearance",
+      "Skin color and gender",
+      "All of the above"
+    ],
+    "answer": "All of the above"
+  },
+  {
+    "id": 205,
+    "question": "If you didn't know the recipient's name, how would you close the letter?",
+    "options": [
+      "With love",
+      "Yours sincerely",
+      "Yours faithfully",
+      "Affectionately yours"
+    ],
+    "answer": "Yours faithfully"
+  },
+  {
+    "id": 206,
+    "question": "The huge number of devices connected to the IoT to communicate automatically is called:",
+    "options": [
+      "Bot to Bot (B2B)",
+      "Machine to Machine (M2M)",
+      "Skynet",
+      "InterCloud"
+    ],
+    "answer": "Machine to Machine (M2M)"
+  },
+  {
+    "id": 207,
+    "question": "IoT security management includes:",
+    "options": [
+      "Protocol abstraction",
+      "Simple and fast installation",
+      "Security with hardware",
+      "Data storage"
+    ],
+    "answer": "Security with hardware"
+  },
+  {
+    "id": 208,
+    "question": "IoT data scalability includes:",
+    "options": [
+      "Protocol abstraction",
+      "Simple and fast installation",
+      "Security with hardware",
+      "Data storage"
+    ],
+    "answer": "Data storage"
+  },
+  {
+    "id": 209,
+    "question": "Which protocol is used to link all the devices in the IoT?",
+    "options": [
+      "TCP/IP",
+      "Network",
+      "UDP",
+      "HTTP"
+    ],
+    "answer": "TCP/IP"
+  },
+  {
+    "id": 210,
+    "question": "__________ supports low energy radio operation.",
+    "options": [
+      "IETF 6LoWPAN",
+      "IETF CoAP",
+      "RFID/NFC",
+      "Bluetooth"
+    ],
+    "answer": "IETF 6LoWPAN"
+  }
+]
+
+
